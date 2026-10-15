@@ -1,0 +1,19 @@
+{
+  "status": "validated local upload candidate; not uploaded",
+  "count": 7777,
+  "unique_decoded_images": 7777,
+  "total_bytes": 915416429,
+  "transparent_png_count": 556,
+  "opaque_jpg_count": 7221,
+  "alpha": "exactly preserved after Lanczos resize for all transparent PNGs",
+  "dimensions": [
+    640,
+    640
+  ],
+  "metadata_schema": "tokenID,name,description,file_name,attributes[Trait]",
+  "folder_bytes_including_local_validation_report": 918705215,
+  "csv_sha256": "d6e0d4336336f9d28d9d6392b0ab003a02c7e93c7450fec07734500922a43f87",
+  "house_tokens": "1\u2013200; mint the House stage first",
+  "public_tokens": "201\u20137777; contains all twelve zodiac artworks",
+  "no_duplicate_images": true
+}
