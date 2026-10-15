@@ -1,0 +1,52 @@
+{
+  "version": 1,
+  "mode": "opensea-drop",
+  "collection": "Joshi Astrals",
+  "symbol": "ASTRAL",
+  "supply": 7777,
+  "houseWallet": "0x6736d2eA9807297F0e56967361B9410854B86a5f",
+  "royaltyBps": 700,
+  "primaryFeeBps": 1000,
+  "currency": "native USDC on Arc; 18 decimals for SeaDrop msg.value",
+  "dropURL": null,
+  "allowlist": "",
+  "allowlistLimit": 2,
+  "teamSupply": 200,
+  "publicSupply": 7577,
+  "phases": [
+    {
+      "name": "First Light",
+      "priceUSDC": "25",
+      "targetQuantity": 777
+    },
+    {
+      "name": "Rising Orbit",
+      "priceUSDC": "35",
+      "targetQuantity": 2000
+    },
+    {
+      "name": "Full Constellation",
+      "priceUSDC": "45",
+      "targetQuantity": 4800
+    }
+  ],
+  "launchStatus": "Not deployed; not published",
+  "blockingDecisions": [
+    "Verify Arc Drop creation and stage scheduling in OpenSea Studio.",
+    "Review final media + CSV upload preview, rights and dates before publication."
+  ],
+  "workflowApproved": true,
+  "randomness": "Locally shuffled public artwork, private upload manifest, delayed OpenSea reveal. Not verified randomness. Owner knows the mapping.",
+  "verification": {
+    "arcMarketplace": true,
+    "arcSeaDropCode": true,
+    "arcStudioDropWorkflow": false,
+    "testnetCanonicalSeaDrop": false
+  },
+  "metadata": "OpenSea Studio media + CSV upload; IPFS publication at reveal. Verify accepted format and upload preview.",
+  "sources": [
+    "https://docs.opensea.io/docs/seadrop",
+    "https://support.opensea.io/en/articles/8867060-preparing-metadata-for-your-drop",
+    "https://support.opensea.io/en/articles/8867061-drops-faq"
+  ]
+}

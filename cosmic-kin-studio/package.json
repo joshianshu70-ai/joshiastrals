@@ -5,13 +5,15 @@
   "scripts": {
     "start": "node server.mjs",
     "compile": "node compile.mjs",
-    "test": "node test-whitelist.mjs && node test-contract.mjs && node test-security.mjs && node test-free-mint.mjs && node test-owned-tokens.mjs && node test-holder-access.mjs",
+    "test": "node test-whitelist.mjs && node test-contract.mjs && node test-security.mjs && node test-free-mint.mjs && node test-owned-tokens.mjs && node test-holder-access.mjs && node test-seadrop.mjs && node test-drop-plan.mjs",
     "build:wallet": "node build-wallet.mjs",
     "build:rarity": "node build-rarity.mjs",
     "test:holder": "node test-holder-access.mjs",
     "test:whitelist": "node test-whitelist.mjs",
     "test:owned": "node test-owned-tokens.mjs",
-    "verify:randomness": "node verify-randomness.mjs"
+    "verify:randomness": "node verify-randomness.mjs",
+    "compile:seadrop": "node compile-seadrop.mjs",
+    "test:seadrop": "node test-seadrop.mjs"
   },
   "keywords": [],
   "author": "",
@@ -27,7 +29,8 @@
   "type": "module",
   "devDependencies": {
     "ganache": "^7.9.2",
-    "solc": "0.8.28"
+    "solc": "0.8.28",
+    "solc-seadrop": "npm:solc@0.8.17"
   },
   "overrides": {
     "tmp": "0.2.5"

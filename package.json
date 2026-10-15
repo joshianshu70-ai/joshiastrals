@@ -5,6 +5,6 @@
     "setup": "npm --prefix cosmic-kin-studio ci",
     "start": "npm --prefix cosmic-kin-studio start",
     "test": "npm --prefix cosmic-kin-studio test",
-    "build": "npm --prefix cosmic-kin-studio run compile && npm --prefix cosmic-kin-studio run build:wallet"
+    "build": "npm --prefix cosmic-kin-studio run compile && npm --prefix cosmic-kin-studio run compile:seadrop && npm --prefix cosmic-kin-studio run build:wallet"
   }
 }

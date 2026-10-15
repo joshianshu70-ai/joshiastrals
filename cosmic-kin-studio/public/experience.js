@@ -8,7 +8,7 @@ window.addEventListener('astral-change',identity);identity();
 for(const category of Object.keys(rarity.traits))$('rarityCategory').add(new Option(category,category));
 function table(){const rows=rarity.traits[$('rarityCategory').value];$('rarityRows').replaceChildren(...rows.map(t=>{const tr=document.createElement('tr');for(const value of [t.value,t.count.toLocaleString(),t.percent.toFixed(4)+'%']){const td=document.createElement('td');td.textContent=value;tr.append(td);}return tr;}));}
 $('rarityCategory').onchange=table;table();if($('rarityDownload')) $('rarityDownload').onclick=()=>studio.json(rarity,'joshi-astrals-rarity.json');
-for(const g of rarity.celestial_twelve){const b=document.createElement('button');b.textContent=`${g.sign} · #${String(g.token_id).padStart(4,'0')}\n${g.title}`;b.onclick=()=>{studio.loadEdition(g.token_id);};$('genesisCards').append(b);}
+for(const g of rarity.celestial_twelve){const b=document.createElement('button');b.textContent=`${g.sign} · ${deployment.revealed?'#':'Study #'}${String(g.token_id).padStart(4,'0')}\n${g.title}`;b.onclick=()=>{studio.loadEdition(g.token_id);};$('genesisCards').append(b);}
 function syncGate(){const active=!$('holder').hidden;document.body.classList.toggle('holder-locked',active&&!verified);}
 for(const button of document.querySelectorAll('nav button'))button.addEventListener('click',syncGate);
 function lockOwner(message='Connect your wallet to unlock Astral Studio.') {verified=null;owned=null;holdingsVersion++;$('ownerTools').hidden=true;$('holderExport').disabled=true;$('ownedAstral').replaceChildren();$('holderArtPreview').replaceChildren();$('ownedStatus').textContent=message;syncGate();}

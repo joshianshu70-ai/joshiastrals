@@ -1,0 +1,5 @@
+const $=id=>document.getElementById(id),token=document.querySelector('meta[name=admin-token]')?.content;
+const plan=await fetch('/opensea-drop-plan.json').then(r=>r.json());
+$('dropURL').value=plan.dropURL||'';$('allowlist').value=plan.allowlist;
+for(const message of plan.blockingDecisions){const li=document.createElement('li');li.textContent=message;$('dropBlockers').append(li);}
+$('dropForm').onsubmit=async e=>{e.preventDefault();const button=$('dropForm').querySelector('button');button.disabled=true;try{if(!token)throw Error('Open this form through /admin/opensea on the local admin server.');const response=await fetch('/api/admin/opensea',{method:'POST',headers:{'Content-Type':'application/json','X-Admin-Token':token},body:JSON.stringify({dropURL:$('dropURL').value,allowlist:$('allowlist').value})});const result=await response.json();if(!response.ok)throw Error(result.error);$('saveStatus').textContent='Local Drop draft saved. No settings were changed on OpenSea or onchain.';}catch(error){$('saveStatus').textContent=error.message;}finally{button.disabled=false;}};

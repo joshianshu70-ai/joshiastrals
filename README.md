@@ -1,3 +1,5 @@
+> **Current launch: standard OpenSea Drop.** See [the launch handoff](joshi-astrals-launch/OPENSEA-DROP.md). Local setup: `/admin/opensea`. The old custom mint is retired. Private reveal mappings and media bundles are intentionally excluded from GitHub.
+
 # Joshi Astrals · The House of Joshi
 
 7,777 cosmic companions on Arc. A layered-art customizer, public random-mint request interface, creator admin, exact trait rarity and an owner-only wallpaper/banner/PFP studio.

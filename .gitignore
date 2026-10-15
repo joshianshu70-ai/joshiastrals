@@ -19,3 +19,9 @@
 
 # Also ignore temporary dependency symlinks used for local validation.
 **/node_modules
+
+# Private pre-reveal token mapping and upload media.
+**/seadrop-private/
+**/manifest-seadrop.json
+**/seadrop-token-map.json
+**/opensea-upload/

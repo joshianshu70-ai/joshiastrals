@@ -1,3 +1,5 @@
+> **Current launch: standard OpenSea Drop.** See [OpenSea Drop launch handoff](../joshi-astrals-launch/OPENSEA-DROP.md) and local `/admin/opensea`. Earlier custom request/claim mint instructions below are retained as historical reference. Do not deploy the old contract for this launch.
+
 # Joshi Astrals · launch preparation
 Presented by The House of Joshi
 Rooted in Earth. Written in the stars.

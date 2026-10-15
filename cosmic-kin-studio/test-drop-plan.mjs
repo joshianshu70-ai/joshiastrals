@@ -1,0 +1,10 @@
+import assert from 'node:assert/strict';
+import {validateDropPlan,HOUSE} from './seadrop-plan.mjs';
+assert.equal(validateDropPlan({}).supply,7777);
+assert.throws(()=>validateDropPlan({dropURL:'https://opensea.io.evil.test/collection/astrals'}));
+assert.throws(()=>validateDropPlan({allowlist:HOUSE}));
+assert.throws(()=>validateDropPlan({allowlist:'0x123'}));
+assert.throws(()=>validateDropPlan({allowlist:Array(51).fill('0x1111111111111111111111111111111111111111').join('\n')}));
+assert.throws(()=>validateDropPlan({allowlist:'0x1111111111111111111111111111111111111111\n0x1111111111111111111111111111111111111111'}));
+assert.equal(validateDropPlan({allowlist:'0x1111111111111111111111111111111111111111'}).allowlistLimit,2);
+console.log('PASS local drop settings validation: official URL, wallet syntax, House separation, duplicate and 50-wallet limits.');

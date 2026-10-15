@@ -11,3 +11,6 @@
 
 # Generated third-party bundles contain intentional template whitespace.
 cosmic-kin-studio/public/vendor/** -whitespace
+
+# Preserve original third-party SeaDrop source whitespace for provenance checks.
+cosmic-kin-studio/contracts/vendor/** -whitespace

@@ -4,5 +4,7 @@
   "mainnet": null,
   "note": "Set only after verifying the deployed JoshiAstrals contract. No official deployment yet.",
   "termsURL": null,
-  "licenseURL": null
+  "licenseURL": null,
+  "mintMode": "seadrop",
+  "revealed": false
 }

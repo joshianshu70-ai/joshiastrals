@@ -1,3 +1,5 @@
+> **Current launch: standard OpenSea Drop.** See [OpenSea Drop launch handoff](../joshi-astrals-launch/OPENSEA-DROP.md) and local `/admin/opensea`. Earlier custom request/claim mint instructions below are retained as historical reference. Do not deploy the old contract for this launch.
+
 # Joshi Astrals Studio
 
 The House of Joshi's 7,777-edition ERC-721 collection on Arc. Local public mint interface, creator administration, layered art generator and owner-only Astral Studio. No official contract is deployed and no sale is live.

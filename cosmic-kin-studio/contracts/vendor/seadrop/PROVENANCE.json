@@ -1,0 +1,40 @@
+{
+  "repository": "https://github.com/ProjectOpenSea/seadrop",
+  "commit": "757590f11babfd81f4608f736e79e388469377f2",
+  "sources": {
+    "ERC721A/ERC721A.sol": "ee02c08b5c4e030fb3c403e9a6a27a8e8509a40e49e6ba8c6e21c92e5e8d1b51",
+    "ERC721A/IERC721A.sol": "79ea8c523822d92432969a516209b64bcd83f5c83eb3e4e8f56b52a793919c55",
+    "openzeppelin-contracts/interfaces/IERC2981.sol": "a8d1ed2cf4ae5718b5c1e8e148e7f5817e934e8d933729eb5c3ac389046041b1",
+    "openzeppelin-contracts/token/ERC721/IERC721.sol": "5212ea444cfce33fdc82d4b3440b161b70784f0bfe7eac485364569040584f75",
+    "openzeppelin-contracts/utils/Strings.sol": "f640392a0f3b662c1f0110504b6f90064eb3a28046e2505ea93f54d4620a77e6",
+    "openzeppelin-contracts/utils/cryptography/ECDSA.sol": "92436ee32d03bff1fe45f4a96a661e238a9e2ef3821ace8279b12c33e199f0f3",
+    "openzeppelin-contracts/utils/cryptography/MerkleProof.sol": "1185b7f201bf9f2c8a02100897e84f1ece6b35bf83e18c1180eb14521bb6862c",
+    "openzeppelin-contracts/utils/introspection/IERC165.sol": "701e025d13ec6be09ae892eb029cd83b3064325801d73654847a5fb11c58b1e5",
+    "openzeppelin-contracts/utils/math/Math.sol": "4198e681b682c9aea82eb601f946c131e9e2e7ac874cc7b6b48192c29fda5e51",
+    "solmate/tokens/ERC20.sol": "a3a7e839f42762ef24623581542a916e838f3c7c0bef647963d1fdad0f9d208a",
+    "solmate/utils/ReentrancyGuard.sol": "e69ce8729cd5ff2caac16efa4498e967fc6bf85bbad4003be87c8a0757fd8a0c",
+    "solmate/utils/SafeTransferLib.sol": "85056ad3600b04e40167d89978eae2a92dd34d1316e74987b4a7dcd65c2b65d9",
+    "src/ERC721ContractMetadata.sol": "bc4856121294a0904d7e4a21955b1468139c8034ae0347b83358cc3511edb0e3",
+    "src/ERC721SeaDrop.sol": "72f0f1a3df4c4615d7bcf77411be4fa708f3155ec6c0856eec20ca1f02fa97b7",
+    "src/SeaDrop.sol": "2c1c57699a0c782a6b5e473f4aaed74dc06758d827d036de615604beb0cad3c7",
+    "src/interfaces/ICreatorToken.sol": "2253afe2692907d47c24b0c70f704b0ef725aaa88a5e83979abde7ebc6f1f59b",
+    "src/interfaces/INonFungibleSeaDropToken.sol": "9a6c8267278c9e2c33841d24a1f1036e42d2dc5aeeffab809e90e736cd150cf5",
+    "src/interfaces/ISeaDrop.sol": "cbf430bf51097fc644eb12a5a0d652a9c2af5de9a8d9bd4e8b8421334c7dbd08",
+    "src/interfaces/ISeaDropTokenContractMetadata.sol": "cdd04d0f4d374554131314c8d7e11e68fe0cb34afec636a2d0326d3fd857d931",
+    "src/interfaces/ITransferValidator.sol": "352ab04890ff160b5b2bb882e0b74b3b49a609750c62a7e3c004ba9007d88897",
+    "src/lib/ERC721AConduitPreapproved.sol": "b826f58f0592bdd056575fe9e57404296362907f910fd3f62eed26cc0679beef",
+    "src/lib/ERC721SeaDropStructsErrorsAndEvents.sol": "00105352c8d0368b4b1a3a1b1300cbfa43ef0d4411b51a18abda4a62e2a5e62c",
+    "src/lib/ERC721TransferValidator.sol": "2184793353499a4889ae38947ccde06d287e9df94afe7b8b97f869bb196f5668",
+    "src/lib/SeaDropErrorsAndEvents.sol": "ee26382de61e7fb930ca4f2b3759a3aa05d1adcee817d76386b609a3f11e9891",
+    "src/lib/SeaDropStructs.sol": "b2ba6712b9100c98b445fa47bb0926499440039fe606b2dbfb1ff2ad6f75460d",
+    "utility-contracts/ConstructorInitializable.sol": "08f744fcf2733135bb83897cd79d3c7c41ff32ed86708f047129a53840017eeb",
+    "utility-contracts/TwoStepOwnable.sol": "add0e03c480974b8fcdda464d25178236909e3623088e5609bb1a1b49b0ba75e"
+  },
+  "changes": "None. Original source files, pinned submodule revisions.",
+  "dependencies": {
+    "ERC721A/": "9be81f029a0883e0c7c6d5a410ee49c48c69205d",
+    "solmate/": "01a52350852b6036dd0fd9af909fb3db765d56dc",
+    "utility-contracts/": "6543a1dd10160936849de2f2fbcc18503906fb1e",
+    "openzeppelin-contracts/": "6a8d977d2248cf1c115497fccfd7a2da3f86a58f"
+  }
+}

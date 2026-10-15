@@ -18,5 +18,6 @@ jobs:
           cache-dependency-path: cosmic-kin-studio/package-lock.json
       - run: npm ci --ignore-scripts --no-audit --no-fund
       - run: npm run compile
+      - run: npm run compile:seadrop
       - run: npm test
       - run: node --check public/app.js && node --check public/public-mint.js && node --check public/experience.js && node --check server.mjs

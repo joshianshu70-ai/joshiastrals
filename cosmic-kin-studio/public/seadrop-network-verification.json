@@ -1,0 +1,18 @@
+{
+  "checkedAt": "2026-10-15T17:19:03.369Z",
+  "chainId": "5042",
+  "address": "0x00005EA00Ac477B1030CE78506496e8C2dE24bf5",
+  "codeBytes": 21081,
+  "codeHash": "0x49ac1def6aee7ea8fcafc434b9c4c723caa850027a143fa0f9d5be02275b5539",
+  "publicDropReadSucceeded": true,
+  "zeroAddressDrop": [
+    "0",
+    "0",
+    "0",
+    "0",
+    "0",
+    false
+  ],
+  "studioDropCreation": "Awaiting House wallet connection; not verified",
+  "noTransactionsSent": true
+}

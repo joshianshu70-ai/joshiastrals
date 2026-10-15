@@ -1,0 +1,7 @@
+{
+  "source_sha256": "66d6fb7f38a7a0224e73812c181a6c6a43bc0b99a383e4edef4d5bb3d24f5ff6",
+  "compiler": "0.8.17+commit.8df45f5f.Emscripten.clang",
+  "upstream": "757590f11babfd81f4608f736e79e388469377f2",
+  "minting": "Unmodified upstream ERC721SeaDrop and SeaDrop",
+  "status": "Candidate; not deployed or published"
+}
