@@ -1,0 +1,4 @@
+import assert from 'node:assert/strict';import {fixture,parseEther} from './test/fixture.mjs';
+const {c,free,buyer,book,deliver,settle,claim}=await fixture();await(await c.activatePhase(1,true)).wait();
+await assert.rejects(c.connect(free).mint.staticCall(1,{value:0}));const id=await book(free,2);assert.equal((await c.mintRequests(id)).paid,0n);await deliver(id);await settle();await claim(free,id);assert.equal(await c.balanceOf(await free.getAddress()),2n);await assert.rejects(c.connect(buyer).mint.staticCall(1,{value:parseEther('.02')}));await(await c.setSaleOpen(false)).wait();await assert.rejects(c.connect(free).mint.staticCall(1,{value:parseEther('.02')}));
+console.log('PASS designated wallet: no NFT price, randomness fee still required, others pay price, sale pause enforced.');process.exit(0);

@@ -1,0 +1,587 @@
+{
+  "combinations_checked": 48,
+  "offset": [
+    0,
+    24
+  ],
+  "failures": [],
+  "checks": [
+    {
+      "body": "Lavender Stone",
+      "sign": "Aquarius",
+      "inside_body_with_10px_margin": true,
+      "below_collar_zone": true,
+      "bounds": [
+        695,
+        1286,
+        842,
+        1377
+      ]
+    },
+    {
+      "body": "Lavender Stone",
+      "sign": "Aries",
+      "inside_body_with_10px_margin": true,
+      "below_collar_zone": true,
+      "bounds": [
+        703,
+        1270,
+        834,
+        1393
+      ]
+    },
+    {
+      "body": "Lavender Stone",
+      "sign": "Cancer",
+      "inside_body_with_10px_margin": true,
+      "below_collar_zone": true,
+      "bounds": [
+        699,
+        1270,
+        837,
+        1392
+      ]
+    },
+    {
+      "body": "Lavender Stone",
+      "sign": "Capricorn",
+      "inside_body_with_10px_margin": true,
+      "below_collar_zone": true,
+      "bounds": [
+        701,
+        1263,
+        836,
+        1399
+      ]
+    },
+    {
+      "body": "Lavender Stone",
+      "sign": "Gemini",
+      "inside_body_with_10px_margin": true,
+      "below_collar_zone": true,
+      "bounds": [
+        710,
+        1270,
+        827,
+        1392
+      ]
+    },
+    {
+      "body": "Lavender Stone",
+      "sign": "Leo",
+      "inside_body_with_10px_margin": true,
+      "below_collar_zone": true,
+      "bounds": [
+        706,
+        1256,
+        830,
+        1406
+      ]
+    },
+    {
+      "body": "Lavender Stone",
+      "sign": "Libra",
+      "inside_body_with_10px_margin": true,
+      "below_collar_zone": true,
+      "bounds": [
+        697,
+        1271,
+        840,
+        1392
+      ]
+    },
+    {
+      "body": "Lavender Stone",
+      "sign": "Pisces",
+      "inside_body_with_10px_margin": true,
+      "below_collar_zone": true,
+      "bounds": [
+        713,
+        1271,
+        824,
+        1392
+      ]
+    },
+    {
+      "body": "Lavender Stone",
+      "sign": "Sagittarius",
+      "inside_body_with_10px_margin": true,
+      "below_collar_zone": true,
+      "bounds": [
+        708,
+        1270,
+        829,
+        1392
+      ]
+    },
+    {
+      "body": "Lavender Stone",
+      "sign": "Scorpio",
+      "inside_body_with_10px_margin": true,
+      "below_collar_zone": true,
+      "bounds": [
+        681,
+        1265,
+        856,
+        1398
+      ]
+    },
+    {
+      "body": "Lavender Stone",
+      "sign": "Taurus",
+      "inside_body_with_10px_margin": true,
+      "below_collar_zone": true,
+      "bounds": [
+        706,
+        1270,
+        830,
+        1392
+      ]
+    },
+    {
+      "body": "Lavender Stone",
+      "sign": "Virgo",
+      "inside_body_with_10px_margin": true,
+      "below_collar_zone": true,
+      "bounds": [
+        701,
+        1270,
+        836,
+        1391
+      ]
+    },
+    {
+      "body": "Sea Glass",
+      "sign": "Aquarius",
+      "inside_body_with_10px_margin": true,
+      "below_collar_zone": true,
+      "bounds": [
+        695,
+        1286,
+        842,
+        1377
+      ]
+    },
+    {
+      "body": "Sea Glass",
+      "sign": "Aries",
+      "inside_body_with_10px_margin": true,
+      "below_collar_zone": true,
+      "bounds": [
+        703,
+        1270,
+        834,
+        1393
+      ]
+    },
+    {
+      "body": "Sea Glass",
+      "sign": "Cancer",
+      "inside_body_with_10px_margin": true,
+      "below_collar_zone": true,
+      "bounds": [
+        699,
+        1270,
+        837,
+        1392
+      ]
+    },
+    {
+      "body": "Sea Glass",
+      "sign": "Capricorn",
+      "inside_body_with_10px_margin": true,
+      "below_collar_zone": true,
+      "bounds": [
+        701,
+        1263,
+        836,
+        1399
+      ]
+    },
+    {
+      "body": "Sea Glass",
+      "sign": "Gemini",
+      "inside_body_with_10px_margin": true,
+      "below_collar_zone": true,
+      "bounds": [
+        710,
+        1270,
+        827,
+        1392
+      ]
+    },
+    {
+      "body": "Sea Glass",
+      "sign": "Leo",
+      "inside_body_with_10px_margin": true,
+      "below_collar_zone": true,
+      "bounds": [
+        706,
+        1256,
+        830,
+        1406
+      ]
+    },
+    {
+      "body": "Sea Glass",
+      "sign": "Libra",
+      "inside_body_with_10px_margin": true,
+      "below_collar_zone": true,
+      "bounds": [
+        697,
+        1271,
+        840,
+        1392
+      ]
+    },
+    {
+      "body": "Sea Glass",
+      "sign": "Pisces",
+      "inside_body_with_10px_margin": true,
+      "below_collar_zone": true,
+      "bounds": [
+        713,
+        1271,
+        824,
+        1392
+      ]
+    },
+    {
+      "body": "Sea Glass",
+      "sign": "Sagittarius",
+      "inside_body_with_10px_margin": true,
+      "below_collar_zone": true,
+      "bounds": [
+        708,
+        1270,
+        829,
+        1392
+      ]
+    },
+    {
+      "body": "Sea Glass",
+      "sign": "Scorpio",
+      "inside_body_with_10px_margin": true,
+      "below_collar_zone": true,
+      "bounds": [
+        681,
+        1265,
+        856,
+        1398
+      ]
+    },
+    {
+      "body": "Sea Glass",
+      "sign": "Taurus",
+      "inside_body_with_10px_margin": true,
+      "below_collar_zone": true,
+      "bounds": [
+        706,
+        1270,
+        830,
+        1392
+      ]
+    },
+    {
+      "body": "Sea Glass",
+      "sign": "Virgo",
+      "inside_body_with_10px_margin": true,
+      "below_collar_zone": true,
+      "bounds": [
+        701,
+        1270,
+        836,
+        1391
+      ]
+    },
+    {
+      "body": "Iridescent Pearl",
+      "sign": "Aquarius",
+      "inside_body_with_10px_margin": true,
+      "below_collar_zone": true,
+      "bounds": [
+        695,
+        1286,
+        842,
+        1377
+      ]
+    },
+    {
+      "body": "Iridescent Pearl",
+      "sign": "Aries",
+      "inside_body_with_10px_margin": true,
+      "below_collar_zone": true,
+      "bounds": [
+        703,
+        1270,
+        834,
+        1393
+      ]
+    },
+    {
+      "body": "Iridescent Pearl",
+      "sign": "Cancer",
+      "inside_body_with_10px_margin": true,
+      "below_collar_zone": true,
+      "bounds": [
+        699,
+        1270,
+        837,
+        1392
+      ]
+    },
+    {
+      "body": "Iridescent Pearl",
+      "sign": "Capricorn",
+      "inside_body_with_10px_margin": true,
+      "below_collar_zone": true,
+      "bounds": [
+        701,
+        1263,
+        836,
+        1399
+      ]
+    },
+    {
+      "body": "Iridescent Pearl",
+      "sign": "Gemini",
+      "inside_body_with_10px_margin": true,
+      "below_collar_zone": true,
+      "bounds": [
+        710,
+        1270,
+        827,
+        1392
+      ]
+    },
+    {
+      "body": "Iridescent Pearl",
+      "sign": "Leo",
+      "inside_body_with_10px_margin": true,
+      "below_collar_zone": true,
+      "bounds": [
+        706,
+        1256,
+        830,
+        1406
+      ]
+    },
+    {
+      "body": "Iridescent Pearl",
+      "sign": "Libra",
+      "inside_body_with_10px_margin": true,
+      "below_collar_zone": true,
+      "bounds": [
+        697,
+        1271,
+        840,
+        1392
+      ]
+    },
+    {
+      "body": "Iridescent Pearl",
+      "sign": "Pisces",
+      "inside_body_with_10px_margin": true,
+      "below_collar_zone": true,
+      "bounds": [
+        713,
+        1271,
+        824,
+        1392
+      ]
+    },
+    {
+      "body": "Iridescent Pearl",
+      "sign": "Sagittarius",
+      "inside_body_with_10px_margin": true,
+      "below_collar_zone": true,
+      "bounds": [
+        708,
+        1270,
+        829,
+        1392
+      ]
+    },
+    {
+      "body": "Iridescent Pearl",
+      "sign": "Scorpio",
+      "inside_body_with_10px_margin": true,
+      "below_collar_zone": true,
+      "bounds": [
+        681,
+        1265,
+        856,
+        1398
+      ]
+    },
+    {
+      "body": "Iridescent Pearl",
+      "sign": "Taurus",
+      "inside_body_with_10px_margin": true,
+      "below_collar_zone": true,
+      "bounds": [
+        706,
+        1270,
+        830,
+        1392
+      ]
+    },
+    {
+      "body": "Iridescent Pearl",
+      "sign": "Virgo",
+      "inside_body_with_10px_margin": true,
+      "below_collar_zone": true,
+      "bounds": [
+        701,
+        1270,
+        836,
+        1391
+      ]
+    },
+    {
+      "body": "Obsidian",
+      "sign": "Aquarius",
+      "inside_body_with_10px_margin": true,
+      "below_collar_zone": true,
+      "bounds": [
+        695,
+        1286,
+        842,
+        1377
+      ]
+    },
+    {
+      "body": "Obsidian",
+      "sign": "Aries",
+      "inside_body_with_10px_margin": true,
+      "below_collar_zone": true,
+      "bounds": [
+        703,
+        1270,
+        834,
+        1393
+      ]
+    },
+    {
+      "body": "Obsidian",
+      "sign": "Cancer",
+      "inside_body_with_10px_margin": true,
+      "below_collar_zone": true,
+      "bounds": [
+        699,
+        1270,
+        837,
+        1392
+      ]
+    },
+    {
+      "body": "Obsidian",
+      "sign": "Capricorn",
+      "inside_body_with_10px_margin": true,
+      "below_collar_zone": true,
+      "bounds": [
+        701,
+        1263,
+        836,
+        1399
+      ]
+    },
+    {
+      "body": "Obsidian",
+      "sign": "Gemini",
+      "inside_body_with_10px_margin": true,
+      "below_collar_zone": true,
+      "bounds": [
+        710,
+        1270,
+        827,
+        1392
+      ]
+    },
+    {
+      "body": "Obsidian",
+      "sign": "Leo",
+      "inside_body_with_10px_margin": true,
+      "below_collar_zone": true,
+      "bounds": [
+        706,
+        1256,
+        830,
+        1406
+      ]
+    },
+    {
+      "body": "Obsidian",
+      "sign": "Libra",
+      "inside_body_with_10px_margin": true,
+      "below_collar_zone": true,
+      "bounds": [
+        697,
+        1271,
+        840,
+        1392
+      ]
+    },
+    {
+      "body": "Obsidian",
+      "sign": "Pisces",
+      "inside_body_with_10px_margin": true,
+      "below_collar_zone": true,
+      "bounds": [
+        713,
+        1271,
+        824,
+        1392
+      ]
+    },
+    {
+      "body": "Obsidian",
+      "sign": "Sagittarius",
+      "inside_body_with_10px_margin": true,
+      "below_collar_zone": true,
+      "bounds": [
+        708,
+        1270,
+        829,
+        1392
+      ]
+    },
+    {
+      "body": "Obsidian",
+      "sign": "Scorpio",
+      "inside_body_with_10px_margin": true,
+      "below_collar_zone": true,
+      "bounds": [
+        681,
+        1265,
+        856,
+        1398
+      ]
+    },
+    {
+      "body": "Obsidian",
+      "sign": "Taurus",
+      "inside_body_with_10px_margin": true,
+      "below_collar_zone": true,
+      "bounds": [
+        706,
+        1270,
+        830,
+        1392
+      ]
+    },
+    {
+      "body": "Obsidian",
+      "sign": "Virgo",
+      "inside_body_with_10px_margin": true,
+      "below_collar_zone": true,
+      "bounds": [
+        701,
+        1270,
+        836,
+        1391
+      ]
+    }
+  ],
+  "status": "passed"
+}

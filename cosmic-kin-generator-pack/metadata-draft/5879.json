@@ -1,0 +1,71 @@
+{
+  "name": "Joshi Astral #5879",
+  "description": "Joshi Astral #5879 \u2014 The Garden Keeper. Presented by The House of Joshi. A keeper of quiet beginnings, finding possibility in the places others pass by. Its lavender stone form belongs to the earth family. It wears the excited expression and carries the celestial motif of Uranus. Patience is a kind of strength. The Contours overlay is generated from mathematical rules, with its exact parameters recorded in the edition manifest.",
+  "image": "../images/5879.png",
+  "attributes": [
+    {
+      "trait_type": "Environment",
+      "value": "Floating Garden"
+    },
+    {
+      "trait_type": "Mathematical Pattern",
+      "value": "Contours"
+    },
+    {
+      "trait_type": "Frame",
+      "value": "None"
+    },
+    {
+      "trait_type": "Body Material",
+      "value": "Lavender Stone"
+    },
+    {
+      "trait_type": "Element Overlay",
+      "value": "Earth"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Excited"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Neutral Bar"
+    },
+    {
+      "trait_type": "Family Emblem",
+      "value": "Rooted"
+    },
+    {
+      "trait_type": "Zodiac",
+      "value": "None"
+    },
+    {
+      "trait_type": "Celestial Body",
+      "value": "Uranus"
+    },
+    {
+      "trait_type": "Badge or Message",
+      "value": "Small steps. Still building."
+    },
+    {
+      "trait_type": "Family",
+      "value": "Rooted"
+    },
+    {
+      "trait_type": "Element",
+      "value": "Earth"
+    },
+    {
+      "trait_type": "Edition",
+      "value": "Core"
+    },
+    {
+      "trait_type": "Ears",
+      "value": "Royal Gold"
+    },
+    {
+      "trait_type": "Initial Allocation",
+      "value": "Public Mint"
+    }
+  ]
+}

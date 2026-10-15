@@ -1,0 +1,1309 @@
+[
+  {
+    "category": "Environment",
+    "value": "Floating Garden",
+    "file": "layers/00_Environment/Floating Garden.png",
+    "canvas": [
+      1536,
+      1536
+    ],
+    "sha256": "6038a52f3a447ca8e642014e87f9e204dc2bf8361d34a45e101ffef4e11d9c63",
+    "family": "Earth",
+    "style": "3D Environment",
+    "edition_uses": 151
+  },
+  {
+    "category": "Environment",
+    "value": "Lunar Waters",
+    "file": "layers/00_Environment/Lunar Waters.png",
+    "canvas": [
+      1536,
+      1536
+    ],
+    "sha256": "ce2359e321f9b6b9c98c0e1760f4ac48a116c7e6614388f98ac363ea98b1cefb",
+    "family": "Water",
+    "style": "3D Environment",
+    "edition_uses": 130
+  },
+  {
+    "category": "Environment",
+    "value": "Pearl Clouds",
+    "file": "layers/00_Environment/Pearl Clouds.png",
+    "canvas": [
+      1536,
+      1536
+    ],
+    "sha256": "b796ee866c42b81d65181101aac7a89e9f0c2c330e98712bd581ba73cc0202d2",
+    "family": "Air",
+    "style": "3D Environment",
+    "edition_uses": 114
+  },
+  {
+    "category": "Environment",
+    "value": "Volcanic Realm",
+    "file": "layers/00_Environment/Volcanic Realm.png",
+    "canvas": [
+      1536,
+      1536
+    ],
+    "sha256": "52500032c986983d5904eab0aaf2b62d58b6f80ab7567a202a29bf475a05627c",
+    "family": "Fire",
+    "style": "3D Environment",
+    "edition_uses": 154
+  },
+  {
+    "category": "Environment",
+    "value": "None",
+    "file": "layers/00_Environment/None.png",
+    "canvas": [
+      1536,
+      1536
+    ],
+    "sha256": "da18c3279d727a69f6095997c348b472a420fb4598357d3b844169b5219e5b2f",
+    "family": null,
+    "style": "None",
+    "edition_uses": 556
+  },
+  {
+    "category": "Environment",
+    "value": "Plain Lavender",
+    "file": "layers/00_Environment/Plain Lavender.png",
+    "canvas": [
+      1536,
+      1536
+    ],
+    "sha256": "daa322ce4782b2d34950b5909c602debf0bd92eb9fe0f91cd1c93b378753611a",
+    "family": null,
+    "style": "Solid",
+    "edition_uses": 526
+  },
+  {
+    "category": "Environment",
+    "value": "Plain Cream",
+    "file": "layers/00_Environment/Plain Cream.png",
+    "canvas": [
+      1536,
+      1536
+    ],
+    "sha256": "ffbc859a00ccd38379d4152db8f3b500f27a2255576432a5794e26f23ce8b7d6",
+    "family": null,
+    "style": "Solid",
+    "edition_uses": 538
+  },
+  {
+    "category": "Environment",
+    "value": "Plain Plum",
+    "file": "layers/00_Environment/Plain Plum.png",
+    "canvas": [
+      1536,
+      1536
+    ],
+    "sha256": "e19ebc05f5c2d544cd50b352b700fcb1b3c256da3e910fe95ed4312bac7e6c4a",
+    "family": null,
+    "style": "Solid",
+    "edition_uses": 590
+  },
+  {
+    "category": "Environment",
+    "value": "Plain Sage",
+    "file": "layers/00_Environment/Plain Sage.png",
+    "canvas": [
+      1536,
+      1536
+    ],
+    "sha256": "d6128abca443e693cc0ae1bc1742b947ea84f68b3faab685865aab13a203185a",
+    "family": null,
+    "style": "Solid",
+    "edition_uses": 547
+  },
+  {
+    "category": "Environment",
+    "value": "Plain Sea Blue",
+    "file": "layers/00_Environment/Plain Sea Blue.png",
+    "canvas": [
+      1536,
+      1536
+    ],
+    "sha256": "793387fb78a4a9e20e9dfaa1a815e92742b2eae2b4e7acd59ea7bb194bf5ef23",
+    "family": null,
+    "style": "Solid",
+    "edition_uses": 573
+  },
+  {
+    "category": "Environment",
+    "value": "Plain Blush",
+    "file": "layers/00_Environment/Plain Blush.png",
+    "canvas": [
+      1536,
+      1536
+    ],
+    "sha256": "106afe815057517f77531339e1fa4028df2c41579fd0a91f8f5772af8ad1bb61",
+    "family": null,
+    "style": "Solid",
+    "edition_uses": 521
+  },
+  {
+    "category": "Environment",
+    "value": "Plain Charcoal",
+    "file": "layers/00_Environment/Plain Charcoal.png",
+    "canvas": [
+      1536,
+      1536
+    ],
+    "sha256": "bdf921c0e1bf1e41092cd1c14f7308f402a60b371b1b1edfb932c29ca3cb5523",
+    "family": null,
+    "style": "Solid",
+    "edition_uses": 568
+  },
+  {
+    "category": "Environment",
+    "value": "Plain Champagne",
+    "file": "layers/00_Environment/Plain Champagne.png",
+    "canvas": [
+      1536,
+      1536
+    ],
+    "sha256": "7033feb59fe438428680d5b6079cc5c8929cb6e1707bbe72bc4924cfd0c0f70a",
+    "family": null,
+    "style": "Solid",
+    "edition_uses": 568
+  },
+  {
+    "category": "Environment",
+    "value": "Lavender Dawn",
+    "file": "layers/00_Environment/Lavender Dawn.png",
+    "canvas": [
+      1536,
+      1536
+    ],
+    "sha256": "0f5001e0e66024b167902f5e31b2c2fc05ca607e7e77156cf60f1e734780c412",
+    "family": null,
+    "style": "Gradient",
+    "edition_uses": 573
+  },
+  {
+    "category": "Environment",
+    "value": "Ocean Haze",
+    "file": "layers/00_Environment/Ocean Haze.png",
+    "canvas": [
+      1536,
+      1536
+    ],
+    "sha256": "6878acd763960a8aeb9ed544e3f8c8d0e16ceeba77f203c3cebd7fcea70fef74",
+    "family": null,
+    "style": "Gradient",
+    "edition_uses": 539
+  },
+  {
+    "category": "Environment",
+    "value": "Pearl Glow",
+    "file": "layers/00_Environment/Pearl Glow.png",
+    "canvas": [
+      1536,
+      1536
+    ],
+    "sha256": "8b7660b57c6adde3fb373f209337b6fb7b3d11829bd6b21ac03255ed4b770422",
+    "family": null,
+    "style": "Gradient",
+    "edition_uses": 557
+  },
+  {
+    "category": "Environment",
+    "value": "Ember Dusk",
+    "file": "layers/00_Environment/Ember Dusk.png",
+    "canvas": [
+      1536,
+      1536
+    ],
+    "sha256": "5ba6e30b1c5b00238ecd8e7cc9f1b76af85d3b157cfc0bdec9f36a6d5cea27da",
+    "family": null,
+    "style": "Gradient",
+    "edition_uses": 572
+  },
+  {
+    "category": "Mathematical Pattern",
+    "value": "Wave Interference",
+    "file": "layers/01_Mathematical_Pattern/Wave Interference.png",
+    "canvas": [
+      1536,
+      1536
+    ],
+    "sha256": "3b5e69b88c5d1a9a068fd7b888e7440315e81484ee1331c7638581fdd33fad19",
+    "parameters": {
+      "formula": "x=110+t; y=825+390sin(.004t+phi)+75sin(.011t)",
+      "phases": [
+        0,
+        1.3,
+        2.6
+      ],
+      "t_range": [
+        0,
+        1316
+      ]
+    },
+    "edition_uses": 1094
+  },
+  {
+    "category": "Mathematical Pattern",
+    "value": "Logarithmic Spiral",
+    "file": "layers/01_Mathematical_Pattern/Logarithmic Spiral.png",
+    "canvas": [
+      1536,
+      1536
+    ],
+    "sha256": "bc448291ede6b8049b46374ab506a7b627e733365b25cd5953d99cdda399257a",
+    "parameters": {
+      "formula": "r=30exp(.17t); x=768+r cos(t+phi); y=825+r sin(t+phi)",
+      "phases": [
+        0,
+        3.141592653589793
+      ],
+      "t_range": [
+        0,
+        18
+      ]
+    },
+    "edition_uses": 1144
+  },
+  {
+    "category": "Mathematical Pattern",
+    "value": "Phyllotaxis",
+    "file": "layers/01_Mathematical_Pattern/Phyllotaxis.png",
+    "canvas": [
+      1536,
+      1536
+    ],
+    "sha256": "f03abe862b5a9019734e78ed8fe1d6ed43cb1fa2dc8b360d08b381a5ac38f57d",
+    "parameters": {
+      "formula": "theta=n*pi*(3-sqrt(5)); r=27.5sqrt(n)",
+      "points": 450
+    },
+    "edition_uses": 1079
+  },
+  {
+    "category": "Mathematical Pattern",
+    "value": "Branching",
+    "file": "layers/01_Mathematical_Pattern/Branching.png",
+    "canvas": [
+      1536,
+      1536
+    ],
+    "sha256": "a01700b3677b92ed78ef403f5b58be2aaa88cf804612f954204970074855b462",
+    "parameters": {
+      "rule": "recursive binary branching",
+      "starting_points": [
+        [
+          325,
+          1410
+        ],
+        [
+          1211,
+          1410
+        ]
+      ],
+      "length": 310,
+      "length_ratio": 0.68,
+      "branch_angle_radians": 0.45,
+      "depth": 6
+    },
+    "edition_uses": 1095
+  },
+  {
+    "category": "Mathematical Pattern",
+    "value": "Lissajous",
+    "file": "layers/01_Mathematical_Pattern/Lissajous.png",
+    "canvas": [
+      1536,
+      1536
+    ],
+    "sha256": "c1050e3bdb389c27c2baffc0db5c1f4f925cebd26cf00cb186b0a5bca0dffbe2",
+    "parameters": {
+      "formula": "x=768+630sin(3t+.5); y=825+575sin(2t)",
+      "t_range": [
+        0,
+        6.283185307179586
+      ]
+    },
+    "edition_uses": 1139
+  },
+  {
+    "category": "Mathematical Pattern",
+    "value": "Contours",
+    "file": "layers/01_Mathematical_Pattern/Contours.png",
+    "canvas": [
+      1536,
+      1536
+    ],
+    "sha256": "5a4ffc8eb8fbc89ca7a1796eddc580d09aefc7bfd765dcb5c3289fb3475c6cc8",
+    "parameters": {
+      "formula": "((x-768)/(390+35n))^2+((y-825)/(380+30n))^2=1",
+      "n_range": [
+        0,
+        7
+      ],
+      "interpretation": "elliptical level contours; not measured terrain"
+    },
+    "edition_uses": 1124
+  },
+  {
+    "category": "Mathematical Pattern",
+    "value": "None",
+    "file": "layers/01_Mathematical_Pattern/None.png",
+    "canvas": [
+      1536,
+      1536
+    ],
+    "sha256": "da18c3279d727a69f6095997c348b472a420fb4598357d3b844169b5219e5b2f",
+    "parameters": null,
+    "edition_uses": 1102
+  },
+  {
+    "category": "Frame",
+    "value": "Royal Gold",
+    "file": "layers/02_Frame/Royal Gold.png",
+    "canvas": [
+      1536,
+      1536
+    ],
+    "sha256": "0cff311085e8a329ba8f1fe3e237430f040cac4e81061b3d07756547d41555a7",
+    "style": "Royal",
+    "edition_uses": 665
+  },
+  {
+    "category": "Frame",
+    "value": "Amethyst Royal",
+    "file": "layers/02_Frame/Amethyst Royal.png",
+    "canvas": [
+      1536,
+      1536
+    ],
+    "sha256": "cf603eff70da012d13b848dd7ad688d63ae87faa9e37994174c49a9a08696a03",
+    "style": "Royal",
+    "edition_uses": 715
+  },
+  {
+    "category": "Frame",
+    "value": "Obsidian Gold",
+    "file": "layers/02_Frame/Obsidian Gold.png",
+    "canvas": [
+      1536,
+      1536
+    ],
+    "sha256": "08154161fe09c32064e168220bef0fac0225f82cde0e47580fdfb8f68d9d00ac",
+    "style": "Royal",
+    "edition_uses": 696
+  },
+  {
+    "category": "Frame",
+    "value": "Pearl Royal",
+    "file": "layers/02_Frame/Pearl Royal.png",
+    "canvas": [
+      1536,
+      1536
+    ],
+    "sha256": "e6bed1a7869d251865bbcaff903e93f9fcdfff43701e0593da42b5367a2f729f",
+    "style": "Royal",
+    "edition_uses": 659
+  },
+  {
+    "category": "Frame",
+    "value": "None",
+    "file": "layers/02_Frame/None.png",
+    "canvas": [
+      1536,
+      1536
+    ],
+    "sha256": "da18c3279d727a69f6095997c348b472a420fb4598357d3b844169b5219e5b2f",
+    "style": "Royal",
+    "edition_uses": 723
+  },
+  {
+    "category": "Frame",
+    "value": "Thin Gold",
+    "file": "layers/02_Frame/Thin Gold.png",
+    "canvas": [
+      1536,
+      1536
+    ],
+    "sha256": "560ea3380190425f07e78ca69976bf01c61d797fd262b8967919fdb7affe8212",
+    "style": "Normal",
+    "edition_uses": 719
+  },
+  {
+    "category": "Frame",
+    "value": "Thin Silver",
+    "file": "layers/02_Frame/Thin Silver.png",
+    "canvas": [
+      1536,
+      1536
+    ],
+    "sha256": "73808c24d73995ac52c43f9b67cd5888a90fc8358658cf6de8fff2364387ffd3",
+    "style": "Normal",
+    "edition_uses": 748
+  },
+  {
+    "category": "Frame",
+    "value": "Soft Lavender",
+    "file": "layers/02_Frame/Soft Lavender.png",
+    "canvas": [
+      1536,
+      1536
+    ],
+    "sha256": "307dd952e632281075f5961dc92fe561c72a41621c76383d53dde90b25a38b76",
+    "style": "Normal",
+    "edition_uses": 653
+  },
+  {
+    "category": "Frame",
+    "value": "Matte Black",
+    "file": "layers/02_Frame/Matte Black.png",
+    "canvas": [
+      1536,
+      1536
+    ],
+    "sha256": "1b96c32b8c8c28a977d30033c8adc43ba2e6f6ffe113c3e9bb473c512cb14831",
+    "style": "Normal",
+    "edition_uses": 718
+  },
+  {
+    "category": "Frame",
+    "value": "Clean White",
+    "file": "layers/02_Frame/Clean White.png",
+    "canvas": [
+      1536,
+      1536
+    ],
+    "sha256": "ae42c955be7dc3d3604b2811a69d28ffb8319c62ae76889b759a61beed590b27",
+    "style": "Normal",
+    "edition_uses": 746
+  },
+  {
+    "category": "Frame",
+    "value": "Double Gold",
+    "file": "layers/02_Frame/Double Gold.png",
+    "canvas": [
+      1536,
+      1536
+    ],
+    "sha256": "2c4198bb1e009790844e0ef7e7975b25b3bed7c66dd205981dc88f7403f68b28",
+    "style": "Normal",
+    "edition_uses": 735
+  },
+  {
+    "category": "Body Material",
+    "value": "Lavender Stone",
+    "file": "layers/03_Body_Material/Lavender Stone.png",
+    "canvas": [
+      1536,
+      1536
+    ],
+    "sha256": "8f3a48b56547bd9f86654521350b658a274e14406bce7039ebe90c52f1ea137f",
+    "family": "Earth",
+    "family_label": "Rooted",
+    "edition_uses": 1944
+  },
+  {
+    "category": "Body Material",
+    "value": "Sea Glass",
+    "file": "layers/03_Body_Material/Sea Glass.png",
+    "canvas": [
+      1536,
+      1536
+    ],
+    "sha256": "b046743c31f4f9ec3504e4b19b135155d6ccc81809497bcf30340646c52622e4",
+    "family": "Water",
+    "family_label": "Flowing",
+    "edition_uses": 1944
+  },
+  {
+    "category": "Body Material",
+    "value": "Iridescent Pearl",
+    "file": "layers/03_Body_Material/Iridescent Pearl.png",
+    "canvas": [
+      1536,
+      1536
+    ],
+    "sha256": "fa6312a97f09d93d441cdd7403e5010a126eb91c03c8a4111f16a092256c05fd",
+    "family": "Air",
+    "family_label": "Soaring",
+    "edition_uses": 1944
+  },
+  {
+    "category": "Body Material",
+    "value": "Obsidian",
+    "file": "layers/03_Body_Material/Obsidian.png",
+    "canvas": [
+      1536,
+      1536
+    ],
+    "sha256": "40b505d9d2e708f18b38ae1755cef0092923c2edb43b107dcf27d53f5f305d52",
+    "family": "Fire",
+    "family_label": "Radiant",
+    "edition_uses": 1945
+  },
+  {
+    "category": "Ears",
+    "value": "Royal Gold",
+    "file": "layers/11_Ears/Royal Gold.png",
+    "canvas": [
+      1536,
+      1536
+    ],
+    "sha256": "15ae86fc4f127d413c391e26433eda1da41862aa3336e9bc3c47bb2887031a6b",
+    "edition_uses": 7777
+  },
+  {
+    "category": "Element Overlay",
+    "value": "Earth",
+    "file": "layers/04_Element_Overlay/Earth.png",
+    "canvas": [
+      1536,
+      1536
+    ],
+    "sha256": "9a911691d6f575c8e18917587048599254ea9756dce6433920c05985efd971b4",
+    "family": "Earth",
+    "edition_uses": 1608
+  },
+  {
+    "category": "Element Overlay",
+    "value": "Water",
+    "file": "layers/04_Element_Overlay/Water.png",
+    "canvas": [
+      1536,
+      1536
+    ],
+    "sha256": "39ba3f5523121edd62ebe37254ab84f9ee1765c0bbc3f2a8b980a01cb323930e",
+    "family": "Water",
+    "edition_uses": 1538
+  },
+  {
+    "category": "Element Overlay",
+    "value": "Air",
+    "file": "layers/04_Element_Overlay/Air.png",
+    "canvas": [
+      1536,
+      1536
+    ],
+    "sha256": "f20030bdb2887c6b8430bb3e0425936abe2701506a724ee4b6de58e75589a4fd",
+    "family": "Air",
+    "edition_uses": 1559
+  },
+  {
+    "category": "Element Overlay",
+    "value": "Fire",
+    "file": "layers/04_Element_Overlay/Fire.png",
+    "canvas": [
+      1536,
+      1536
+    ],
+    "sha256": "53b9f3d88b3cf3910c821c8553d8241f30f7c506320ee08e9da91e98af220ee5",
+    "family": "Fire",
+    "edition_uses": 1563
+  },
+  {
+    "category": "Element Overlay",
+    "value": "None",
+    "file": "layers/04_Element_Overlay/None.png",
+    "canvas": [
+      1536,
+      1536
+    ],
+    "sha256": "da18c3279d727a69f6095997c348b472a420fb4598357d3b844169b5219e5b2f",
+    "family": null,
+    "edition_uses": 1509
+  },
+  {
+    "category": "Eyes",
+    "value": "Curious",
+    "file": "layers/05_Eyes/Curious.png",
+    "canvas": [
+      1536,
+      1536
+    ],
+    "sha256": "25c6959d3452d6acc91dd8a2f95a917a570be23c2e0903031532f4a62975947c",
+    "edition_uses": 785
+  },
+  {
+    "category": "Eyes",
+    "value": "Determined",
+    "file": "layers/05_Eyes/Determined.png",
+    "canvas": [
+      1536,
+      1536
+    ],
+    "sha256": "73dbf08834b8cdb635c639c373da31d23776fbca7f35d77cca5229911d3107f8",
+    "edition_uses": 744
+  },
+  {
+    "category": "Eyes",
+    "value": "Excited",
+    "file": "layers/05_Eyes/Excited.png",
+    "canvas": [
+      1536,
+      1536
+    ],
+    "sha256": "a906cb8678804e5c3bfff6890ac2810aa17bcbb984d10c73227f030cb3982a26",
+    "edition_uses": 786
+  },
+  {
+    "category": "Eyes",
+    "value": "Focused",
+    "file": "layers/05_Eyes/Focused.png",
+    "canvas": [
+      1536,
+      1536
+    ],
+    "sha256": "5fc458d0620ae612191828febbff73272cf33f92f6aeb34ab784145cfc6255ca",
+    "edition_uses": 752
+  },
+  {
+    "category": "Eyes",
+    "value": "Hopeful",
+    "file": "layers/05_Eyes/Hopeful.png",
+    "canvas": [
+      1536,
+      1536
+    ],
+    "sha256": "10b1c8f5f40933de5ca25acdc3841524ec960e23111730f559f6d2b020c50909",
+    "edition_uses": 757
+  },
+  {
+    "category": "Eyes",
+    "value": "In Sync",
+    "file": "layers/05_Eyes/In Sync.png",
+    "canvas": [
+      1536,
+      1536
+    ],
+    "sha256": "e25a7bbb836217381cc47cfdc40bd267609dbbd5e242a38dfb3a0b49f50a96e5",
+    "edition_uses": 770
+  },
+  {
+    "category": "Eyes",
+    "value": "Loving",
+    "file": "layers/05_Eyes/Loving.png",
+    "canvas": [
+      1536,
+      1536
+    ],
+    "sha256": "bd02e45f78538041c4f01709ce5bf913a59b54351a63def7d7feef59893706d0",
+    "edition_uses": 790
+  },
+  {
+    "category": "Eyes",
+    "value": "None",
+    "file": "layers/05_Eyes/None.png",
+    "canvas": [
+      1536,
+      1536
+    ],
+    "sha256": "da18c3279d727a69f6095997c348b472a420fb4598357d3b844169b5219e5b2f",
+    "edition_uses": 151
+  },
+  {
+    "category": "Eyes",
+    "value": "Sleepy",
+    "file": "layers/05_Eyes/Sleepy.png",
+    "canvas": [
+      1536,
+      1536
+    ],
+    "sha256": "182ce1a6c0d2fe684a3529ed267276aa98bd1e2c79f758460b830af3ee398821",
+    "edition_uses": 754
+  },
+  {
+    "category": "Eyes",
+    "value": "Surprised",
+    "file": "layers/05_Eyes/Surprised.png",
+    "canvas": [
+      1536,
+      1536
+    ],
+    "sha256": "7453430aa626cf257028256c23c2abb88fb2f8b62e67c8039ecc85da5df17b7d",
+    "edition_uses": 732
+  },
+  {
+    "category": "Eyes",
+    "value": "Wink",
+    "file": "layers/05_Eyes/Wink.png",
+    "canvas": [
+      1536,
+      1536
+    ],
+    "sha256": "e973e82bf80a9c2e3bc58e533917d339038928bd80526c7c10ffded5ca450071",
+    "edition_uses": 756
+  },
+  {
+    "category": "Mouth",
+    "value": "Neutral Bar",
+    "file": "layers/06_Mouth/Neutral Bar.png",
+    "canvas": [
+      1536,
+      1536
+    ],
+    "sha256": "98bc4a511bbbf9939f30ac48340541b0c540a9268eb4e4b9680047c9efcbfc21",
+    "edition_uses": 7777
+  },
+  {
+    "category": "Mouth",
+    "value": "None",
+    "file": "layers/06_Mouth/None.png",
+    "canvas": [
+      1536,
+      1536
+    ],
+    "sha256": "da18c3279d727a69f6095997c348b472a420fb4598357d3b844169b5219e5b2f",
+    "edition_uses": 0
+  },
+  {
+    "category": "Family Emblem",
+    "value": "Rooted",
+    "file": "layers/07_Family_Emblem/Rooted.png",
+    "canvas": [
+      1536,
+      1536
+    ],
+    "sha256": "8dafe3f49337193b0842514aefbe32a2e4e444fe95a7a75a7da034c93bdfab5f",
+    "family": "Earth",
+    "edition_uses": 1347
+  },
+  {
+    "category": "Family Emblem",
+    "value": "Flowing",
+    "file": "layers/07_Family_Emblem/Flowing.png",
+    "canvas": [
+      1536,
+      1536
+    ],
+    "sha256": "1ac89e9a62607e10f19eb91025f814df2e5bdfe3b75b58d03f4b2aade39313e1",
+    "family": "Water",
+    "edition_uses": 1366
+  },
+  {
+    "category": "Family Emblem",
+    "value": "Soaring",
+    "file": "layers/07_Family_Emblem/Soaring.png",
+    "canvas": [
+      1536,
+      1536
+    ],
+    "sha256": "0817121044c33dc2176e2d917c8d55af5c2e3d231c0b4fc5fef779f93fb02357",
+    "family": "Air",
+    "edition_uses": 1342
+  },
+  {
+    "category": "Family Emblem",
+    "value": "Radiant",
+    "file": "layers/07_Family_Emblem/Radiant.png",
+    "canvas": [
+      1536,
+      1536
+    ],
+    "sha256": "1e56ddbdf3a614bcec69381021798375e11ba84f3f4846c92c7385f32f7751c8",
+    "family": "Fire",
+    "edition_uses": 1375
+  },
+  {
+    "category": "Family Emblem",
+    "value": "None",
+    "file": "layers/07_Family_Emblem/None.png",
+    "canvas": [
+      1536,
+      1536
+    ],
+    "sha256": "da18c3279d727a69f6095997c348b472a420fb4598357d3b844169b5219e5b2f",
+    "family": null,
+    "edition_uses": 2347
+  },
+  {
+    "category": "Zodiac",
+    "value": "Aquarius",
+    "file": "layers/08_Zodiac/Aquarius.png",
+    "canvas": [
+      1536,
+      1536
+    ],
+    "sha256": "78771f77d712f616e89f51e2ea3411d7a901816069f4eeb0aefdefd36ab43f48",
+    "edition_uses": 1
+  },
+  {
+    "category": "Zodiac",
+    "value": "Aries",
+    "file": "layers/08_Zodiac/Aries.png",
+    "canvas": [
+      1536,
+      1536
+    ],
+    "sha256": "320a90b79438fd587b6aaed96f4f368ce6d676ee11dc3777dceb85217227cdb1",
+    "edition_uses": 1
+  },
+  {
+    "category": "Zodiac",
+    "value": "Cancer",
+    "file": "layers/08_Zodiac/Cancer.png",
+    "canvas": [
+      1536,
+      1536
+    ],
+    "sha256": "e3b05205716188dcde293d1d1be0c0c6dba31e057f492ae269908a4c4714fcfc",
+    "edition_uses": 1
+  },
+  {
+    "category": "Zodiac",
+    "value": "Capricorn",
+    "file": "layers/08_Zodiac/Capricorn.png",
+    "canvas": [
+      1536,
+      1536
+    ],
+    "sha256": "ff2efefa435dd3e39b666cebf51134496c1eaf987d36570817944c72425656bb",
+    "edition_uses": 1
+  },
+  {
+    "category": "Zodiac",
+    "value": "Gemini",
+    "file": "layers/08_Zodiac/Gemini.png",
+    "canvas": [
+      1536,
+      1536
+    ],
+    "sha256": "ce4991bdb479ab61ad90d62bba40b552dfaf9eb1ad58caa9fde5ecdc4fa42622",
+    "edition_uses": 1
+  },
+  {
+    "category": "Zodiac",
+    "value": "Leo",
+    "file": "layers/08_Zodiac/Leo.png",
+    "canvas": [
+      1536,
+      1536
+    ],
+    "sha256": "8c3adef9b0a76357907a31573b0d78e993b4a99216912eca9cd79338d7382fd1",
+    "edition_uses": 1
+  },
+  {
+    "category": "Zodiac",
+    "value": "Libra",
+    "file": "layers/08_Zodiac/Libra.png",
+    "canvas": [
+      1536,
+      1536
+    ],
+    "sha256": "10e1b6d5f97b2c7c72d2130865c57b975dd5d5caba535ef7eeb5ec80a2ce322c",
+    "edition_uses": 1
+  },
+  {
+    "category": "Zodiac",
+    "value": "None",
+    "file": "layers/08_Zodiac/None.png",
+    "canvas": [
+      1536,
+      1536
+    ],
+    "sha256": "da18c3279d727a69f6095997c348b472a420fb4598357d3b844169b5219e5b2f",
+    "edition_uses": 7765
+  },
+  {
+    "category": "Zodiac",
+    "value": "Pisces",
+    "file": "layers/08_Zodiac/Pisces.png",
+    "canvas": [
+      1536,
+      1536
+    ],
+    "sha256": "0a4927611704e5cade4ba5d004fbff4415982bd65eef23f4f0ec7c99623c7326",
+    "edition_uses": 1
+  },
+  {
+    "category": "Zodiac",
+    "value": "Sagittarius",
+    "file": "layers/08_Zodiac/Sagittarius.png",
+    "canvas": [
+      1536,
+      1536
+    ],
+    "sha256": "9dc6e8ca3982785fa8a87486cdaebc12c4725796df36e06bc986c421ae041f2c",
+    "edition_uses": 1
+  },
+  {
+    "category": "Zodiac",
+    "value": "Scorpio",
+    "file": "layers/08_Zodiac/Scorpio.png",
+    "canvas": [
+      1536,
+      1536
+    ],
+    "sha256": "f13155a433c874f135d651ae78bf16109b7ae8df38759872f5ffaf7f50a76898",
+    "edition_uses": 1
+  },
+  {
+    "category": "Zodiac",
+    "value": "Taurus",
+    "file": "layers/08_Zodiac/Taurus.png",
+    "canvas": [
+      1536,
+      1536
+    ],
+    "sha256": "9eb1e622d4265953ce7f2ff19f96d9d47ffd39a373de85927ea7cd51081b9f90",
+    "edition_uses": 1
+  },
+  {
+    "category": "Zodiac",
+    "value": "Virgo",
+    "file": "layers/08_Zodiac/Virgo.png",
+    "canvas": [
+      1536,
+      1536
+    ],
+    "sha256": "6855b47845dc1cbe8562dd35da29248135d98fc294499922bb0a33a12947172b",
+    "edition_uses": 1
+  },
+  {
+    "category": "Celestial Body",
+    "value": "Mercury",
+    "file": "layers/09_Celestial_Body/Mercury.png",
+    "canvas": [
+      1536,
+      1536
+    ],
+    "sha256": "cd058a117d0bb70cb756db4f64732d199108a3c41cf776fd5d083699e0983852",
+    "classification": "Planet",
+    "edition_uses": 664
+  },
+  {
+    "category": "Celestial Body",
+    "value": "Venus",
+    "file": "layers/09_Celestial_Body/Venus.png",
+    "canvas": [
+      1536,
+      1536
+    ],
+    "sha256": "f30ba4e5cb37913bcdde92796fb3c4b357f33a9845e5e804f6136dae7a50f895",
+    "classification": "Planet",
+    "edition_uses": 630
+  },
+  {
+    "category": "Celestial Body",
+    "value": "Earth",
+    "file": "layers/09_Celestial_Body/Earth.png",
+    "canvas": [
+      1536,
+      1536
+    ],
+    "sha256": "8522f3dd8d4eb225e58e14bbba98202862d0017f6009c5826f83b4d6be82d36e",
+    "classification": "Planet",
+    "edition_uses": 634
+  },
+  {
+    "category": "Celestial Body",
+    "value": "Mars",
+    "file": "layers/09_Celestial_Body/Mars.png",
+    "canvas": [
+      1536,
+      1536
+    ],
+    "sha256": "b58edfc8f36ca75dd95b264ab690329f048295503363985c96471a6e236309ea",
+    "classification": "Planet",
+    "edition_uses": 661
+  },
+  {
+    "category": "Celestial Body",
+    "value": "Jupiter",
+    "file": "layers/09_Celestial_Body/Jupiter.png",
+    "canvas": [
+      1536,
+      1536
+    ],
+    "sha256": "6d35755b3c8c70446e897760fc9750848af5f83bee7b1b8c881c213d5034b1e2",
+    "classification": "Planet",
+    "edition_uses": 654
+  },
+  {
+    "category": "Celestial Body",
+    "value": "Saturn",
+    "file": "layers/09_Celestial_Body/Saturn.png",
+    "canvas": [
+      1536,
+      1536
+    ],
+    "sha256": "dc08341f59dcbeb6d26ee1170631607b4dfe136a83e6d2c2a53a78b5019d26d5",
+    "classification": "Planet",
+    "edition_uses": 685
+  },
+  {
+    "category": "Celestial Body",
+    "value": "Uranus",
+    "file": "layers/09_Celestial_Body/Uranus.png",
+    "canvas": [
+      1536,
+      1536
+    ],
+    "sha256": "3aef323e54e8b98794fd8d5ed0b90221a86047087e25818bbe892f6ff3d45778",
+    "classification": "Planet",
+    "edition_uses": 680
+  },
+  {
+    "category": "Celestial Body",
+    "value": "Neptune",
+    "file": "layers/09_Celestial_Body/Neptune.png",
+    "canvas": [
+      1536,
+      1536
+    ],
+    "sha256": "41f6d4b11d3d61eb66154d92b18f6b03121d42d1cf4f48704bb35271166c0ef3",
+    "classification": "Planet",
+    "edition_uses": 647
+  },
+  {
+    "category": "Celestial Body",
+    "value": "Sun",
+    "file": "layers/09_Celestial_Body/Sun.png",
+    "canvas": [
+      1536,
+      1536
+    ],
+    "sha256": "6782fb933faf4b69d03451db3ab1abaaa89f9b5f260ff2f797252936cb29b841",
+    "classification": "Star",
+    "edition_uses": 612
+  },
+  {
+    "category": "Celestial Body",
+    "value": "Moon",
+    "file": "layers/09_Celestial_Body/Moon.png",
+    "canvas": [
+      1536,
+      1536
+    ],
+    "sha256": "58dbc469f632d1874f0e2c42aa47d6003765780814d7b5648ead57f7be39a1dd",
+    "classification": "Natural Satellite",
+    "edition_uses": 636
+  },
+  {
+    "category": "Celestial Body",
+    "value": "Pluto",
+    "file": "layers/09_Celestial_Body/Pluto.png",
+    "canvas": [
+      1536,
+      1536
+    ],
+    "sha256": "cff33a92b39184a45f788e5a504c10afa123c817988e0742226fb29ce5f8dafe",
+    "classification": "Dwarf Planet",
+    "edition_uses": 630
+  },
+  {
+    "category": "Celestial Body",
+    "value": "None",
+    "file": "layers/09_Celestial_Body/None.png",
+    "canvas": [
+      1536,
+      1536
+    ],
+    "sha256": "da18c3279d727a69f6095997c348b472a420fb4598357d3b844169b5219e5b2f",
+    "classification": null,
+    "edition_uses": 644
+  },
+  {
+    "category": "Badge or Message",
+    "value": "GM",
+    "file": "layers/10_Badge_or_Message/GM.png",
+    "canvas": [
+      1536,
+      1536
+    ],
+    "sha256": "ee4a707a75689d9cd666eb1f8976d4b2231dbdb8e1f885125b0bebdfb40fecef",
+    "kind": "Badge",
+    "edition_uses": 467
+  },
+  {
+    "category": "Badge or Message",
+    "value": "GN",
+    "file": "layers/10_Badge_or_Message/GN.png",
+    "canvas": [
+      1536,
+      1536
+    ],
+    "sha256": "a13841343b494d8fa4ca04fc4d96e8296f06ed64e7a9512d796cec89b585d8e1",
+    "kind": "Badge",
+    "edition_uses": 462
+  },
+  {
+    "category": "Badge or Message",
+    "value": "BUIDL",
+    "file": "layers/10_Badge_or_Message/BUIDL.png",
+    "canvas": [
+      1536,
+      1536
+    ],
+    "sha256": "404c9e05f20b91e8c9d61d944ab7ae348856fd0121f20f09833265764b73a59a",
+    "kind": "Badge",
+    "edition_uses": 464
+  },
+  {
+    "category": "Badge or Message",
+    "value": "ONCHAIN",
+    "file": "layers/10_Badge_or_Message/ONCHAIN.png",
+    "canvas": [
+      1536,
+      1536
+    ],
+    "sha256": "6eb8dc8f2e960c2e26f704ef1e6b176d0c7dcb5b0961e2d799a1338fed035a53",
+    "kind": "Badge",
+    "edition_uses": 407
+  },
+  {
+    "category": "Badge or Message",
+    "value": "HODL",
+    "file": "layers/10_Badge_or_Message/HODL.png",
+    "canvas": [
+      1536,
+      1536
+    ],
+    "sha256": "2bf996f0e8bca467c3944b012d53e83bdf2d3020441fa82dce1b80125c3efffa",
+    "kind": "Badge",
+    "edition_uses": 466
+  },
+  {
+    "category": "Badge or Message",
+    "value": "PROOF OF GROWTH",
+    "file": "layers/10_Badge_or_Message/PROOF OF GROWTH.png",
+    "canvas": [
+      1536,
+      1536
+    ],
+    "sha256": "e75e3dc4c1d488b743769c2375727732644b6a547e54cc942de86baf4895a143",
+    "kind": "Badge",
+    "edition_uses": 477
+  },
+  {
+    "category": "Badge or Message",
+    "value": "TOUCH GRASS",
+    "file": "layers/10_Badge_or_Message/TOUCH GRASS.png",
+    "canvas": [
+      1536,
+      1536
+    ],
+    "sha256": "95aef4a88481a7fb98f69a44539275e1499ab95738b92b1338ba405b8ea95feb",
+    "kind": "Badge",
+    "edition_uses": 457
+  },
+  {
+    "category": "Badge or Message",
+    "value": "WAGMI",
+    "file": "layers/10_Badge_or_Message/WAGMI.png",
+    "canvas": [
+      1536,
+      1536
+    ],
+    "sha256": "33444ba64b4b680b4daa4b56d26e61535a1bbef672e58b847aaefd7d2d123352",
+    "kind": "Badge",
+    "edition_uses": 455
+  },
+  {
+    "category": "Badge or Message",
+    "value": "You belong here.",
+    "file": "layers/10_Badge_or_Message/You belong here.png",
+    "canvas": [
+      1536,
+      1536
+    ],
+    "sha256": "a1c757edc04dd62a1a70da294b8d4ecf63545e36903f4b1695f647cfc1698198",
+    "kind": "Positive Message",
+    "edition_uses": 460
+  },
+  {
+    "category": "Badge or Message",
+    "value": "Keep growing.",
+    "file": "layers/10_Badge_or_Message/Keep growing.png",
+    "canvas": [
+      1536,
+      1536
+    ],
+    "sha256": "2501c0041cd02652f5585488b2df006392a0346065191d7f66a68070c88314a7",
+    "kind": "Positive Message",
+    "edition_uses": 469
+  },
+  {
+    "category": "Badge or Message",
+    "value": "Find your flow.",
+    "file": "layers/10_Badge_or_Message/Find your flow.png",
+    "canvas": [
+      1536,
+      1536
+    ],
+    "sha256": "288c23a539c83129aefae1d0f345de43afc714641175a6c94ff4e25faddafaba",
+    "kind": "Positive Message",
+    "edition_uses": 482
+  },
+  {
+    "category": "Badge or Message",
+    "value": "Keep your spark alive.",
+    "file": "layers/10_Badge_or_Message/Keep your spark alive.png",
+    "canvas": [
+      1536,
+      1536
+    ],
+    "sha256": "f87412f6f37dcb8f74767573904a197e0cd684ab40320bfc05947a4498369fc2",
+    "kind": "Positive Message",
+    "edition_uses": 431
+  },
+  {
+    "category": "Badge or Message",
+    "value": "Small steps. Still building.",
+    "file": "layers/10_Badge_or_Message/Small steps Still building.png",
+    "canvas": [
+      1536,
+      1536
+    ],
+    "sha256": "7e3dcdfe19eca8537d4208581b722e677920ca284604b3c0d03aab52c03558e7",
+    "kind": "Positive Message",
+    "edition_uses": 456
+  },
+  {
+    "category": "Badge or Message",
+    "value": "Stay curious.",
+    "file": "layers/10_Badge_or_Message/Stay curious.png",
+    "canvas": [
+      1536,
+      1536
+    ],
+    "sha256": "dd1deec703cb03745c3cfdad57fcbcff698051053621609df56623450f1df377",
+    "kind": "Positive Message",
+    "edition_uses": 455
+  },
+  {
+    "category": "Badge or Message",
+    "value": "Rooted and rising.",
+    "file": "layers/10_Badge_or_Message/Rooted and rising.png",
+    "canvas": [
+      1536,
+      1536
+    ],
+    "sha256": "bee2c64b1ae414d4eaa290635787a68ec89258f7adb7dafc8f787ee45d8965a7",
+    "kind": "Positive Message",
+    "edition_uses": 449
+  },
+  {
+    "category": "Badge or Message",
+    "value": "Breathe. Then begin.",
+    "file": "layers/10_Badge_or_Message/Breathe Then begin.png",
+    "canvas": [
+      1536,
+      1536
+    ],
+    "sha256": "a42aa937754e6b11eb133bd24c3717bf8e0dcad19b1b4436fcd2cadff2a62f53",
+    "kind": "Positive Message",
+    "edition_uses": 446
+  },
+  {
+    "category": "Badge or Message",
+    "value": "None",
+    "file": "layers/10_Badge_or_Message/None.png",
+    "canvas": [
+      1536,
+      1536
+    ],
+    "sha256": "da18c3279d727a69f6095997c348b472a420fb4598357d3b844169b5219e5b2f",
+    "kind": "None",
+    "edition_uses": 474
+  }
+]

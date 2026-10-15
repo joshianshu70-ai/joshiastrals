@@ -1,0 +1,12 @@
+{
+  "family": "Flowing",
+  "body": "Sea Glass",
+  "offset": [
+    0,
+    32,
+    1536,
+    1568
+  ],
+  "inside_body_with_10px_margin": true,
+  "status": "passed"
+}

@@ -1,0 +1,71 @@
+{
+  "name": "Joshi Astral #1260",
+  "description": "Joshi Astral #1260 \u2014 The Garden Keeper. Presented by The House of Joshi. A keeper of quiet beginnings, finding possibility in the places others pass by. Its lavender stone form belongs to the earth family. It wears the surprised expression and carries the celestial motif of Mars. Patience is a kind of strength. The Logarithmic Spiral overlay is generated from mathematical rules, with its exact parameters recorded in the edition manifest.",
+  "image": "../images/1260.png",
+  "attributes": [
+    {
+      "trait_type": "Environment",
+      "value": "Plain Lavender"
+    },
+    {
+      "trait_type": "Mathematical Pattern",
+      "value": "Logarithmic Spiral"
+    },
+    {
+      "trait_type": "Frame",
+      "value": "Double Gold"
+    },
+    {
+      "trait_type": "Body Material",
+      "value": "Lavender Stone"
+    },
+    {
+      "trait_type": "Element Overlay",
+      "value": "Earth"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Surprised"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Neutral Bar"
+    },
+    {
+      "trait_type": "Family Emblem",
+      "value": "None"
+    },
+    {
+      "trait_type": "Zodiac",
+      "value": "None"
+    },
+    {
+      "trait_type": "Celestial Body",
+      "value": "Mars"
+    },
+    {
+      "trait_type": "Badge or Message",
+      "value": "HODL"
+    },
+    {
+      "trait_type": "Family",
+      "value": "Rooted"
+    },
+    {
+      "trait_type": "Element",
+      "value": "Earth"
+    },
+    {
+      "trait_type": "Edition",
+      "value": "Core"
+    },
+    {
+      "trait_type": "Ears",
+      "value": "Royal Gold"
+    },
+    {
+      "trait_type": "Initial Allocation",
+      "value": "Public Mint"
+    }
+  ]
+}

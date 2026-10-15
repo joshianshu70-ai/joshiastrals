@@ -1,0 +1,17 @@
+{
+  "collection": "Joshi Astrals",
+  "creator": "The House of Joshi",
+  "editions": 7777,
+  "files": {
+    "manifest-7777.json": "cb7e805b23720b97ed66ca0e32df46800f48a935d788d9afceef94226949ba34",
+    "trait-catalog.json": "fc4835e620a1ed79a2cff4f9b0ae0cb947129fd05063549509f2331800675872",
+    "generator-config.json": "f2df52f07c5946f50897b1acc520022c70bd207a94604ab99ddda3ea2f1b7497",
+    "image-hashes.json": "f8083be1fb2b65df9409cb45d7adace2c37f9be0ebc0a13ccc8fbdd51e9b020d",
+    "generate.py": "70928187020e1fdc9edf04679c2eb9355beae7b29bcd37df2376bcfcce790c3d",
+    "render-validation.json": "450e68fbb7e4487daf4ee415550e2b375c309528e5b7795cb30b07ecc135a6bc",
+    "optimization-report.json": "44cba635fd76a07a9ed422fe8b8198d914fc7d193df695acbbaff25becd29d0c"
+  },
+  "pixel_hashes_unique": 7777,
+  "file_hashes_verified": 7777,
+  "note": "Local prelaunch provenance record; publish/pin after final art and terms approval."
+}

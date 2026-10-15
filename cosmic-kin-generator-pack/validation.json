@@ -1,0 +1,36 @@
+{
+  "layers": 105,
+  "folders": 12,
+  "canvas": [
+    1536,
+    1536
+  ],
+  "token_count": 7777,
+  "unique_layer_combinations": 7777,
+  "zodiac_counts": {
+    "None": 7765,
+    "Aquarius": 1,
+    "Gemini": 1,
+    "Virgo": 1,
+    "Cancer": 1,
+    "Sagittarius": 1,
+    "Taurus": 1,
+    "Libra": 1,
+    "Scorpio": 1,
+    "Aries": 1,
+    "Leo": 1,
+    "Pisces": 1,
+    "Capricorn": 1
+  },
+  "all_asset_paths_exist": true,
+  "all_dimensions_match": true,
+  "layer_count": 105,
+  "folder_count": 12,
+  "ears_required": 7777,
+  "mouth_required": 7777,
+  "frame_last": true,
+  "zodiac_render_offset": [
+    0,
+    64
+  ]
+}

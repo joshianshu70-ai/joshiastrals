@@ -1,0 +1,13 @@
+* text=auto
+*.csv text eol=lf
+*.json text eol=lf
+*.js text eol=lf
+*.mjs text eol=lf
+*.md text eol=lf
+*.sol text eol=lf
+*.png binary
+*.jpg binary
+*.webp binary
+
+# Generated third-party bundles contain intentional template whitespace.
+cosmic-kin-studio/public/vendor/** -whitespace

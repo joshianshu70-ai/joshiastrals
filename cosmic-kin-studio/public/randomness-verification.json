@@ -1,0 +1,39 @@
+{
+  "checkedAt": "2026-10-15T13:55:20.361Z",
+  "networks": {
+    "testnet": {
+      "status": "verified",
+      "checks": [
+        {
+          "component": "coordinator",
+          "proxy": "0xd20DA0FF9087d053f0291524Eac12abA1ADBd945",
+          "implementation": "0xD20da000125643B4db5A6A36A3b853c17745DF44",
+          "hash": "0x3dda400d8360d7e03b8dacd8ba1ffad7ad672e07628bee7de4542d754dd5348c"
+        },
+        {
+          "component": "registry",
+          "proxy": "0xD20Da00B47A7cD2211dC4683E306913b05903756",
+          "implementation": "0xD20dA0853a6f894c0cdc9018fD4F8F67Eac15704",
+          "hash": "0xb5e125e3b0f63ffe516d781266c1cbacebe3d131148b69f8736d3ca78bcddb12"
+        }
+      ]
+    },
+    "mainnet": {
+      "status": "verified",
+      "checks": [
+        {
+          "component": "coordinator",
+          "proxy": "0xd20da057469C45928912d983F45790C41e290571",
+          "implementation": "0xD20da000125643B4db5A6A36A3b853c17745DF44",
+          "hash": "0x3dda400d8360d7e03b8dacd8ba1ffad7ad672e07628bee7de4542d754dd5348c"
+        },
+        {
+          "component": "registry",
+          "proxy": "0xd20Da048C1A68fa3Bc0B5f5Bc454D1530062C82D",
+          "implementation": "0xD20dA0853a6f894c0cdc9018fD4F8F67Eac15704",
+          "hash": "0xb5e125e3b0f63ffe516d781266c1cbacebe3d131148b69f8736d3ca78bcddb12"
+        }
+      ]
+    }
+  }
+}

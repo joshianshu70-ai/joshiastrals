@@ -1,0 +1,31 @@
+{
+  "source_sha256": "544e577b6c3054532fec49f7c66f97fdadb9b0b7cbac628aa19cdb171f1f0fc4",
+  "artifact_sha256": "4efe2b2cae8f96825a2ee78f3463a8043958573df1e8f9c9b357a0f2e6ca0b18",
+  "result": "passed locally",
+  "full_sell_through_test": 7777,
+  "public_random_ids_verified": 7577,
+  "reserve_ids_verified": 200,
+  "randomness_provider": "D20DAO",
+  "provider_proxy_implementation_checks": "verified against Arc mainnet/testnet via read-only RPC",
+  "live_vrf_delivery": "not rehearsed; local mock callbacks only",
+  "whitelist": {
+    "model": "protected seats; public minting always open from general availability",
+    "phase": 1,
+    "max_wallets": 50,
+    "protected_seats_per_wallet": 2,
+    "initial_protected_seats": 100,
+    "owner_can_release_unused": true,
+    "wallets": []
+  },
+  "security": [
+    "FIFO",
+    "callback authentication",
+    "refund isolation",
+    "expiry and seat restoration",
+    "no rerolls",
+    "claim receiver retry and reentrancy",
+    "treasury and two-step owner controls"
+  ],
+  "official_arc_deployment": "not performed",
+  "professional_security_audit": "not performed"
+}

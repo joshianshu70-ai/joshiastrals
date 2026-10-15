@@ -1,0 +1,22 @@
+name: Validate contracts
+on: [push, pull_request]
+permissions:
+  contents: read
+jobs:
+  contracts:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    defaults:
+      run:
+        working-directory: cosmic-kin-studio
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+          cache-dependency-path: cosmic-kin-studio/package-lock.json
+      - run: npm ci --ignore-scripts --no-audit --no-fund
+      - run: npm run compile
+      - run: npm test
+      - run: node --check public/app.js && node --check public/public-mint.js && node --check public/experience.js && node --check server.mjs

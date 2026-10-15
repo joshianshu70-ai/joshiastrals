@@ -1,0 +1,21 @@
+{
+  "profile": "webp-1024-q65-v2",
+  "created_at_utc": "2026-10-15T10:50:16.789918+00:00",
+  "format": "WebP",
+  "dimensions": [
+    1024,
+    1024
+  ],
+  "count": 7777,
+  "unique_decoded_images": 7777,
+  "transparency": "Verified lossless alpha after resize for all images",
+  "original_bytes": 19618012487,
+  "optimized_bytes": 843906306,
+  "reduction_percent": 95.7,
+  "average_KB": 106.0,
+  "maximum_KB": 449.8,
+  "status": "passed",
+  "metadata_bytes": 13510263,
+  "upload_bytes": 857416569,
+  "budget_bytes": 1000000000
+}

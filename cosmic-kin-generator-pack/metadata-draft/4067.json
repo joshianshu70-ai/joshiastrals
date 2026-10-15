@@ -1,0 +1,71 @@
+{
+  "name": "Joshi Astral #4067",
+  "description": "Joshi Astral #4067 \u2014 The Sky Seeker. Presented by The House of Joshi. A seeker of open skies, following thoughtful questions toward unfamiliar horizons. Its iridescent pearl form belongs to the air family. It wears the excited expression and carries the celestial motif of Neptune. Stay curious. There is more to discover. The Contours overlay is generated from mathematical rules, with its exact parameters recorded in the edition manifest.",
+  "image": "../images/4067.png",
+  "attributes": [
+    {
+      "trait_type": "Environment",
+      "value": "Pearl Glow"
+    },
+    {
+      "trait_type": "Mathematical Pattern",
+      "value": "Contours"
+    },
+    {
+      "trait_type": "Frame",
+      "value": "Thin Gold"
+    },
+    {
+      "trait_type": "Body Material",
+      "value": "Iridescent Pearl"
+    },
+    {
+      "trait_type": "Element Overlay",
+      "value": "None"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Excited"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Neutral Bar"
+    },
+    {
+      "trait_type": "Family Emblem",
+      "value": "Soaring"
+    },
+    {
+      "trait_type": "Zodiac",
+      "value": "None"
+    },
+    {
+      "trait_type": "Celestial Body",
+      "value": "Neptune"
+    },
+    {
+      "trait_type": "Badge or Message",
+      "value": "ONCHAIN"
+    },
+    {
+      "trait_type": "Family",
+      "value": "Soaring"
+    },
+    {
+      "trait_type": "Element",
+      "value": "Air"
+    },
+    {
+      "trait_type": "Edition",
+      "value": "Core"
+    },
+    {
+      "trait_type": "Ears",
+      "value": "Royal Gold"
+    },
+    {
+      "trait_type": "Initial Allocation",
+      "value": "Public Mint"
+    }
+  ]
+}

@@ -1,0 +1,1126 @@
+{
+  "collection": "Joshi Astrals",
+  "edition_size": 7777,
+  "method": "Exact trait occurrence counts from the fixed manifest. No rarity ranking or valuation score.",
+  "traits": {
+    "Environment": [
+      {
+        "value": "Pearl Clouds",
+        "count": 114,
+        "percent": 1.4659
+      },
+      {
+        "value": "Lunar Waters",
+        "count": 130,
+        "percent": 1.6716
+      },
+      {
+        "value": "Floating Garden",
+        "count": 151,
+        "percent": 1.9416
+      },
+      {
+        "value": "Volcanic Realm",
+        "count": 154,
+        "percent": 1.9802
+      },
+      {
+        "value": "Plain Blush",
+        "count": 521,
+        "percent": 6.6992
+      },
+      {
+        "value": "Plain Lavender",
+        "count": 526,
+        "percent": 6.7635
+      },
+      {
+        "value": "Plain Cream",
+        "count": 538,
+        "percent": 6.9178
+      },
+      {
+        "value": "Ocean Haze",
+        "count": 539,
+        "percent": 6.9307
+      },
+      {
+        "value": "Plain Sage",
+        "count": 547,
+        "percent": 7.0336
+      },
+      {
+        "value": "None",
+        "count": 556,
+        "percent": 7.1493
+      },
+      {
+        "value": "Pearl Glow",
+        "count": 557,
+        "percent": 7.1621
+      },
+      {
+        "value": "Plain Champagne",
+        "count": 568,
+        "percent": 7.3036
+      },
+      {
+        "value": "Plain Charcoal",
+        "count": 568,
+        "percent": 7.3036
+      },
+      {
+        "value": "Ember Dusk",
+        "count": 572,
+        "percent": 7.355
+      },
+      {
+        "value": "Lavender Dawn",
+        "count": 573,
+        "percent": 7.3679
+      },
+      {
+        "value": "Plain Sea Blue",
+        "count": 573,
+        "percent": 7.3679
+      },
+      {
+        "value": "Plain Plum",
+        "count": 590,
+        "percent": 7.5865
+      }
+    ],
+    "Mathematical Pattern": [
+      {
+        "value": "Phyllotaxis",
+        "count": 1079,
+        "percent": 13.8742
+      },
+      {
+        "value": "Wave Interference",
+        "count": 1094,
+        "percent": 14.0671
+      },
+      {
+        "value": "Branching",
+        "count": 1095,
+        "percent": 14.08
+      },
+      {
+        "value": "None",
+        "count": 1102,
+        "percent": 14.17
+      },
+      {
+        "value": "Contours",
+        "count": 1124,
+        "percent": 14.4529
+      },
+      {
+        "value": "Lissajous",
+        "count": 1139,
+        "percent": 14.6458
+      },
+      {
+        "value": "Logarithmic Spiral",
+        "count": 1144,
+        "percent": 14.71
+      }
+    ],
+    "Frame": [
+      {
+        "value": "Soft Lavender",
+        "count": 653,
+        "percent": 8.3966
+      },
+      {
+        "value": "Pearl Royal",
+        "count": 659,
+        "percent": 8.4737
+      },
+      {
+        "value": "Royal Gold",
+        "count": 665,
+        "percent": 8.5509
+      },
+      {
+        "value": "Obsidian Gold",
+        "count": 696,
+        "percent": 8.9495
+      },
+      {
+        "value": "Amethyst Royal",
+        "count": 715,
+        "percent": 9.1938
+      },
+      {
+        "value": "Matte Black",
+        "count": 718,
+        "percent": 9.2324
+      },
+      {
+        "value": "Thin Gold",
+        "count": 719,
+        "percent": 9.2452
+      },
+      {
+        "value": "None",
+        "count": 723,
+        "percent": 9.2966
+      },
+      {
+        "value": "Double Gold",
+        "count": 735,
+        "percent": 9.4509
+      },
+      {
+        "value": "Clean White",
+        "count": 746,
+        "percent": 9.5924
+      },
+      {
+        "value": "Thin Silver",
+        "count": 748,
+        "percent": 9.6181
+      }
+    ],
+    "Body Material": [
+      {
+        "value": "Iridescent Pearl",
+        "count": 1944,
+        "percent": 24.9968
+      },
+      {
+        "value": "Lavender Stone",
+        "count": 1944,
+        "percent": 24.9968
+      },
+      {
+        "value": "Sea Glass",
+        "count": 1944,
+        "percent": 24.9968
+      },
+      {
+        "value": "Obsidian",
+        "count": 1945,
+        "percent": 25.0096
+      }
+    ],
+    "Element Overlay": [
+      {
+        "value": "None",
+        "count": 1509,
+        "percent": 19.4034
+      },
+      {
+        "value": "Water",
+        "count": 1538,
+        "percent": 19.7763
+      },
+      {
+        "value": "Air",
+        "count": 1559,
+        "percent": 20.0463
+      },
+      {
+        "value": "Fire",
+        "count": 1563,
+        "percent": 20.0977
+      },
+      {
+        "value": "Earth",
+        "count": 1608,
+        "percent": 20.6764
+      }
+    ],
+    "Eyes": [
+      {
+        "value": "None",
+        "count": 151,
+        "percent": 1.9416
+      },
+      {
+        "value": "Surprised",
+        "count": 732,
+        "percent": 9.4124
+      },
+      {
+        "value": "Determined",
+        "count": 744,
+        "percent": 9.5667
+      },
+      {
+        "value": "Focused",
+        "count": 752,
+        "percent": 9.6695
+      },
+      {
+        "value": "Sleepy",
+        "count": 754,
+        "percent": 9.6953
+      },
+      {
+        "value": "Wink",
+        "count": 756,
+        "percent": 9.721
+      },
+      {
+        "value": "Hopeful",
+        "count": 757,
+        "percent": 9.7338
+      },
+      {
+        "value": "In Sync",
+        "count": 770,
+        "percent": 9.901
+      },
+      {
+        "value": "Curious",
+        "count": 785,
+        "percent": 10.0939
+      },
+      {
+        "value": "Excited",
+        "count": 786,
+        "percent": 10.1067
+      },
+      {
+        "value": "Loving",
+        "count": 790,
+        "percent": 10.1582
+      }
+    ],
+    "Mouth": [
+      {
+        "value": "Neutral Bar",
+        "count": 7777,
+        "percent": 100.0
+      }
+    ],
+    "Family Emblem": [
+      {
+        "value": "Soaring",
+        "count": 1342,
+        "percent": 17.256
+      },
+      {
+        "value": "Rooted",
+        "count": 1347,
+        "percent": 17.3203
+      },
+      {
+        "value": "Flowing",
+        "count": 1366,
+        "percent": 17.5646
+      },
+      {
+        "value": "Radiant",
+        "count": 1375,
+        "percent": 17.6803
+      },
+      {
+        "value": "None",
+        "count": 2347,
+        "percent": 30.1787
+      }
+    ],
+    "Zodiac": [
+      {
+        "value": "Aquarius",
+        "count": 1,
+        "percent": 0.0129
+      },
+      {
+        "value": "Aries",
+        "count": 1,
+        "percent": 0.0129
+      },
+      {
+        "value": "Cancer",
+        "count": 1,
+        "percent": 0.0129
+      },
+      {
+        "value": "Capricorn",
+        "count": 1,
+        "percent": 0.0129
+      },
+      {
+        "value": "Gemini",
+        "count": 1,
+        "percent": 0.0129
+      },
+      {
+        "value": "Leo",
+        "count": 1,
+        "percent": 0.0129
+      },
+      {
+        "value": "Libra",
+        "count": 1,
+        "percent": 0.0129
+      },
+      {
+        "value": "Pisces",
+        "count": 1,
+        "percent": 0.0129
+      },
+      {
+        "value": "Sagittarius",
+        "count": 1,
+        "percent": 0.0129
+      },
+      {
+        "value": "Scorpio",
+        "count": 1,
+        "percent": 0.0129
+      },
+      {
+        "value": "Taurus",
+        "count": 1,
+        "percent": 0.0129
+      },
+      {
+        "value": "Virgo",
+        "count": 1,
+        "percent": 0.0129
+      },
+      {
+        "value": "None",
+        "count": 7765,
+        "percent": 99.8457
+      }
+    ],
+    "Celestial Body": [
+      {
+        "value": "Sun",
+        "count": 612,
+        "percent": 7.8694
+      },
+      {
+        "value": "Pluto",
+        "count": 630,
+        "percent": 8.1008
+      },
+      {
+        "value": "Venus",
+        "count": 630,
+        "percent": 8.1008
+      },
+      {
+        "value": "Earth",
+        "count": 634,
+        "percent": 8.1522
+      },
+      {
+        "value": "Moon",
+        "count": 636,
+        "percent": 8.178
+      },
+      {
+        "value": "None",
+        "count": 644,
+        "percent": 8.2808
+      },
+      {
+        "value": "Neptune",
+        "count": 647,
+        "percent": 8.3194
+      },
+      {
+        "value": "Jupiter",
+        "count": 654,
+        "percent": 8.4094
+      },
+      {
+        "value": "Mars",
+        "count": 661,
+        "percent": 8.4994
+      },
+      {
+        "value": "Mercury",
+        "count": 664,
+        "percent": 8.538
+      },
+      {
+        "value": "Uranus",
+        "count": 680,
+        "percent": 8.7437
+      },
+      {
+        "value": "Saturn",
+        "count": 685,
+        "percent": 8.808
+      }
+    ],
+    "Badge or Message": [
+      {
+        "value": "ONCHAIN",
+        "count": 407,
+        "percent": 5.2334
+      },
+      {
+        "value": "Keep your spark alive.",
+        "count": 431,
+        "percent": 5.542
+      },
+      {
+        "value": "Breathe. Then begin.",
+        "count": 446,
+        "percent": 5.7349
+      },
+      {
+        "value": "Rooted and rising.",
+        "count": 449,
+        "percent": 5.7734
+      },
+      {
+        "value": "Stay curious.",
+        "count": 455,
+        "percent": 5.8506
+      },
+      {
+        "value": "WAGMI",
+        "count": 455,
+        "percent": 5.8506
+      },
+      {
+        "value": "Small steps. Still building.",
+        "count": 456,
+        "percent": 5.8634
+      },
+      {
+        "value": "TOUCH GRASS",
+        "count": 457,
+        "percent": 5.8763
+      },
+      {
+        "value": "You belong here.",
+        "count": 460,
+        "percent": 5.9149
+      },
+      {
+        "value": "GN",
+        "count": 462,
+        "percent": 5.9406
+      },
+      {
+        "value": "BUIDL",
+        "count": 464,
+        "percent": 5.9663
+      },
+      {
+        "value": "HODL",
+        "count": 466,
+        "percent": 5.992
+      },
+      {
+        "value": "GM",
+        "count": 467,
+        "percent": 6.0049
+      },
+      {
+        "value": "Keep growing.",
+        "count": 469,
+        "percent": 6.0306
+      },
+      {
+        "value": "None",
+        "count": 474,
+        "percent": 6.0949
+      },
+      {
+        "value": "PROOF OF GROWTH",
+        "count": 477,
+        "percent": 6.1335
+      },
+      {
+        "value": "Find your flow.",
+        "count": 482,
+        "percent": 6.1978
+      }
+    ],
+    "Family": [
+      {
+        "value": "Flowing",
+        "count": 1944,
+        "percent": 24.9968
+      },
+      {
+        "value": "Rooted",
+        "count": 1944,
+        "percent": 24.9968
+      },
+      {
+        "value": "Soaring",
+        "count": 1944,
+        "percent": 24.9968
+      },
+      {
+        "value": "Radiant",
+        "count": 1945,
+        "percent": 25.0096
+      }
+    ],
+    "Element": [
+      {
+        "value": "Air",
+        "count": 1944,
+        "percent": 24.9968
+      },
+      {
+        "value": "Earth",
+        "count": 1944,
+        "percent": 24.9968
+      },
+      {
+        "value": "Water",
+        "count": 1944,
+        "percent": 24.9968
+      },
+      {
+        "value": "Fire",
+        "count": 1945,
+        "percent": 25.0096
+      }
+    ],
+    "Edition": [
+      {
+        "value": "Zodiac Genesis",
+        "count": 12,
+        "percent": 0.1543
+      },
+      {
+        "value": "Core",
+        "count": 7765,
+        "percent": 99.8457
+      }
+    ],
+    "Ears": [
+      {
+        "value": "Royal Gold",
+        "count": 7777,
+        "percent": 100.0
+      }
+    ],
+    "Initial Allocation": [
+      {
+        "value": "Public Mint",
+        "count": 7577,
+        "percent": 97.4283
+      },
+      {
+        "value": "House Reserve",
+        "count": 200,
+        "percent": 2.5717
+      }
+    ]
+  },
+  "celestial_twelve": [
+    {
+      "token_id": 177,
+      "name": "Joshi Astral #0177",
+      "sign": "Aquarius",
+      "title": "The New Possibility"
+    },
+    {
+      "token_id": 832,
+      "name": "Joshi Astral #0832",
+      "sign": "Gemini",
+      "title": "The Twin Conversation"
+    },
+    {
+      "token_id": 836,
+      "name": "Joshi Astral #0836",
+      "sign": "Virgo",
+      "title": "The Patient Pattern"
+    },
+    {
+      "token_id": 1250,
+      "name": "Joshi Astral #1250",
+      "sign": "Cancer",
+      "title": "The Gentle Harbor"
+    },
+    {
+      "token_id": 2340,
+      "name": "Joshi Astral #2340",
+      "sign": "Sagittarius",
+      "title": "The Open Horizon"
+    },
+    {
+      "token_id": 3776,
+      "name": "Joshi Astral #3776",
+      "sign": "Taurus",
+      "title": "The Steady Garden"
+    },
+    {
+      "token_id": 4776,
+      "name": "Joshi Astral #4776",
+      "sign": "Libra",
+      "title": "The Quiet Balance"
+    },
+    {
+      "token_id": 6505,
+      "name": "Joshi Astral #6505",
+      "sign": "Scorpio",
+      "title": "The Deep Current"
+    },
+    {
+      "token_id": 6677,
+      "name": "Joshi Astral #6677",
+      "sign": "Aries",
+      "title": "The First Spark"
+    },
+    {
+      "token_id": 7123,
+      "name": "Joshi Astral #7123",
+      "sign": "Leo",
+      "title": "The Warm Sun"
+    },
+    {
+      "token_id": 7446,
+      "name": "Joshi Astral #7446",
+      "sign": "Pisces",
+      "title": "The Dreaming Tide"
+    },
+    {
+      "token_id": 7655,
+      "name": "Joshi Astral #7655",
+      "sign": "Capricorn",
+      "title": "The Steady Ascent"
+    }
+  ],
+  "reserve": {
+    "collection": "Joshi Astrals",
+    "reserve_count": 200,
+    "public_count": 7577,
+    "total_supply": 7777,
+    "reserve_wallet": "0x6736d2eA9807297F0e56967361B9410854B86a5f",
+    "selection_rule": "Last 200 non-zodiac IDs in the fixed manifest; IDs 7577\u20137777 excluding Capricorn #7655.",
+    "token_ids": [
+      7577,
+      7578,
+      7579,
+      7580,
+      7581,
+      7582,
+      7583,
+      7584,
+      7585,
+      7586,
+      7587,
+      7588,
+      7589,
+      7590,
+      7591,
+      7592,
+      7593,
+      7594,
+      7595,
+      7596,
+      7597,
+      7598,
+      7599,
+      7600,
+      7601,
+      7602,
+      7603,
+      7604,
+      7605,
+      7606,
+      7607,
+      7608,
+      7609,
+      7610,
+      7611,
+      7612,
+      7613,
+      7614,
+      7615,
+      7616,
+      7617,
+      7618,
+      7619,
+      7620,
+      7621,
+      7622,
+      7623,
+      7624,
+      7625,
+      7626,
+      7627,
+      7628,
+      7629,
+      7630,
+      7631,
+      7632,
+      7633,
+      7634,
+      7635,
+      7636,
+      7637,
+      7638,
+      7639,
+      7640,
+      7641,
+      7642,
+      7643,
+      7644,
+      7645,
+      7646,
+      7647,
+      7648,
+      7649,
+      7650,
+      7651,
+      7652,
+      7653,
+      7654,
+      7656,
+      7657,
+      7658,
+      7659,
+      7660,
+      7661,
+      7662,
+      7663,
+      7664,
+      7665,
+      7666,
+      7667,
+      7668,
+      7669,
+      7670,
+      7671,
+      7672,
+      7673,
+      7674,
+      7675,
+      7676,
+      7677,
+      7678,
+      7679,
+      7680,
+      7681,
+      7682,
+      7683,
+      7684,
+      7685,
+      7686,
+      7687,
+      7688,
+      7689,
+      7690,
+      7691,
+      7692,
+      7693,
+      7694,
+      7695,
+      7696,
+      7697,
+      7698,
+      7699,
+      7700,
+      7701,
+      7702,
+      7703,
+      7704,
+      7705,
+      7706,
+      7707,
+      7708,
+      7709,
+      7710,
+      7711,
+      7712,
+      7713,
+      7714,
+      7715,
+      7716,
+      7717,
+      7718,
+      7719,
+      7720,
+      7721,
+      7722,
+      7723,
+      7724,
+      7725,
+      7726,
+      7727,
+      7728,
+      7729,
+      7730,
+      7731,
+      7732,
+      7733,
+      7734,
+      7735,
+      7736,
+      7737,
+      7738,
+      7739,
+      7740,
+      7741,
+      7742,
+      7743,
+      7744,
+      7745,
+      7746,
+      7747,
+      7748,
+      7749,
+      7750,
+      7751,
+      7752,
+      7753,
+      7754,
+      7755,
+      7756,
+      7757,
+      7758,
+      7759,
+      7760,
+      7761,
+      7762,
+      7763,
+      7764,
+      7765,
+      7766,
+      7767,
+      7768,
+      7769,
+      7770,
+      7771,
+      7772,
+      7773,
+      7774,
+      7775,
+      7776,
+      7777
+    ],
+    "allocations": [
+      {
+        "purpose": "House collection",
+        "count": 100,
+        "token_ids": [
+          7577,
+          7578,
+          7579,
+          7580,
+          7581,
+          7582,
+          7583,
+          7584,
+          7585,
+          7586,
+          7587,
+          7588,
+          7589,
+          7590,
+          7591,
+          7592,
+          7593,
+          7594,
+          7595,
+          7596,
+          7597,
+          7598,
+          7599,
+          7600,
+          7601,
+          7602,
+          7603,
+          7604,
+          7605,
+          7606,
+          7607,
+          7608,
+          7609,
+          7610,
+          7611,
+          7612,
+          7613,
+          7614,
+          7615,
+          7616,
+          7617,
+          7618,
+          7619,
+          7620,
+          7621,
+          7622,
+          7623,
+          7624,
+          7625,
+          7626,
+          7627,
+          7628,
+          7629,
+          7630,
+          7631,
+          7632,
+          7633,
+          7634,
+          7635,
+          7636,
+          7637,
+          7638,
+          7639,
+          7640,
+          7641,
+          7642,
+          7643,
+          7644,
+          7645,
+          7646,
+          7647,
+          7648,
+          7649,
+          7650,
+          7651,
+          7652,
+          7653,
+          7654,
+          7656,
+          7657,
+          7658,
+          7659,
+          7660,
+          7661,
+          7662,
+          7663,
+          7664,
+          7665,
+          7666,
+          7667,
+          7668,
+          7669,
+          7670,
+          7671,
+          7672,
+          7673,
+          7674,
+          7675,
+          7676,
+          7677
+        ]
+      },
+      {
+        "purpose": "Community giveaways",
+        "count": 50,
+        "token_ids": [
+          7678,
+          7679,
+          7680,
+          7681,
+          7682,
+          7683,
+          7684,
+          7685,
+          7686,
+          7687,
+          7688,
+          7689,
+          7690,
+          7691,
+          7692,
+          7693,
+          7694,
+          7695,
+          7696,
+          7697,
+          7698,
+          7699,
+          7700,
+          7701,
+          7702,
+          7703,
+          7704,
+          7705,
+          7706,
+          7707,
+          7708,
+          7709,
+          7710,
+          7711,
+          7712,
+          7713,
+          7714,
+          7715,
+          7716,
+          7717,
+          7718,
+          7719,
+          7720,
+          7721,
+          7722,
+          7723,
+          7724,
+          7725,
+          7726,
+          7727
+        ]
+      },
+      {
+        "purpose": "Collaborations and exhibitions",
+        "count": 50,
+        "token_ids": [
+          7728,
+          7729,
+          7730,
+          7731,
+          7732,
+          7733,
+          7734,
+          7735,
+          7736,
+          7737,
+          7738,
+          7739,
+          7740,
+          7741,
+          7742,
+          7743,
+          7744,
+          7745,
+          7746,
+          7747,
+          7748,
+          7749,
+          7750,
+          7751,
+          7752,
+          7753,
+          7754,
+          7755,
+          7756,
+          7757,
+          7758,
+          7759,
+          7760,
+          7761,
+          7762,
+          7763,
+          7764,
+          7765,
+          7766,
+          7767,
+          7768,
+          7769,
+          7770,
+          7771,
+          7772,
+          7773,
+          7774,
+          7775,
+          7776,
+          7777
+        ]
+      }
+    ],
+    "all_twelve_zodiac_public": true,
+    "allocation_purposes": "Intent, not an onchain vesting or transfer lock.",
+    "mint_status": "Not minted; no official deployment yet."
+  }
+}

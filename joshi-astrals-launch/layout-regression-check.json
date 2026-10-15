@@ -1,0 +1,33 @@
+{
+  "sampled_ids": [
+    1,
+    2,
+    5,
+    6,
+    44,
+    177,
+    832,
+    836,
+    1250,
+    2340,
+    3776,
+    4776,
+    6505,
+    6677,
+    7123,
+    7446,
+    7655,
+    7777
+  ],
+  "current_layout_matches_final_images": true,
+  "frame_last": true,
+  "family_neck_clearance_regression_id": 44,
+  "body_attachment_coverage": 4,
+  "zodiac_coverage": 12,
+  "fresh_recomposition_checked": true,
+  "failed_ids": [],
+  "zodiac_offset": [
+    0,
+    24
+  ]
+}

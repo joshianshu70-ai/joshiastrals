@@ -1,0 +1,31 @@
+{
+  "changed_editions": [
+    177,
+    832,
+    836,
+    1250,
+    2340,
+    3776,
+    4776,
+    6505,
+    6677,
+    7123,
+    7446,
+    7655
+  ],
+  "previous_offset": [
+    0,
+    64
+  ],
+  "new_offset": [
+    0,
+    24
+  ],
+  "original_spill_editions": [
+    1250,
+    6505,
+    7446
+  ],
+  "unique_final_pixel_hashes": 7777,
+  "backup_directory": "/Users/anshujoshi/Documents/Codex/2026-10-12/ca/outputs/joshi-astrals-launch/zodiac-before-placement-fix"
+}

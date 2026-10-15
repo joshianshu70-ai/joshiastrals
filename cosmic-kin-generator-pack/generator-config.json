@@ -1,0 +1,98 @@
+{
+  "name": "Joshi Astrals",
+  "canvas": [
+    1536,
+    1536
+  ],
+  "edition_size": 7777,
+  "seed": 7777,
+  "layer_order": [
+    "00_Environment",
+    "01_Mathematical_Pattern",
+    "03_Body_Material",
+    "11_Ears",
+    "04_Element_Overlay",
+    "05_Eyes",
+    "06_Mouth",
+    "07_Family_Emblem",
+    "08_Zodiac",
+    "09_Celestial_Body",
+    "10_Badge_or_Message",
+    "02_Frame"
+  ],
+  "manifest": "manifest-7777.json",
+  "rules": {
+    "zodiac": "Exactly one per sign; None for 7765 Core NFTs. Fixed manifest assignment, not probability.",
+    "family_emblem": "Matching family or None; must be None when Zodiac is present.",
+    "element_overlay": "Matching body element or None.",
+    "environment": "Rich environment matches body element; plain/gradient/None unrestricted.",
+    "frame": "Frame is composited last, above every other layer.",
+    "badge_or_message": "One badge OR positive message OR None from the same folder.",
+    "mouth": "Neutral Bar required on all 7,777 official NFTs; None is available for custom drafts only.",
+    "crowns": "Excluded: fit rejected and work paused.",
+    "faces": "Separate eyes/mouth only; paired layers excluded to avoid double faces.",
+    "zodiac_placement": "Apply [0,24] pixel render offset on the 1536px canvas; symbols remain inside every torso and clear the collar.",
+    "ears": "Smooth gold capsules required. Immediately after Body Material. Left (350,600), right (1086,600), each 100x310, attached to head sides.",
+    "family_placement": "Default family offset is [0,64]; Flowing uses [0,32] to keep waves inside the shorter Sea Glass torso."
+  },
+  "import_settings": {
+    "scale": 1,
+    "origin": [
+      0,
+      0
+    ],
+    "trim": false,
+    "auto_center": false
+  },
+  "render_offsets": {
+    "08_Zodiac": [
+      0,
+      24
+    ],
+    "07_Family_Emblem": [
+      0,
+      64
+    ]
+  },
+  "ear_attachment_offsets": {
+    "Lavender Stone": [
+      0,
+      0
+    ],
+    "Sea Glass": [
+      40,
+      -40
+    ],
+    "Iridescent Pearl": [
+      15,
+      -15
+    ],
+    "Obsidian": [
+      30,
+      -30
+    ]
+  },
+  "creator": "The House of Joshi",
+  "tagline": "Rooted in Earth. Written in the stars.",
+  "trait_render_transforms": {
+    "layers/08_Zodiac/Virgo.png": {
+      "scale": 0.82,
+      "anchor": [
+        768,
+        1307
+      ],
+      "source_bounds": [
+        686,
+        1233,
+        851,
+        1381
+      ]
+    }
+  },
+  "asset_render_offsets": {
+    "layers/07_Family_Emblem/Flowing.png": [
+      0,
+      32
+    ]
+  }
+}

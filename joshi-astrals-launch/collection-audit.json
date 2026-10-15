@@ -1,0 +1,32 @@
+{
+  "collection": "Joshi Astrals",
+  "editions": 7777,
+  "assets": 105,
+  "stories": 7777,
+  "metadata_drafts": 7777,
+  "zodiac_counts": {
+    "None": 7765,
+    "Aquarius": 1,
+    "Gemini": 1,
+    "Virgo": 1,
+    "Cancer": 1,
+    "Sagittarius": 1,
+    "Taurus": 1,
+    "Libra": 1,
+    "Scorpio": 1,
+    "Aries": 1,
+    "Leo": 1,
+    "Pisces": 1,
+    "Capricorn": 1
+  },
+  "qa_unique_visible_renders_256px": 7777,
+  "final_images_on_disk": 7777,
+  "final_render_status": "verified",
+  "final_files_verified": 7777,
+  "identity_and_layer_checks": "passed",
+  "errors": [],
+  "human_art_approval": "pending",
+  "ipfs_upload": "pending",
+  "official_arc_deployment": "pending",
+  "rights": "draft; creator approval pending"
+}

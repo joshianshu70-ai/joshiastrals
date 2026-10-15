@@ -1,0 +1,71 @@
+{
+  "name": "Joshi Astral #3776",
+  "description": "Joshi Astral #3776 \u2014 The Steady Garden. Presented by The House of Joshi. A keeper of quiet beginnings, finding possibility in the places others pass by. Its lavender stone form belongs to the earth family. It wears the sleepy expression and carries the celestial motif of Venus. Patience is a kind of strength. Taurus \u2014 The Steady Garden \u2014 is one of The Celestial Twelve, with one edition assigned to this sign. The Lissajous overlay is generated from mathematical rules, with its exact parameters recorded in the edition manifest.",
+  "image": "../images/3776.png",
+  "attributes": [
+    {
+      "trait_type": "Environment",
+      "value": "Plain Charcoal"
+    },
+    {
+      "trait_type": "Mathematical Pattern",
+      "value": "Lissajous"
+    },
+    {
+      "trait_type": "Frame",
+      "value": "Soft Lavender"
+    },
+    {
+      "trait_type": "Body Material",
+      "value": "Lavender Stone"
+    },
+    {
+      "trait_type": "Element Overlay",
+      "value": "Earth"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Sleepy"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Neutral Bar"
+    },
+    {
+      "trait_type": "Family Emblem",
+      "value": "None"
+    },
+    {
+      "trait_type": "Zodiac",
+      "value": "Taurus"
+    },
+    {
+      "trait_type": "Celestial Body",
+      "value": "Venus"
+    },
+    {
+      "trait_type": "Badge or Message",
+      "value": "None"
+    },
+    {
+      "trait_type": "Family",
+      "value": "Rooted"
+    },
+    {
+      "trait_type": "Element",
+      "value": "Earth"
+    },
+    {
+      "trait_type": "Edition",
+      "value": "Zodiac Genesis"
+    },
+    {
+      "trait_type": "Ears",
+      "value": "Royal Gold"
+    },
+    {
+      "trait_type": "Initial Allocation",
+      "value": "Public Mint"
+    }
+  ]
+}

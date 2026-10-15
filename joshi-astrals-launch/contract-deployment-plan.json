@@ -1,0 +1,59 @@
+{
+  "contract": "JoshiAstrals",
+  "deployed": false,
+  "owner_wallet": "0x6736d2eA9807297F0e56967361B9410854B86a5f",
+  "treasury_wallet": "0x6736d2eA9807297F0e56967361B9410854B86a5f",
+  "constructor_arguments": {
+    "baseURI": "Pending pinned metadata directory URI",
+    "payout": "0x6736d2eA9807297F0e56967361B9410854B86a5f",
+    "coordinator": "Official network-specific D20DAO coordinator, verified against randomness-settings.json"
+  },
+  "royalty_bps_fixed": 700,
+  "phases": [
+    {
+      "phase": 1,
+      "name": "First Light",
+      "quantity": 777,
+      "total_cap": 777,
+      "price_usdc": "25"
+    },
+    {
+      "phase": 2,
+      "name": "Rising Orbit",
+      "quantity": 2000,
+      "total_cap": 2777,
+      "price_usdc": "35"
+    },
+    {
+      "phase": 3,
+      "name": "Full Constellation",
+      "quantity": 4800,
+      "total_cap": 7577,
+      "price_usdc": "45"
+    }
+  ],
+  "compiler": {
+    "version": "0.8.28",
+    "optimizer_runs": 200,
+    "evm_version": "shanghai",
+    "openzeppelin": "5.0.2"
+  },
+  "source_sha256": "544e577b6c3054532fec49f7c66f97fdadb9b0b7cbac628aa19cdb171f1f0fc4",
+  "artifact_sha256": "4efe2b2cae8f96825a2ee78f3463a8043958573df1e8f9c9b357a0f2e6ca0b18",
+  "phase_activation": "Owner activates next phase only after current seats booked and pending assignments resolved. Unused Phase 1 protected seats must be released to sell the remaining supply.",
+  "public_supply": 7577,
+  "reserve_supply": 200,
+  "reserve_wallet": "0x6736d2eA9807297F0e56967361B9410854B86a5f",
+  "reserve_plan": "reserve-plan.json",
+  "free_mint_wallet": "0x6736d2eA9807297F0e56967361B9410854B86a5f",
+  "randomness_sdk": "@d20dao/vrf-sdk 0.6.2",
+  "whitelist": {
+    "model": "protected seats; public minting always open from general availability",
+    "phase": 1,
+    "max_wallets": 50,
+    "protected_seats_per_wallet": 2,
+    "initial_protected_seats": 100,
+    "owner_can_release_unused": true,
+    "wallets": []
+  }
+}

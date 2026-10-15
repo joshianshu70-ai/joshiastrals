@@ -1,0 +1,71 @@
+{
+  "name": "Joshi Astral #5158",
+  "description": "Joshi Astral #5158 \u2014 The Ember Maker. Presented by The House of Joshi. A maker of small sparks, turning steady effort into something worth sharing. Its obsidian form belongs to the fire family. It wears the wink expression and carries the celestial motif of Jupiter. Keep your spark. Build with care. The Contours overlay is generated from mathematical rules, with its exact parameters recorded in the edition manifest.",
+  "image": "../images/5158.png",
+  "attributes": [
+    {
+      "trait_type": "Environment",
+      "value": "Ocean Haze"
+    },
+    {
+      "trait_type": "Mathematical Pattern",
+      "value": "Contours"
+    },
+    {
+      "trait_type": "Frame",
+      "value": "Soft Lavender"
+    },
+    {
+      "trait_type": "Body Material",
+      "value": "Obsidian"
+    },
+    {
+      "trait_type": "Element Overlay",
+      "value": "Fire"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Wink"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Neutral Bar"
+    },
+    {
+      "trait_type": "Family Emblem",
+      "value": "Radiant"
+    },
+    {
+      "trait_type": "Zodiac",
+      "value": "None"
+    },
+    {
+      "trait_type": "Celestial Body",
+      "value": "Jupiter"
+    },
+    {
+      "trait_type": "Badge or Message",
+      "value": "GN"
+    },
+    {
+      "trait_type": "Family",
+      "value": "Radiant"
+    },
+    {
+      "trait_type": "Element",
+      "value": "Fire"
+    },
+    {
+      "trait_type": "Edition",
+      "value": "Core"
+    },
+    {
+      "trait_type": "Ears",
+      "value": "Royal Gold"
+    },
+    {
+      "trait_type": "Initial Allocation",
+      "value": "Public Mint"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+export function renderHolderArt({art,edition,format,palette,rank,nickname=''}){
+ const palettes={lavender:['#ebe3f4','#cec0e1','#392a4c','#967441'],cream:['#fbf2df','#e4d2ae','#423323','#97713d'],night:['#151421','#37304c','#f6f0ff','#dcc390']};
+ const [bg,shade,ink,gold]=palettes[palette]||palettes.lavender,[w,h]=({avatar:[1024,1024],wallpaper:[1080,1920],banner:[1800,600]})[format]||[1024,1024];
+ const canvas=document.createElement('canvas');canvas.width=w;canvas.height=h;const c=canvas.getContext('2d'),gradient=c.createLinearGradient(0,0,w,h);gradient.addColorStop(0,bg);gradient.addColorStop(1,shade);c.fillStyle=gradient;c.fillRect(0,0,w,h);
+ c.save();c.strokeStyle=gold;c.lineWidth=1.2;c.globalAlpha=.22;for(let i=0;i<7;i++){c.beginPath();c.ellipse(w*.5,h*.48,w*(.2+i*.09),h*.29,Math.PI*(i/9),0,Math.PI*2);c.stroke();}for(let i=0;i<70;i++){const x=((i*137.508)%1000)/1000*w,y=((i*223.607)%1000)/1000*h;c.fillStyle=gold;c.beginPath();c.arc(x,y,i%7===0?2.6:1.2,0,Math.PI*2);c.fill();}c.restore();
+ function text(value,x,y,size,color,max=w*.85){c.fillStyle=color;c.textAlign=format==='banner'?'left':'center';c.font=`${size}px Georgia,serif`;while(c.measureText(value).width>max&&size>12)c.font=`${--size}px Georgia,serif`;c.fillText(value,x,y);}
+ const title=nickname.trim().slice(0,24)||edition.identity.title;
+ if(format==='avatar'){c.save();c.shadowColor='#24132b55';c.shadowBlur=48;c.drawImage(art,42,42,940,940);c.restore();c.strokeStyle=gold;c.lineWidth=3;c.strokeRect(24,24,w-48,h-48);}
+ else if(format==='wallpaper'){text('THE HOUSE OF JOSHI',w/2,138,24,gold);text('J O S H I   A S T R A L S',w/2,215,25,ink);text(title,w/2,320,57,ink);c.save();c.shadowColor='#20122c44';c.shadowBlur=65;c.drawImage(art,54,440,972,972);c.restore();text(edition.identity.affirmation,w/2,1550,35,ink);c.strokeStyle=gold;c.beginPath();c.moveTo(410,1620);c.lineTo(670,1620);c.stroke();text(edition.name,w/2,1700,27,gold);text(`${rank.tier.toUpperCase()}  ·  RANK ${rank.rank.toLocaleString()} / 7,777`,w/2,1760,21,ink);text('Rooted in Earth. Written in the stars.',w/2,1840,22,ink);}
+ else{c.save();c.shadowColor='#20122c44';c.shadowBlur=40;c.drawImage(art,36,30,540,540);c.restore();const x=660;text('THE HOUSE OF JOSHI  /  JOSHI ASTRALS',x,110,23,gold,1060);text(title,x,235,64,ink,1060);text(edition.identity.affirmation,x,330,32,ink,1060);text(edition.name,x,440,29,gold,1060);text(`${rank.tier.toUpperCase()} · RANK ${rank.rank.toLocaleString()} / 7,777`,x,505,22,ink,1060);}
+ return canvas;
+}

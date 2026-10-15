@@ -1,0 +1,8 @@
+import fs from 'node:fs';
+const manifest=JSON.parse(fs.readFileSync('../cosmic-kin-generator-pack/manifest-7777.json'));
+const categories=['Environment','Mathematical Pattern','Body Material','Ears','Element Overlay','Eyes','Mouth','Family Emblem','Zodiac','Celestial Body','Badge or Message','Frame'];
+const counts=new Map();for(const e of manifest)for(const a of e.attributes)if(categories.includes(a.trait_type)){const k=JSON.stringify([a.trait_type,a.value]);counts.set(k,(counts.get(k)||0)+1);}
+const rows=manifest.map(e=>({id:e.token_id,score:e.attributes.filter(a=>categories.includes(a.trait_type)).reduce((sum,a)=>sum+Math.log2(manifest.length/counts.get(JSON.stringify([a.trait_type,a.value]))),0)})).sort((a,b)=>b.score-a.score||a.id-b.id);
+let rank=0,previous;for(const [i,r] of rows.entries()){if(previous===undefined||Math.abs(r.score-previous)>1e-10)rank=i+1;previous=r.score;r.rank=rank;r.percentile=+(100*(manifest.length-rank+1)/manifest.length).toFixed(2);r.tier=rank<=Math.ceil(manifest.length*.01)?'Legendary':rank<=Math.ceil(manifest.length*.05)?'Epic':rank<=Math.ceil(manifest.length*.2)?'Rare':rank<=Math.ceil(manifest.length*.5)?'Uncommon':'Common';r.score=+r.score.toFixed(6);}
+fs.writeFileSync('public/edition-rarity.json',JSON.stringify({method:'Sum of log2(7777 / trait count) across 12 artwork categories, including None. Derived Family, Element, Edition and allocation are excluded. Higher score ranks first; equal scores share a rank. Correlated traits are not independent; this is an artistic frequency ranking, not value or OpenSea ranking.',categories,editions:rows.sort((a,b)=>a.id-b.id)}));
+console.log(`Ranked ${rows.length} editions across ${categories.length} categories.`);

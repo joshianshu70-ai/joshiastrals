@@ -1,0 +1,17 @@
+import assert from 'node:assert/strict';
+import {Wallet} from 'ethers';
+import {holderAccess} from './holder-access.mjs';
+const owner=Wallet.createRandom(),other=Wallet.createRandom(),contract=Wallet.createRandom().address;
+let currentOwner=owner.address,clock=1000,contractAddress=contract;
+const gate=holderAccess({deployment:()=>({testnet:contractAddress}),origin:'https://joshiastrals.thehouseofjoshi.com',now:()=>clock,ownerOf:async({id})=>{if(id===2)throw Error('Unminted');return currentOwner;}});
+const request=wallet=>gate.challenge({wallet:wallet.address,id:1,network:'testnet'});
+let c=request(owner),signature=await owner.signMessage(c.message);assert.equal((await gate.authorize({...c,signature})).id,1);await assert.rejects(gate.authorize({...c,signature}),/expired/);
+c=request(owner);await assert.rejects(gate.authorize({...c,signature:await other.signMessage(c.message)}),/signature/);
+c=request(other);await assert.rejects(gate.authorize({...c,signature:await other.signMessage(c.message)}),/does not currently own/);
+c=request(owner);currentOwner=other.address;await assert.rejects(gate.authorize({...c,signature:await owner.signMessage(c.message)}),/does not currently own/);currentOwner=owner.address;
+c=request(owner);clock+=120001;await assert.rejects(gate.authorize({...c,signature:await owner.signMessage(c.message)}),/expired/);
+c=request(owner);contractAddress=other.address;await assert.rejects(gate.authorize({...c,signature:await owner.signMessage(c.message)}),/contract changed/);contractAddress=contract;
+c=gate.challenge({wallet:owner.address,id:2,network:'testnet'});await assert.rejects(gate.authorize({...c,signature:await owner.signMessage(c.message)}),/Unminted/);
+assert.throws(()=>gate.challenge({wallet:owner.address,id:1,network:'mainnet'}),/No official/);
+assert.throws(()=>gate.challenge({wallet:owner.address,id:7778,network:'testnet'}),/Invalid/);
+console.log('Holder access: owner accepted; non-owner, wrong signature, transfer, replay, expiry, unminted token, changed/unconfigured contract and invalid edition rejected.');

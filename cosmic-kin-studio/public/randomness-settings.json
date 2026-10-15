@@ -1,0 +1,49 @@
+{
+  "sdk": "@d20dao/vrf-sdk@0.6.2",
+  "testnet": {
+    "name": "arc-testnet",
+    "displayName": "Arc Testnet",
+    "kind": "epoch",
+    "chainId": "5042002",
+    "testnet": true,
+    "rpcUrl": "https://rpc.testnet.arc.io",
+    "explorerUrl": "https://testnet.arcscan.app",
+    "nativeCurrency": {
+      "name": "USDC",
+      "symbol": "USDC",
+      "decimals": 18
+    },
+    "coordinator": "0xd20DA0FF9087d053f0291524Eac12abA1ADBd945",
+    "registry": "0xD20Da00B47A7cD2211dC4683E306913b05903756",
+    "coordinatorImplementation": "0xD20da000125643B4db5A6A36A3b853c17745DF44",
+    "coordinatorImplementationCodeHash": "0x3dda400d8360d7e03b8dacd8ba1ffad7ad672e07628bee7de4542d754dd5348c",
+    "registryImplementation": "0xD20dA0853a6f894c0cdc9018fD4F8F67Eac15704",
+    "registryImplementationCodeHash": "0xb5e125e3b0f63ffe516d781266c1cbacebe3d131148b69f8736d3ca78bcddb12",
+    "beaconVerifier": "0xd20dA01Aa16AeD6b77Cd8DDb869151802599100a",
+    "owner": "0xcA35c280c5DF22958Adb74DD03911C8A0ec3eA03",
+    "protocolConfigurationHash": "0xd88dcce845ab5eb09e95f2512c76c4b1b34306a697c31ac3d1d45deeb499daa4"
+  },
+  "mainnet": {
+    "name": "arc-mainnet",
+    "displayName": "Arc Mainnet",
+    "kind": "epoch",
+    "chainId": "5042",
+    "testnet": false,
+    "rpcUrl": "https://rpc.mainnet.arc.io",
+    "explorerUrl": "https://explorer.arc.io",
+    "nativeCurrency": {
+      "name": "USDC",
+      "symbol": "USDC",
+      "decimals": 18
+    },
+    "coordinator": "0xd20da057469C45928912d983F45790C41e290571",
+    "registry": "0xd20Da048C1A68fa3Bc0B5f5Bc454D1530062C82D",
+    "coordinatorImplementation": "0xD20da000125643B4db5A6A36A3b853c17745DF44",
+    "coordinatorImplementationCodeHash": "0x3dda400d8360d7e03b8dacd8ba1ffad7ad672e07628bee7de4542d754dd5348c",
+    "registryImplementation": "0xD20dA0853a6f894c0cdc9018fD4F8F67Eac15704",
+    "registryImplementationCodeHash": "0xb5e125e3b0f63ffe516d781266c1cbacebe3d131148b69f8736d3ca78bcddb12",
+    "beaconVerifier": "0xd20dA01Aa16AeD6b77Cd8DDb869151802599100a",
+    "owner": "0xB57f656149749eff6b496dF090336491f977E744",
+    "protocolConfigurationHash": "0xa35effe9a9bd1d7c4463215946c65045191be602d92bcb221e8aecf0c8efb9cf"
+  }
+}

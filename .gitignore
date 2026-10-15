@@ -1,0 +1,21 @@
+.DS_Store
+**/node_modules/
+**/.env
+**/.env.*
+!**/.env.example
+**/admin-backups/
+**/images/
+**/images-webp/
+**/images-webp-staging/
+**/images-webp-previous/
+**/metadata/
+**/metadata-webp-draft/
+**/previews/
+**/optimization-staging-report.json
+**/__pycache__/
+**/*.pyc
+**/*.log
+**/keystore/
+
+# Also ignore temporary dependency symlinks used for local validation.
+**/node_modules

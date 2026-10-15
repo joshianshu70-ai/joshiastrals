@@ -1,0 +1,71 @@
+{
+  "name": "Joshi Astral #2180",
+  "description": "Joshi Astral #2180 \u2014 The Tide Weaver. Presented by The House of Joshi. A companion of changing tides, making room for renewal without losing its own rhythm. Its sea glass form belongs to the water family. It wears the hopeful expression and carries the celestial motif of Venus. Find your flow. Keep your heart. The Branching overlay is generated from mathematical rules, with its exact parameters recorded in the edition manifest.",
+  "image": "../images/2180.png",
+  "attributes": [
+    {
+      "trait_type": "Environment",
+      "value": "Lavender Dawn"
+    },
+    {
+      "trait_type": "Mathematical Pattern",
+      "value": "Branching"
+    },
+    {
+      "trait_type": "Frame",
+      "value": "Amethyst Royal"
+    },
+    {
+      "trait_type": "Body Material",
+      "value": "Sea Glass"
+    },
+    {
+      "trait_type": "Element Overlay",
+      "value": "Water"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Hopeful"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Neutral Bar"
+    },
+    {
+      "trait_type": "Family Emblem",
+      "value": "Flowing"
+    },
+    {
+      "trait_type": "Zodiac",
+      "value": "None"
+    },
+    {
+      "trait_type": "Celestial Body",
+      "value": "Venus"
+    },
+    {
+      "trait_type": "Badge or Message",
+      "value": "Find your flow."
+    },
+    {
+      "trait_type": "Family",
+      "value": "Flowing"
+    },
+    {
+      "trait_type": "Element",
+      "value": "Water"
+    },
+    {
+      "trait_type": "Edition",
+      "value": "Core"
+    },
+    {
+      "trait_type": "Ears",
+      "value": "Royal Gold"
+    },
+    {
+      "trait_type": "Initial Allocation",
+      "value": "Public Mint"
+    }
+  ]
+}

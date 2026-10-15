@@ -1,0 +1,71 @@
+{
+  "name": "Joshi Astral #3056",
+  "description": "Joshi Astral #3056 \u2014 The Sky Seeker. Presented by The House of Joshi. A seeker of open skies, following thoughtful questions toward unfamiliar horizons. Its iridescent pearl form belongs to the air family. It wears the sleepy expression and carries the celestial motif of Neptune. Stay curious. There is more to discover. The Phyllotaxis overlay is generated from mathematical rules, with its exact parameters recorded in the edition manifest.",
+  "image": "../images/3056.png",
+  "attributes": [
+    {
+      "trait_type": "Environment",
+      "value": "None"
+    },
+    {
+      "trait_type": "Mathematical Pattern",
+      "value": "Phyllotaxis"
+    },
+    {
+      "trait_type": "Frame",
+      "value": "Pearl Royal"
+    },
+    {
+      "trait_type": "Body Material",
+      "value": "Iridescent Pearl"
+    },
+    {
+      "trait_type": "Element Overlay",
+      "value": "Air"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Sleepy"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Neutral Bar"
+    },
+    {
+      "trait_type": "Family Emblem",
+      "value": "Soaring"
+    },
+    {
+      "trait_type": "Zodiac",
+      "value": "None"
+    },
+    {
+      "trait_type": "Celestial Body",
+      "value": "Neptune"
+    },
+    {
+      "trait_type": "Badge or Message",
+      "value": "Stay curious."
+    },
+    {
+      "trait_type": "Family",
+      "value": "Soaring"
+    },
+    {
+      "trait_type": "Element",
+      "value": "Air"
+    },
+    {
+      "trait_type": "Edition",
+      "value": "Core"
+    },
+    {
+      "trait_type": "Ears",
+      "value": "Royal Gold"
+    },
+    {
+      "trait_type": "Initial Allocation",
+      "value": "Public Mint"
+    }
+  ]
+}

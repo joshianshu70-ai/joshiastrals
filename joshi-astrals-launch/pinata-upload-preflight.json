@@ -1,0 +1,19 @@
+{
+  "provider": "Pinata",
+  "authentication": "successful read-only check",
+  "existing_pins": 0,
+  "existing_storage_bytes": 0,
+  "plan": "Free, confirmed by user",
+  "images": 7777,
+  "image_bytes": 19617569633,
+  "metadata_draft_bytes": 13510263,
+  "upload_status": "not started",
+  "blocker": "Storage now fits under 1 GB; confirmed free plan still limits file count to 500 files.",
+  "credentials_saved_in_project": false,
+  "next_step": "Resolve the separate file-count allowance before uploading; no upload has been started.",
+  "upload_image_format": "WebP",
+  "optimized_image_bytes": 843906306,
+  "optimized_file_count": 7777,
+  "optimized_upload_bytes": 857416569,
+  "storage_budget_passed": true
+}

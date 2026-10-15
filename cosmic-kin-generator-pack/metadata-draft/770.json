@@ -1,0 +1,71 @@
+{
+  "name": "Joshi Astral #0770",
+  "description": "Joshi Astral #0770 \u2014 The Ember Maker. Presented by The House of Joshi. A maker of small sparks, turning steady effort into something worth sharing. Its obsidian form belongs to the fire family. It wears the in sync expression and carries the celestial motif of Neptune. Keep your spark. Build with care. The Lissajous overlay is generated from mathematical rules, with its exact parameters recorded in the edition manifest.",
+  "image": "../images/770.png",
+  "attributes": [
+    {
+      "trait_type": "Environment",
+      "value": "Plain Sea Blue"
+    },
+    {
+      "trait_type": "Mathematical Pattern",
+      "value": "Lissajous"
+    },
+    {
+      "trait_type": "Frame",
+      "value": "Double Gold"
+    },
+    {
+      "trait_type": "Body Material",
+      "value": "Obsidian"
+    },
+    {
+      "trait_type": "Element Overlay",
+      "value": "Fire"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "In Sync"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Neutral Bar"
+    },
+    {
+      "trait_type": "Family Emblem",
+      "value": "Radiant"
+    },
+    {
+      "trait_type": "Zodiac",
+      "value": "None"
+    },
+    {
+      "trait_type": "Celestial Body",
+      "value": "Neptune"
+    },
+    {
+      "trait_type": "Badge or Message",
+      "value": "None"
+    },
+    {
+      "trait_type": "Family",
+      "value": "Radiant"
+    },
+    {
+      "trait_type": "Element",
+      "value": "Fire"
+    },
+    {
+      "trait_type": "Edition",
+      "value": "Core"
+    },
+    {
+      "trait_type": "Ears",
+      "value": "Royal Gold"
+    },
+    {
+      "trait_type": "Initial Allocation",
+      "value": "Public Mint"
+    }
+  ]
+}

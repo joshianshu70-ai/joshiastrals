@@ -1,0 +1,71 @@
+{
+  "name": "Joshi Astral #1329",
+  "description": "Joshi Astral #1329 \u2014 The Sky Seeker. Presented by The House of Joshi. A seeker of open skies, following thoughtful questions toward unfamiliar horizons. Its iridescent pearl form belongs to the air family. It wears the hopeful expression and carries the celestial motif of Mars. Stay curious. There is more to discover. The Logarithmic Spiral overlay is generated from mathematical rules, with its exact parameters recorded in the edition manifest.",
+  "image": "../images/1329.png",
+  "attributes": [
+    {
+      "trait_type": "Environment",
+      "value": "Ocean Haze"
+    },
+    {
+      "trait_type": "Mathematical Pattern",
+      "value": "Logarithmic Spiral"
+    },
+    {
+      "trait_type": "Frame",
+      "value": "Thin Silver"
+    },
+    {
+      "trait_type": "Body Material",
+      "value": "Iridescent Pearl"
+    },
+    {
+      "trait_type": "Element Overlay",
+      "value": "Air"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Hopeful"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Neutral Bar"
+    },
+    {
+      "trait_type": "Family Emblem",
+      "value": "Soaring"
+    },
+    {
+      "trait_type": "Zodiac",
+      "value": "None"
+    },
+    {
+      "trait_type": "Celestial Body",
+      "value": "Mars"
+    },
+    {
+      "trait_type": "Badge or Message",
+      "value": "Stay curious."
+    },
+    {
+      "trait_type": "Family",
+      "value": "Soaring"
+    },
+    {
+      "trait_type": "Element",
+      "value": "Air"
+    },
+    {
+      "trait_type": "Edition",
+      "value": "Core"
+    },
+    {
+      "trait_type": "Ears",
+      "value": "Royal Gold"
+    },
+    {
+      "trait_type": "Initial Allocation",
+      "value": "Public Mint"
+    }
+  ]
+}

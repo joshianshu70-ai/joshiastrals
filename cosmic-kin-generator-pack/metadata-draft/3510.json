@@ -1,0 +1,71 @@
+{
+  "name": "Joshi Astral #3510",
+  "description": "Joshi Astral #3510 \u2014 The Sky Seeker. Presented by The House of Joshi. A seeker of open skies, following thoughtful questions toward unfamiliar horizons. Its iridescent pearl form belongs to the air family. It wears the wink expression and carries the celestial motif of Earth. Stay curious. There is more to discover. The Branching overlay is generated from mathematical rules, with its exact parameters recorded in the edition manifest.",
+  "image": "../images/3510.png",
+  "attributes": [
+    {
+      "trait_type": "Environment",
+      "value": "Ember Dusk"
+    },
+    {
+      "trait_type": "Mathematical Pattern",
+      "value": "Branching"
+    },
+    {
+      "trait_type": "Frame",
+      "value": "Thin Silver"
+    },
+    {
+      "trait_type": "Body Material",
+      "value": "Iridescent Pearl"
+    },
+    {
+      "trait_type": "Element Overlay",
+      "value": "None"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Wink"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Neutral Bar"
+    },
+    {
+      "trait_type": "Family Emblem",
+      "value": "None"
+    },
+    {
+      "trait_type": "Zodiac",
+      "value": "None"
+    },
+    {
+      "trait_type": "Celestial Body",
+      "value": "Earth"
+    },
+    {
+      "trait_type": "Badge or Message",
+      "value": "Breathe. Then begin."
+    },
+    {
+      "trait_type": "Family",
+      "value": "Soaring"
+    },
+    {
+      "trait_type": "Element",
+      "value": "Air"
+    },
+    {
+      "trait_type": "Edition",
+      "value": "Core"
+    },
+    {
+      "trait_type": "Ears",
+      "value": "Royal Gold"
+    },
+    {
+      "trait_type": "Initial Allocation",
+      "value": "Public Mint"
+    }
+  ]
+}

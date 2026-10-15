@@ -1,0 +1,79 @@
+{
+  "collection": "Joshi Astrals",
+  "contract": "JoshiAstrals.sol",
+  "local_evm_tests": "passed",
+  "paid_mint_checks": [
+    "exact payment",
+    "underpayment and overpayment rejected",
+    "1\u20135 transaction limit",
+    "phase boundaries enforced",
+    "phase activation cannot skip or advance early",
+    "max supply",
+    "sequential IDs skip previously minted IDs",
+    "creator mints consume phase allocation",
+    "7% royalty signaling",
+    "immutable treasury payout",
+    "owner-only administration",
+    "sale pause",
+    "two-step ownership transfer",
+    "ownership renunciation blocked"
+  ],
+  "browser_checks": [
+    "identity stories",
+    "mathematical parameters",
+    "rarity counts",
+    "three exported PNG formats with verified dimensions",
+    "ownership verification blocked before official deployment",
+    "public mint blocked before official deployment",
+    "creator controls present"
+  ],
+  "official_deployment": false,
+  "public_sale_live": false,
+  "final_images_verified": 7777,
+  "final_legal_terms": "pending",
+  "price": "25 USDC",
+  "royalty_basis_points": 700,
+  "owner_wallet": "0x6736d2eA9807297F0e56967361B9410854B86a5f",
+  "treasury_wallet": "0x6736d2eA9807297F0e56967361B9410854B86a5f",
+  "phases": [
+    {
+      "phase": 1,
+      "cap": 777,
+      "price_usdc": 25
+    },
+    {
+      "phase": 2,
+      "cap": 2777,
+      "price_usdc": 35
+    },
+    {
+      "phase": 3,
+      "cap": 7577,
+      "price_usdc": 45
+    }
+  ],
+  "full_sell_through_test": 7777,
+  "phase_security_tests": "passed",
+  "mint_reentrancy_test": "passed",
+  "withdrawal_reentrancy_test": "passed",
+  "fixed_phase_prices": [
+    "25",
+    "35",
+    "45"
+  ],
+  "owner_two_step_transfer": true,
+  "ownership_renunciation_disabled": true,
+  "reserve_configuration": {
+    "total": 7777,
+    "public": 7577,
+    "reserve": 200,
+    "phase_quantities": [
+      777,
+      2000,
+      4800
+    ],
+    "all_zodiac_public": true
+  },
+  "public_download_controls": "Removed NFT PNG, WebP, metadata, manifest and personalized export buttons; only mint artwork action remains. Admin retains exports.",
+  "flowing_wave_layout": "Raised Flowing emblem offset from 64px to 32px; 1,366 editions updated."
+}

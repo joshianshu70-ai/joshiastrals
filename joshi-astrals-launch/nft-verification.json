@@ -1,0 +1,43 @@
+{
+  "checked_at_utc": "2026-10-15T09:27:52.610318+00:00",
+  "editions_checked": 7777,
+  "full_resolution_images_decoded": 7777,
+  "unique_decoded_images": 7777,
+  "canvas": "1536 x 1536 RGBA PNG",
+  "trait_and_environment_compatibility": "passed",
+  "errors": [],
+  "status": "passed",
+  "metadata_status": "Draft image URIs; IPFS publication and final metadata still pending",
+  "visual_review_scope": "Contact sheet overview and selected full-resolution compositions; not individual full-resolution aesthetic approval of every edition.",
+  "subsequent_edits_verified": {
+    "edition": 836,
+    "change": "Virgo glyph scaled to 82% around chest anchor",
+    "unique_final_pixel_hashes": 7777,
+    "fresh_unique_256px_renders": 7777
+  },
+  "flowing_wave_follow_up": {
+    "editions_re_rendered": 1366,
+    "offset": [
+      0,
+      32
+    ],
+    "unique_master_images": 7777
+  },
+  "optimized_upload_set": {
+    "created_at_utc": "2026-10-15T10:05:22.844104+00:00",
+    "format": "WebP",
+    "dimensions": [
+      1024,
+      1024
+    ],
+    "count": 7777,
+    "unique_decoded_images": 7777,
+    "transparency": "Verified lossless alpha after resize for all images",
+    "original_bytes": 19618012487,
+    "optimized_bytes": 1254007528,
+    "reduction_percent": 93.61,
+    "average_KB": 157.5,
+    "maximum_KB": 461.4,
+    "status": "passed"
+  }
+}
