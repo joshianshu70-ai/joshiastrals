@@ -37,3 +37,8 @@ footer a{display:inline-flex;align-items:center;min-height:44px}footer span{line
 @media(max-width:380px){header{flex-wrap:wrap}.brand{flex:1;min-width:170px}header #connect{margin-left:0}.hero-copy h1{font-size:30px}.landing-families{grid-template-columns:1fr}.family-grid,.genesis-grid{grid-template-columns:1fr}#traits{grid-template-columns:1fr}.hero-actions{align-items:stretch;flex-direction:column}.hero-actions a{min-height:44px;display:flex;align-items:center}.fact-row b{white-space:normal}}
 @media(max-height:600px) and (orientation:landscape){.preview{position:static}.launch-hero img{max-width:440px}header{padding-block:12px}}
 @media(hover:none){button:hover{background:transparent}.primary:hover{background:var(--ink)}}
+
+/* Selected House of Joshi Astral identity */
+header .brand{display:flex;align-items:center;gap:12px;min-width:0;letter-spacing:2.5px}header .brand-logo{display:block;width:64px;height:64px;object-fit:contain;flex:none}header .brand-copy{display:block;min-width:0}header .brand-name{display:block;line-height:1.4}header .brand small{margin:5px 0 0;font-size:8px;letter-spacing:2.6px;line-height:1.5}
+@media(max-width:600px){header .brand{gap:9px;font-size:11px;letter-spacing:1.6px}header .brand-logo{width:44px;height:44px}header .brand small{font-size:7px;letter-spacing:1.8px}header #connect{padding-inline:10px;font-size:11px}}
+@media(max-width:380px){header .brand{min-width:0;flex:1}header .brand-logo{width:38px;height:38px}header .brand-name{font-size:10px;letter-spacing:1.2px}header .brand small{font-size:6px;letter-spacing:1.2px}}

@@ -1,7 +1,7 @@
 import fs from 'node:fs';import path from 'node:path';
 const root=process.cwd(),studio=path.join(root,'cosmic-kin-studio'),pub=path.join(studio,'public'),pack=path.join(root,'cosmic-kin-generator-pack'),out=path.join(root,'dist');
 fs.rmSync(out,{recursive:true,force:true});fs.mkdirSync(out,{recursive:true});
-const files=['index.html','responsive.js','style.css','app.js','experience.js','public-mint.js','site-content.js','holder-design.js','randomness.js','randomness-settings.json','wallet-settings.json','collection-profile.json','deployment.json','launch-settings.json','opensea-drop-plan.json','terms.html','license.html','robots.txt','sitemap.xml'];
+const files=['index.html','favicon.ico','responsive.js','style.css','app.js','experience.js','public-mint.js','site-content.js','holder-design.js','randomness.js','randomness-settings.json','wallet-settings.json','collection-profile.json','deployment.json','launch-settings.json','opensea-drop-plan.json','terms.html','license.html','robots.txt','sitemap.xml'];
 for(const name of files)fs.copyFileSync(path.join(pub,name),path.join(out,name));
 // Keep local administration and retired mint code out of the public browser module.
 let app=fs.readFileSync(path.join(pub,'app.js'),'utf8');
