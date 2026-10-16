@@ -77,13 +77,13 @@ Requires Python 3 and Pillow. The PNGs themselves need no dependencies to import
 python3 -m pip install -r requirements-generator.txt
 
 # Verify all combinations and regenerate review sheets.
-python3 generate.py --qa
+node ../tools/run-generator.mjs generate --qa
 
 # Export images/1.png through images/7777.png at 1536×1536.
-python3 generate.py --render-all
+node ../tools/run-generator.mjs generate --render-all
 
 # After pinning images/, supply the real directory CID.
-python3 generate.py --finalize-metadata --image-base-uri ipfs://YOUR_REAL_IMAGE_DIRECTORY_CID
+node ../tools/run-generator.mjs generate --finalize-metadata --image-base-uri ipfs://YOUR_REAL_IMAGE_DIRECTORY_CID
 ```
 
 The final command writes `metadata/1.json` through `7777.json` with public IPFS image links and attributes using `trait_type` and `value`. Pin that metadata directory afterward. Never upload metadata-draft as final metadata. Token numbering begins at 1.
@@ -100,6 +100,6 @@ Smooth ears v2: simple champagne-gold capsules replace the rejected ringed headp
 
 Family emblem placement: render_offsets now moves family emblems down 64px to clear the neck, matching zodiac placement. Edition #44 uses Rooted.
 
-Lightweight upload set: run `python3 optimize-images.py` to create 1024px WebP copies in images-webp, preserving originals in images. optimization-report.json records sizes, source/file/decoded hashes and uniqueness. After pinning the WebP set, finalize using `python3 generate.py --finalize-metadata --image-format webp --image-base-uri ipfs://REAL_CID`. PNG remains the default unless --image-format webp is supplied.
+Lightweight upload set: run `node ../tools/run-generator.mjs optimize-images` to create 1024px WebP copies in images-webp, preserving originals in images. optimization-report.json records sizes, source/file/decoded hashes and uniqueness. After pinning the WebP set, finalize using `node ../tools/run-generator.mjs generate --finalize-metadata --image-format webp --image-base-uri ipfs://REAL_CID`. PNG remains the default unless --image-format webp is supplied.
 
 The upload profile is 1024 × 1024 WebP, quality 65. The optimizer builds a resumable staging set and promotes it only after checking all source hashes, decoded image uniqueness, exact resized alpha and a conservative 950 MB images-plus-metadata budget. PNG masters remain unchanged. Final totals are recorded in optimization-report.json.

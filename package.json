@@ -2,7 +2,7 @@
   "name": "joshi-astrals",
   "private": true,
   "scripts": {
-    "start": "cd cosmic-kin-studio && node server.mjs",
+    "start": "cd cosmic-kin-studio && node local-studio.mjs",
     "compile": "cd cosmic-kin-studio && node compile.mjs",
     "test": "cd cosmic-kin-studio && node test-whitelist.mjs && node test-contract.mjs && node test-security.mjs && node test-free-mint.mjs && node test-owned-tokens.mjs && node test-holder-access.mjs && node test-seadrop.mjs && node test-drop-plan.mjs",
     "build:wallet": "cd cosmic-kin-studio && node build-wallet.mjs",
@@ -13,11 +13,12 @@
     "verify:randomness": "cd cosmic-kin-studio && node verify-randomness.mjs",
     "compile:seadrop": "cd cosmic-kin-studio && node compile-seadrop.mjs",
     "test:seadrop": "cd cosmic-kin-studio && node test-seadrop.mjs",
-    "start:public": "cd cosmic-kin-studio && JOSHI_PUBLIC_ONLY=1 node server.mjs",
+    "start:public": "cd cosmic-kin-studio && JOSHI_PUBLIC_ONLY=1 node local-studio.mjs",
     "setup": "npm ci",
     "build": "npm run build:wallet && node build-vercel.mjs",
     "build:vercel": "npm run build",
-    "test:serverless": "node cosmic-kin-studio/test-serverless-holder.mjs"
+    "test:serverless": "node cosmic-kin-studio/test-serverless-holder.mjs",
+    "generator": "node tools/run-generator.mjs generate"
   },
   "type": "module",
   "version": "1.2.0",

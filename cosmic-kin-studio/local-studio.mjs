@@ -63,7 +63,7 @@ http.createServer(async(req,res)=>{
  if(req.headers['x-admin-token']!==adminToken)return send({error:'Admin token required'},403);
  if(job.status==='running')return send(job,409);
  job={status:'running',log:'Rendering 7,777 full-resolution images…\n'};
- const p=spawn('python3',['-u',path.join(pack,'generate.py'),'--render-all']);
+ const p=spawn(process.execPath,[path.join(root,'../tools/run-generator.mjs'),'generate','--render-all']);
  p.stdout.on('data',d=>job.log=(job.log+d).slice(-6000));p.stderr.on('data',d=>job.log=(job.log+d).slice(-6000));
  p.on('error',e=>{job.status='failed';job.log+=e.message;});p.on('close',c=>job.status=c===0?'complete':'failed');
  }return send(job);
