@@ -40,7 +40,7 @@ if($('deploy')) $('deploy').onclick=()=>action($('deploy'),async()=>{const base=
 if($('mintButton')) $('mintButton').onclick=()=>action($('mintButton'),async()=>{const quantity=Number($('reserveQuantity').value);if(!Number.isInteger(quantity)||quantity<1||quantity>50)throw Error('Choose 1–50 reserve NFTs per transaction.');const c=await ownerContract();await c.mintReserve.staticCall(quantity);const tx=await c.mintReserve(quantity);transaction(tx);await tx.wait();$('walletStatus').textContent=`Reserve batch confirmed: ${quantity} NFTs to the fixed reserve wallet.`;});
 $('network').onchange=()=>{if($('contract')) $('contract').value=localStorage.getItem('cosmic-contract-'+$('network').value)||'';};$('network').onchange();
 if(!$('contract')) $('publicNetwork').addEventListener('change',()=>{$('network').value=$('publicNetwork').value;});
-window.addEventListener('astral-wallet-change',()=>{account=walletAddress();$('connect').textContent=account?account.slice(0,6)+'…'+account.slice(-4):'Connect wallet ↗';$('walletStatus').textContent=account?'Connected: '+account:'Wallet disconnected.';});initializeWallet().catch(e=>toast(e.message));refresh();
+window.addEventListener('astral-wallet-change',()=>{account=walletAddress();$('connect').textContent=account?account.slice(0,6)+'…'+account.slice(-4):'Connect wallet';$('walletStatus').textContent=account?'Connected: '+account:'Wallet disconnected.';});initializeWallet().catch(e=>toast(e.message));refresh();
 
 export const studioAPI={getEdition:()=>edition,getCanvas:()=>$('canvas'),isReady:()=>ready,loadEdition(id){$('token').value=String(id);$('loadEdition').click();},walletSigner:signer,walletAddress,network:()=>$('network').value,notify:toast,save,json};
 
