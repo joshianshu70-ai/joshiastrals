@@ -2,11 +2,43 @@
   "name": "joshi-astrals",
   "private": true,
   "scripts": {
-    "setup": "npm --prefix cosmic-kin-studio ci",
-    "start": "npm --prefix cosmic-kin-studio start",
-    "test": "npm --prefix cosmic-kin-studio test",
-    "build": "npm --prefix cosmic-kin-studio run compile && npm --prefix cosmic-kin-studio run compile:seadrop && npm --prefix cosmic-kin-studio run build:wallet",
-    "build:vercel": "npm --prefix cosmic-kin-studio run build:wallet && node build-vercel.mjs"
+    "start": "cd cosmic-kin-studio && node server.mjs",
+    "compile": "cd cosmic-kin-studio && node compile.mjs",
+    "test": "cd cosmic-kin-studio && node test-whitelist.mjs && node test-contract.mjs && node test-security.mjs && node test-free-mint.mjs && node test-owned-tokens.mjs && node test-holder-access.mjs && node test-seadrop.mjs && node test-drop-plan.mjs",
+    "build:wallet": "cd cosmic-kin-studio && node build-wallet.mjs",
+    "build:rarity": "cd cosmic-kin-studio && node build-rarity.mjs",
+    "test:holder": "cd cosmic-kin-studio && node test-holder-access.mjs",
+    "test:whitelist": "cd cosmic-kin-studio && node test-whitelist.mjs",
+    "test:owned": "cd cosmic-kin-studio && node test-owned-tokens.mjs",
+    "verify:randomness": "cd cosmic-kin-studio && node verify-randomness.mjs",
+    "compile:seadrop": "cd cosmic-kin-studio && node compile-seadrop.mjs",
+    "test:seadrop": "cd cosmic-kin-studio && node test-seadrop.mjs",
+    "start:public": "cd cosmic-kin-studio && JOSHI_PUBLIC_ONLY=1 node server.mjs",
+    "setup": "npm ci",
+    "build": "npm run build:wallet && node build-vercel.mjs",
+    "build:vercel": "npm run build",
+    "test:serverless": "node cosmic-kin-studio/test-serverless-holder.mjs"
   },
-  "type": "module"
+  "type": "module",
+  "version": "1.2.0",
+  "description": "Joshi Astrals OpenSea Drop companion site, art explorer and owner-only Astral Studio",
+  "dependencies": {
+    "@d20dao/vrf-sdk": "0.6.2",
+    "@openzeppelin/contracts": "5.0.2",
+    "@reown/appkit": "^1.8.24",
+    "@reown/appkit-adapter-ethers": "^1.8.24",
+    "esbuild": "^0.28.2",
+    "ethers": "^6.17.0"
+  },
+  "devDependencies": {
+    "ganache": "^7.9.2",
+    "solc": "0.8.28",
+    "solc-seadrop": "npm:solc@0.8.17"
+  },
+  "overrides": {
+    "tmp": "0.2.5"
+  },
+  "engines": {
+    "node": "22.x"
+  }
 }

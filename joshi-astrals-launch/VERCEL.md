@@ -1,6 +1,6 @@
 # Vercel deployment
 
-Use the existing Vercel project for joshiastrals.thehouseofjoshi.com. Set its Root Directory to the repository root (not cosmic-kin-studio). The repository vercel.json selects a public-only static build and a Node.js holder function. Build is `npm --prefix cosmic-kin-studio run build:wallet && node build-vercel.mjs`; install is `npm --prefix cosmic-kin-studio ci --include=dev`; output is dist. No local admin or generator jobs are included.
+Use the existing Vercel project for joshiastrals.thehouseofjoshi.com. Set its Root Directory to the repository root (not cosmic-kin-studio). The repository now has one root package.json and package-lock.json. The Python generator requirements file is named requirements-generator.txt to avoid treating the offline tool as a deployable service. The repository vercel.json selects a public-only static build and a Node.js holder function. Build is `npm run build`; install is `npm ci --include=dev`; output is dist. No local admin or generator jobs are included.
 
 Before revealing artwork, deployment.revealed remains false. The site and collection explorer can deploy without a database. Owner Studio returns a locked status until reveal.
 

@@ -1,4 +1,4 @@
 import fs from 'node:fs';import solc from 'solc';
 const source=fs.readFileSync('contracts/JoshiAstrals.sol','utf8');const input={language:'Solidity',sources:{'JoshiAstrals.sol':{content:source}},settings:{evmVersion:'shanghai',optimizer:{enabled:true,runs:200},outputSelection:{'*':{'*':['abi','evm.bytecode.object']}}}};
-const out=JSON.parse(solc.compile(JSON.stringify(input),{import:p=>{try{return {contents:fs.readFileSync('node_modules/'+p,'utf8')}}catch{return {error:'Missing import '+p}}}}));
+const out=JSON.parse(solc.compile(JSON.stringify(input),{import:p=>{try{return {contents:fs.readFileSync('../node_modules/'+p,'utf8')}}catch{return {error:'Missing import '+p}}}}));
 for(const e of out.errors||[])console.log(e.formattedMessage);if(out.errors?.some(e=>e.severity==='error'))process.exit(1);const c=out.contracts['JoshiAstrals.sol'].JoshiAstrals;fs.writeFileSync('public/contract.json',JSON.stringify({abi:c.abi,bytecode:'0x'+c.evm.bytecode.object},null,2));console.log('Compiled JoshiAstrals ERC-721.');

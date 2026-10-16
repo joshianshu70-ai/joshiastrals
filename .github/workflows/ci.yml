@@ -6,18 +6,17 @@ jobs:
   contracts:
     runs-on: ubuntu-latest
     timeout-minutes: 15
-    defaults:
-      run:
-        working-directory: cosmic-kin-studio
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
           cache: npm
-          cache-dependency-path: cosmic-kin-studio/package-lock.json
+          cache-dependency-path: package-lock.json
       - run: npm ci --ignore-scripts --no-audit --no-fund
       - run: npm run compile
       - run: npm run compile:seadrop
       - run: npm test
-      - run: node --check public/app.js && node --check public/public-mint.js && node --check public/experience.js && node --check server.mjs
+      - run: node --check cosmic-kin-studio/public/app.js && node --check cosmic-kin-studio/public/public-mint.js && node --check cosmic-kin-studio/public/experience.js && node --check cosmic-kin-studio/server.mjs
+      - run: npm run test:serverless
+      - run: npm run build

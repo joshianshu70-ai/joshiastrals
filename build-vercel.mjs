@@ -9,7 +9,7 @@ app=app.slice(0,app.indexOf('\nasync function ownerContract()'));
 app=app.split('\n').filter(line=>!line.startsWith("import {randomnessSettings")&&!line.startsWith("if($('deploy'))")&&!line.startsWith("if($('mintButton'))")&&!line.startsWith('function transaction(')&&!line.startsWith('let poll;')&&!line.startsWith("if($('generate'))")).join('\n');
 fs.writeFileSync(path.join(out,'app.js'),app);
 for(const name of ['branding','vendor'])fs.cpSync(path.join(pub,name),path.join(out,name),{recursive:true});
-fs.copyFileSync(path.join(studio,'node_modules/ethers/dist/ethers.min.js'),path.join(out,'ethers.js'));
+fs.copyFileSync(path.join(root,'node_modules/ethers/dist/ethers.min.js'),path.join(out,'ethers.js'));
 fs.copyFileSync(path.join(pack,'trait-catalog.json'),path.join(out,'catalog.json'));
 const d=JSON.parse(fs.readFileSync(path.join(pub,'deployment.json'))),revealed=d.revealed===true;
 const data={ 'manifest.json':revealed?path.join(pack,'manifest-seadrop.json'):path.join(pack,'manifest-7777.json'),'rarity.json':revealed?path.join(pack,'seadrop-private/rarity-seadrop.json'):path.join(pub,'rarity.json'),'edition-rarity.json':revealed?path.join(pack,'seadrop-private/edition-rarity-seadrop.json'):path.join(pub,'edition-rarity.json')};

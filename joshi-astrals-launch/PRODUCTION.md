@@ -3,7 +3,7 @@
 The local website is ready for review at http://127.0.0.1:4180. It has not been deployed to the domain by this work.
 
 ## Host requirements
-Use a persistent Node.js server, not static-only hosting: signed holder exports require the backend. Install dependencies with `npm ci` in cosmic-kin-studio and build wallet assets with `npm run build:wallet`. Place the studio beside cosmic-kin-generator-pack. Supply the private pack (layers, manifest-7777.json, trait-catalog.json, generator-config.json, images-webp, manifest-seadrop.json, seadrop-token-map.json and seadrop-private rarity files) using private file transfer. These original artworks and private mapping files are not in GitHub and must not be uploaded to a public static bucket before reveal.
+Use a persistent Node.js server, not static-only hosting: signed holder exports require the backend. Install dependencies with `npm ci` at the repository root and build wallet assets with `npm run build:wallet`. Place the studio beside cosmic-kin-generator-pack. Supply the private pack (layers, manifest-7777.json, trait-catalog.json, generator-config.json, images-webp, manifest-seadrop.json, seadrop-token-map.json and seadrop-private rarity files) using private file transfer. These original artworks and private mapping files are not in GitHub and must not be uploaded to a public static bucket before reveal.
 
 Start the public service with `JOSHI_PUBLIC_ONLY=1 PORT=4180 node server.mjs`. It listens on localhost; place an HTTPS reverse proxy in front. `/admin`, admin APIs, generator jobs and the direct OpenSea admin page are disabled in public mode. Keep the local admin server private. Do not expose admin mode through a public tunnel. Use a single process: download nonces are short-lived and held in memory.
 

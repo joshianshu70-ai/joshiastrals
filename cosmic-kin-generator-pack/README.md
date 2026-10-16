@@ -74,7 +74,7 @@ Requires Python 3 and Pillow. The PNGs themselves need no dependencies to import
 
 ```sh
 # Install the image library if necessary.
-python3 -m pip install -r requirements.txt
+python3 -m pip install -r requirements-generator.txt
 
 # Verify all combinations and regenerate review sheets.
 python3 generate.py --qa
