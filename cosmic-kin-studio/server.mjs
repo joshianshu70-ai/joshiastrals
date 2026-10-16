@@ -15,20 +15,25 @@ const root=path.dirname(fileURLToPath(import.meta.url)),pack=path.resolve(root,'
 const settingsStore=adminSettings(root,pack);
 const holder=holderAccess({deployment:()=>JSON.parse(fs.readFileSync(path.join(root,'public/deployment.json'),'utf8')),origin:productionOrigin,ownerOf:async({network,address,id})=>new Contract(address,['function ownerOf(uint256) view returns(address)'],new JsonRpcProvider(network==='mainnet'?'https://rpc.mainnet.arc.io':'https://rpc.testnet.arc.io')).ownerOf(id)});
 let job={status:'idle',log:''};
+const port=Number(process.env.PORT||4180);
+if(!Number.isInteger(port)||port<1||port>65535)throw Error('Invalid PORT');
 const types={'.html':'text/html','.js':'text/javascript','.mjs':'text/javascript','.css':'text/css','.json':'application/json','.webp':'image/webp','.png':'image/png','.jpg':'image/jpeg','.sol':'text/plain'};
 http.createServer(async(req,res)=>{
  const send=(data,status=200)=>{res.writeHead(status,{'Content-Type':'application/json'});res.end(JSON.stringify(data));};
  try {
- if(!['127.0.0.1:4180','localhost:4180',...(!adminEnabled?['joshiastrals.thehouseofjoshi.com']:[])].includes(req.headers.host))return send({error:'Host rejected'},403);
+ if(![`127.0.0.1:${port}`,`localhost:${port}`,...(!adminEnabled?['joshiastrals.thehouseofjoshi.com']:[])].includes(req.headers.host))return send({error:'Host rejected'},403);
  const url=new URL(req.url,'http://localhost');
- if(req.headers.origin && !['http://127.0.0.1:4180','http://localhost:4180',...(!adminEnabled?[productionOrigin]:[])].includes(req.headers.origin))return send({error:'Origin rejected'},403);
+ res.setHeader('X-Content-Type-Options','nosniff');res.setHeader('Referrer-Policy','strict-origin-when-cross-origin');res.setHeader('X-Frame-Options','DENY');
+ if(url.pathname==='/healthz')return send({status:'ok',mode:adminEnabled?'local-admin':'public'});
+ if(!adminEnabled&&(/^\/(admin(?:[/.]|$)|api\/(admin|job)|opensea-drop\.(html|js)$)/.test(url.pathname)))return send({error:'Admin disabled'},404);
+ if(req.headers.origin && ![`http://127.0.0.1:${port}`,`http://localhost:${port}`,...(!adminEnabled?[productionOrigin]:[])].includes(req.headers.origin))return send({error:'Origin rejected'},403);
  if(['/admin/opensea','/api/admin/opensea'].includes(url.pathname)&&!adminEnabled)return send({error:'Admin disabled'},404);
  if(url.pathname==='/admin/opensea'){res.writeHead(200,{'Content-Type':'text/html','Cache-Control':'no-store'});return res.end(fs.readFileSync(path.join(root,'public/opensea-drop.html'),'utf8').replace('<head>','<head><meta name="admin-token" content="'+adminToken+'">'));}
  if(url.pathname==='/api/admin/opensea'){
   if(req.headers['x-admin-token']!==adminToken)return send({error:'Admin token required'},403);
   if(req.method!=='POST')return send({error:'Method not allowed'},405);
   let body='',size=0;req.on('data',chunk=>{size+=chunk.length;if(size>10000){req.destroy();return;}body+=chunk;});
-  req.on('end',()=>{try{const plan=validateDropPlan(JSON.parse(body)),target=path.join(root,'public/opensea-drop-plan.json'),backups=path.join(root,'admin-backups');fs.mkdirSync(backups,{recursive:true});if(fs.existsSync(target))fs.copyFileSync(target,path.join(backups,'opensea-drop-'+Date.now()+'.json'));fs.writeFileSync(target,JSON.stringify(plan,null,2)+'\n');send({saved:true});}catch(error){send({error:error.message},400);}});return;
+  req.on('end',()=>{try{const target=path.join(root,'public/opensea-drop-plan.json'),previous=JSON.parse(fs.readFileSync(target,'utf8')),plan=validateDropPlan(JSON.parse(body),previous),backups=path.join(root,'admin-backups');fs.mkdirSync(backups,{recursive:true});if(fs.existsSync(target))fs.copyFileSync(target,path.join(backups,'opensea-drop-'+Date.now()+'.json'));fs.writeFileSync(target,JSON.stringify(plan,null,2)+'\n');send({saved:true});}catch(error){send({error:error.message},400);}});return;
  }
  if(['/admin','/admin/','/admin.html','/api/job','/api/admin/settings'].includes(url.pathname)&&!adminEnabled)return send({error:'Admin disabled'},404);
  if(['/admin','/admin/','/admin.html'].includes(url.pathname)){res.writeHead(200,{'Content-Type':'text/html','Cache-Control':'no-store'});return res.end(fs.readFileSync(path.join(root,'public/admin.html'),'utf8').replace('<head>','<head><meta name="admin-token" content="'+adminToken+'">'));}
@@ -65,11 +70,11 @@ http.createServer(async(req,res)=>{
  }
  const revealed=JSON.parse(fs.readFileSync(path.join(root,'public/deployment.json'),'utf8')).revealed===true;
  const routes={'/rarity.json':path.join(root,revealed?'../cosmic-kin-generator-pack/seadrop-private/rarity-seadrop.json':'public/rarity.json'),'/edition-rarity.json':path.join(root,revealed?'../cosmic-kin-generator-pack/seadrop-private/edition-rarity-seadrop.json':'public/edition-rarity.json'),'/catalog.json':path.join(pack,'trait-catalog.json'),'/manifest.json':path.join(pack,revealed?'manifest-seadrop.json':'manifest-7777.json'),'/ethers.js':path.join(root,'node_modules/ethers/dist/ethers.min.js')};
- let file=routes[url.pathname];
+ let file=routes[url.pathname];if(url.pathname==='/terms')file=path.join(root,'public/terms.html');if(url.pathname==='/license')file=path.join(root,'public/license.html');
  if(url.pathname.startsWith('/assets/')){const asset=decodeURIComponent(url.pathname.slice(8));if(asset!=='generator-config.json'&&!/^layers\/[^.][^\\]*\.(png|webp)$/.test(asset))return send({error:'Asset not public'},404);}
  if(!file){const base=url.pathname.startsWith('/assets/')?pack:path.join(root,'public');const rel=decodeURIComponent(url.pathname.startsWith('/assets/')?url.pathname.slice(8):url.pathname==='/'?'index.html':url.pathname.slice(1));file=path.resolve(base,rel);if(!file.startsWith(base+path.sep))return send({error:'Forbidden'},403);}
  if(!adminEnabled&&file===path.join(root,'public/admin.html'))return send({error:'Admin disabled'},404);
  if(!fs.existsSync(file)||!fs.statSync(file).isFile())return send({error:'Not found'},404);
  res.writeHead(200,{'Content-Type':types[path.extname(file)]||'application/octet-stream','Cache-Control':'no-cache'});fs.createReadStream(file).pipe(res);
  }catch(e){send({error:e.message},400);}
-}).listen(4180,'127.0.0.1',()=>console.log('Joshi Astrals Studio: http://127.0.0.1:4180'));
+}).listen(port,'127.0.0.1',()=>console.log(`Joshi Astrals Studio: http://127.0.0.1:${port} (${adminEnabled?'local admin':'public only'})`));

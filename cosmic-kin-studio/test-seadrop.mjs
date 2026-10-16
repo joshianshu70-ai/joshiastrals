@@ -28,12 +28,13 @@ await assert.rejects(sd.connect(buyer).mintAllowList(nft,feeAddress,ZeroAddress,
 await(await sd.mintAllowList(nft,feeAddress,ZeroAddress,200,team,[],{gasLimit:3000000})).wait();
 assert.equal(await c.balanceOf(house),200n);
 await assert.rejects(sd.mintAllowList(nft,feeAddress,ZeroAddress,1,team,[]));
-await(await c.updatePublicDrop(sea,[parseEther('25'),now-1,end,7777,1000,true])).wait();
+await(await c.updatePublicDrop(sea,[parseEther('25'),now-1,end,2,1000,true])).wait();
 await assert.rejects(sd.connect(buyer).mintPublic(nft,feeAddress,ZeroAddress,1,{value:parseEther('24')}));
 await assert.rejects(sd.connect(buyer).mintPublic(nft,await other.getAddress(),ZeroAddress,1,{value:parseEther('25')}));
 const before=await raw.request({method:'eth_getBalance',params:[feeAddress,'latest']});
 await(await sd.connect(buyer).mintPublic(nft,feeAddress,ZeroAddress,2,{value:parseEther('50')})).wait();
 const after=await raw.request({method:'eth_getBalance',params:[feeAddress,'latest']});assert.equal(BigInt(after)-BigInt(before),parseEther('5'));
+await assert.rejects(sd.connect(buyer).mintPublic(nft,feeAddress,ZeroAddress,1,{value:parseEther('25')}));
 assert.equal(await c.ownerOf(201),wallet);assert.equal(await c.ownerOf(202),wallet);
 await(await c.setBaseURI('ipfs://metadata/')).wait();assert.equal(await c.tokenURI(201),'ipfs://metadata/201');
 await(await c.connect(buyer).transferFrom(wallet,await other.getAddress(),201)).wait();assert.equal(await c.ownerOf(201),await other.getAddress());
@@ -45,5 +46,5 @@ await(await sd.connect(buyer).mintPublic(nft,feeAddress,ZeroAddress,remaining,{v
 assert.equal(await c.totalSupply(),7777n);assert.equal(await c.ownerOf(7777),wallet);
 await assert.rejects(sd.connect(buyer).mintPublic(nft,feeAddress,ZeroAddress,1,{value:parseEther('45')}));
 await assert.rejects(c.setProvenanceHash(leaf));
-console.log('PASS official SeaDrop: 7,777 supply, House-only free 200 stage, Merkle proof rejection, public mint, 25/35/45 prices, 10% primary fee, 7% royalty, sequential IDs, transfers, metadata, authorization and sold-out rejection.');
+console.log('PASS official SeaDrop: 7,777 supply, House-only free 200 stage, Merkle proof rejection, public mint with two-mint wallet limit, owner price updates, 10% primary fee, 7% royalty, sequential IDs, transfers, metadata, authorization and sold-out rejection.');
 await p.destroy();raw.disconnect();

@@ -1,10 +1,12 @@
-import {isAddress,getAddress} from 'ethers';
 export const HOUSE='0x6736d2eA9807297F0e56967361B9410854B86a5f';
-export function validateDropPlan(input){
+export function validateDropPlan(input,previous={}){
  if(!input||typeof input!=='object')throw Error('Invalid drop plan');
- const dropURL=String(input.dropURL||'').trim();if(dropURL&&!/^https:\/\/opensea\.io\/collection\/[a-z0-9-]+\/?$/.test(dropURL))throw Error('Use an official OpenSea collection URL');
- const addresses=String(input.allowlist||'').split(/[\s,]+/).filter(Boolean);if(addresses.length>50)throw Error('Maximum 50 allowlist wallets');
- if(addresses.some(a=>!isAddress(a)||getAddress(a)===HOUSE))throw Error('Enter valid allowlist addresses; House uses its separate free team stage');
- const allowlist=addresses.map(getAddress);if(new Set(allowlist).size!==allowlist.length)throw Error('Duplicate allowlist wallet');
- return {version:1,mode:'opensea-drop',collection:'Joshi Astrals',symbol:'ASTRAL',supply:7777,houseWallet:HOUSE,royaltyBps:700,primaryFeeBps:1000,currency:'native USDC on Arc; 18 decimals for SeaDrop msg.value',dropURL:dropURL||null,allowlist:allowlist.join('\n'),allowlistLimit:2,teamSupply:200,publicSupply:7577,phases:[{name:'First Light',priceUSDC:'25',targetQuantity:777},{name:'Rising Orbit',priceUSDC:'35',targetQuantity:2000},{name:'Full Constellation',priceUSDC:'45',targetQuantity:4800}],launchStatus:'Not deployed; not published',blockingDecisions:['Verify Arc Drop creation and stage scheduling in OpenSea Studio.','Review final media + CSV upload preview, rights and dates before publication.'],workflowApproved:true,randomness:'Locally shuffled public artwork, private upload manifest, delayed OpenSea reveal. Not verified randomness. Owner knows the mapping.',verification:{arcMarketplace:true,arcSeaDropCode:true,arcStudioDropWorkflow:false,testnetCanonicalSeaDrop:false},metadata:'OpenSea Studio media + CSV upload; IPFS publication at reveal. Verify accepted format and upload preview.',sources:['https://docs.opensea.io/docs/seadrop','https://support.opensea.io/en/articles/8867060-preparing-metadata-for-your-drop','https://support.opensea.io/en/articles/8867061-drops-faq']};
+ const dropURL=String(input.dropURL??previous.dropURL??'').trim();
+ if(dropURL&&!/^https:\/\/opensea\.io\/collection\/[a-z0-9-]+\/?$/.test(dropURL))throw Error('Use an official OpenSea collection URL');
+ if(String(input.allowlist||'').trim())throw Error('Buyer allowlists are disabled for this public sale.');
+ const launchStatus=input.launchStatus??previous.launchStatus??'preparation';
+ if(!['preparation','published','ended'].includes(launchStatus))throw Error('Invalid launch status');
+ if(launchStatus==='published'&&previous.launchStatus!=='published'&&input.publicationConfirmed!==true)throw Error('Confirm that the Drop is actually published on OpenSea before enabling the mint link.');
+ if(launchStatus==='published'&&!dropURL)throw Error('Set the official OpenSea collection URL first.');
+ return {...previous,version:2,mode:'opensea-drop',collection:'Joshi Astrals',symbol:'ASTRAL',supply:7777,houseWallet:HOUSE,royaltyBps:700,primaryFeeBps:1000,currency:'native USDC on Arc; 18 decimals for SeaDrop msg.value',dropURL:dropURL||null,allowlist:'',allowlistLimit:0,perWalletLimit:2,teamSupply:200,publicSupply:7577,phases:[{name:'Public mint',priceUSDC:'25',targetQuantity:7577}],launchStatus,workflowApproved:true,blockingDecisions:previous.blockingDecisions||[],randomness:'Locally shuffled public artwork, private upload manifest, delayed OpenSea reveal. Not verified randomness. Owner knows the mapping.'};
 }

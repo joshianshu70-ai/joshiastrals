@@ -1,10 +1,10 @@
 {
   "collection": "Joshi Astrals",
   "testnet": null,
-  "mainnet": null,
-  "note": "Set only after verifying the deployed JoshiAstrals contract. No official deployment yet.",
-  "termsURL": null,
-  "licenseURL": null,
+  "mainnet": "0x402f4ead8909145a57a45eeb27446111e6738c48",
+  "note": "Arc mainnet deployment verified against tested runtime. OpenSea Drop payout, stages, metadata upload and reveal remain pending.",
+  "termsURL": "https://joshiastrals.thehouseofjoshi.com/terms",
+  "licenseURL": "https://joshiastrals.thehouseofjoshi.com/license",
   "mintMode": "seadrop",
   "revealed": false
 }

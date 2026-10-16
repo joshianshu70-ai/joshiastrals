@@ -1,0 +1,14 @@
+import assert from 'node:assert/strict';import {Wallet} from 'ethers';import {serverlessHolder,redisConsume} from './serverless-holder.mjs';
+const owner=Wallet.createRandom(),other=Wallet.createRandom(),contract=Wallet.createRandom().address,used=new Set();let current=owner.address,time=100000,revealed=true;
+const options={secret:'a'.repeat(64),consume:async n=>{if(used.has(n))return false;used.add(n);return true;},ownerOf:async()=>current,deployment:()=>({mainnet:contract,revealed}),now:()=>time};
+const a=serverlessHolder(options),b=serverlessHolder(options),input={id:201,wallet:owner.address,network:'mainnet'};
+let c=a.challenge(input),signature=await owner.signMessage(c.message);assert.equal((await b.authorize({...c,signature})).id,201);await assert.rejects(a.authorize({...c,signature}),/already used/);
+c=a.challenge(input);const signed={...c,signature:await owner.signMessage(c.message)};const race=await Promise.allSettled([a.authorize(signed),b.authorize(signed)]);assert.equal(race.filter(r=>r.status==='fulfilled').length,1);
+c=a.challenge(input);await assert.rejects(b.authorize({...c,signature:await other.signMessage(c.message)}),/signature/);
+c=a.challenge(input);current=other.address;await assert.rejects(b.authorize({...c,signature:await owner.signMessage(c.message)}),/does not currently own/);current=owner.address;
+c=a.challenge(input);time+=120001;await assert.rejects(b.authorize({...c,signature:await owner.signMessage(c.message)}),/expired/);
+c=a.challenge(input);await assert.rejects(b.authorize({...c,nonce:c.nonce+'x',signature:'0x'}),/Invalid/);
+revealed=false;assert.throws(()=>a.challenge(input),/reveal/);assert.throws(()=>serverlessHolder({...options,secret:''}),/key/);
+assert.throws(()=>redisConsume({url:'http://localhost',token:'x'}),/storage/);
+await assert.rejects(redisConsume({url:'https://redis.example',token:'x',fetcher:async()=>({ok:false})})('x'),/unavailable/);
+console.log('PASS serverless holder: cross-instance verification, durable one-use/race protection, transfer, wrong signer, tampering, expiry, reveal gate and fail-closed storage.');

@@ -8,39 +8,32 @@
   "royaltyBps": 700,
   "primaryFeeBps": 1000,
   "currency": "native USDC on Arc; 18 decimals for SeaDrop msg.value",
-  "dropURL": null,
+  "dropURL": "https://opensea.io/collection/joshi-astrals",
   "allowlist": "",
-  "allowlistLimit": 2,
+  "allowlistLimit": 0,
   "teamSupply": 200,
   "publicSupply": 7577,
   "phases": [
     {
-      "name": "First Light",
+      "name": "Public mint",
       "priceUSDC": "25",
-      "targetQuantity": 777
-    },
-    {
-      "name": "Rising Orbit",
-      "priceUSDC": "35",
-      "targetQuantity": 2000
-    },
-    {
-      "name": "Full Constellation",
-      "priceUSDC": "45",
-      "targetQuantity": 4800
+      "targetQuantity": 7577
     }
   ],
-  "launchStatus": "Not deployed; not published",
+  "launchStatus": "preparation",
   "blockingDecisions": [
-    "Verify Arc Drop creation and stage scheduling in OpenSea Studio.",
-    "Review final media + CSV upload preview, rights and dates before publication."
+    "Upload and preview the validated media + CSV in OpenSea Studio.",
+    "Set payout, 7% creator earnings, 25 USDC public price and two-mint wallet limit in OpenSea.",
+    "Complete the House-only 200 NFT allocation before public sales.",
+    "Choose a launch date, review the Drop and publish on OpenSea.",
+    "Publish the website with HTTPS, verify token artwork after reveal, then enable Astral Studio."
   ],
   "workflowApproved": true,
   "randomness": "Locally shuffled public artwork, private upload manifest, delayed OpenSea reveal. Not verified randomness. Owner knows the mapping.",
   "verification": {
     "arcMarketplace": true,
     "arcSeaDropCode": true,
-    "arcStudioDropWorkflow": false,
+    "arcStudioDropWorkflow": true,
     "testnetCanonicalSeaDrop": false
   },
   "metadata": "OpenSea Studio media + CSV upload; IPFS publication at reveal. Verify accepted format and upload preview.",
@@ -48,5 +41,6 @@
     "https://docs.opensea.io/docs/seadrop",
     "https://support.opensea.io/en/articles/8867060-preparing-metadata-for-your-drop",
     "https://support.opensea.io/en/articles/8867061-drops-faq"
-  ]
+  ],
+  "perWalletLimit": 2
 }

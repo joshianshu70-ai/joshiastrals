@@ -1,0 +1,29 @@
+{
+  "address": "0x402f4ead8909145a57a45eeb27446111e6738c48",
+  "chainId": "5042",
+  "codeBytes": 15285,
+  "codeHash": "0x91c55594edf43ce950a4cc6ceca98db754b0c680897f7498021b29f9d3b057a6",
+  "name": "Joshi Astrals",
+  "symbol": "ASTRAL",
+  "owner": "0x6736d2eA9807297F0e56967361B9410854B86a5f",
+  "maxSupply": "7777",
+  "totalSupply": "0",
+  "royaltyAddress": "0x6736d2eA9807297F0e56967361B9410854B86a5f",
+  "royaltyBasisPoints": "700",
+  "baseURI": "",
+  "contractURI": "",
+  "runtimeMatchesTestedContract": true,
+  "canonicalSeaDropAuthorized": true,
+  "getPublicDrop": [
+    "0",
+    "0",
+    "0",
+    "0",
+    "0",
+    false
+  ],
+  "getCreatorPayoutAddress": "0x0000000000000000000000000000000000000000",
+  "getAllowedFeeRecipients": [],
+  "checkedAt": "2026-10-15T18:43:13.570Z",
+  "readOnly": true
+}

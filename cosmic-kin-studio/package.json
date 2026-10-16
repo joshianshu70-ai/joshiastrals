@@ -1,7 +1,7 @@
 {
   "name": "joshi-astrals-studio",
   "version": "1.2.0",
-  "description": "Joshi Astrals local NFT studio and three-phase Arc mint interface",
+  "description": "Joshi Astrals OpenSea Drop companion site, art explorer and owner-only Astral Studio",
   "scripts": {
     "start": "node server.mjs",
     "compile": "node compile.mjs",
@@ -13,7 +13,8 @@
     "test:owned": "node test-owned-tokens.mjs",
     "verify:randomness": "node verify-randomness.mjs",
     "compile:seadrop": "node compile-seadrop.mjs",
-    "test:seadrop": "node test-seadrop.mjs"
+    "test:seadrop": "node test-seadrop.mjs",
+    "start:public": "JOSHI_PUBLIC_ONLY=1 node server.mjs"
   },
   "keywords": [],
   "author": "",

@@ -25,3 +25,6 @@
 **/manifest-seadrop.json
 **/seadrop-token-map.json
 **/opensea-upload/
+
+.vercel/
+dist/
