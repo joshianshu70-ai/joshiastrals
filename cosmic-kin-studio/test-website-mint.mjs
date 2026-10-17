@@ -1,0 +1,11 @@
+import assert from 'node:assert/strict';
+import {mintQuote} from './public/seadrop-mint-core.js';
+const base={drop:{mintPrice:25n*10n**18n,startTime:100n,endTime:200n,maxTotalMintableByWallet:2n,feeBps:1000n,restrictFeeRecipients:true},stats:[0n,200n,7777n],timestamp:150,payout:'0x1111111111111111111111111111111111111111',feeRecipients:['0x2222222222222222222222222222222222222222']};
+assert.equal(mintQuote(base,2).value,50n*10n**18n);
+assert.equal(mintQuote({...base,stats:[1n,201n,7777n]},1).remaining,1);
+assert.throws(()=>mintQuote({...base,stats:[1n,201n,7777n]},2),/limit/);
+assert.throws(()=>mintQuote({...base,stats:[2n,202n,7777n]},1),/limit/);
+for(const [change,pattern] of [[{timestamp:99},/not started/],[{timestamp:201},/ended/],[{drop:{...base.drop,startTime:0n}},/not been configured/],[{drop:{...base.drop,mintPrice:0n}},/price differs/],[{drop:{...base.drop,maxTotalMintableByWallet:7777n}},/wallet limit/],[{stats:[0n,0n,7777n]},/House allocation/],[{stats:[0n,7777n,7777n]},/All Astrals/],[{feeRecipients:[]},/fee recipient/],[{feeRecipients:[...base.feeRecipients,...base.feeRecipients]},/fee recipient/],[{payout:'0x0000000000000000000000000000000000000000'},/payout/]])assert.throws(()=>mintQuote({...base,...change}),pattern);
+assert.throws(()=>mintQuote(base,0),/one or two/);assert.throws(()=>mintQuote(base,3),/one or two/);
+assert.throws(()=>mintQuote({...base,stats:[0n,7776n,7777n]},2),/Not enough/);
+console.log('PASS website quote: exact native-USDC payment, shared wallet usage, closed/scheduled/ended sales, reserve completion, sold out, changed price/limits, missing/ambiguous fee recipient and payout.');

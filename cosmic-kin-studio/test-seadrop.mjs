@@ -1,4 +1,5 @@
 import assert from 'node:assert/strict';
+import {mintQuote} from './public/seadrop-mint-core.js';
 import fs from 'node:fs';
 import {ownedTokens} from './owned-tokens.mjs';
 import ganache from 'ganache';
@@ -32,9 +33,14 @@ await(await c.updatePublicDrop(sea,[parseEther('25'),now-1,end,2,1000,true])).wa
 await assert.rejects(sd.connect(buyer).mintPublic(nft,feeAddress,ZeroAddress,1,{value:parseEther('24')}));
 await assert.rejects(sd.connect(buyer).mintPublic(nft,await other.getAddress(),ZeroAddress,1,{value:parseEther('25')}));
 const before=await raw.request({method:'eth_getBalance',params:[feeAddress,'latest']});
-await(await sd.connect(buyer).mintPublic(nft,feeAddress,ZeroAddress,2,{value:parseEther('50')})).wait();
+const websiteSnapshot={drop:await sd.getPublicDrop(nft),stats:await c.getMintStats(wallet),timestamp:now,payout:house,feeRecipients:[feeAddress]};
+const websiteQuote=mintQuote(websiteSnapshot,1);
+await(await sd.connect(buyer).mintPublic(nft,websiteQuote.feeRecipient,ZeroAddress,websiteQuote.quantity,{value:websiteQuote.value})).wait();
+// The same buyer uses the marketplace route for its second NFT. Both count against one limit.
+await(await sd.connect(buyer).mintPublic(nft,feeAddress,ZeroAddress,1,{value:parseEther('25')})).wait();
+assert.throws(()=>mintQuote({...websiteSnapshot,stats:[2n,202n,7777n]},1),/limit/);
 const after=await raw.request({method:'eth_getBalance',params:[feeAddress,'latest']});assert.equal(BigInt(after)-BigInt(before),parseEther('5'));
-await assert.rejects(sd.connect(buyer).mintPublic(nft,feeAddress,ZeroAddress,1,{value:parseEther('25')}));
+await assert.rejects(async()=>{const rejected=await sd.connect(buyer).mintPublic(nft,feeAddress,ZeroAddress,1,{value:parseEther('25')});await rejected.wait();});
 assert.equal(await c.ownerOf(201),wallet);assert.equal(await c.ownerOf(202),wallet);
 await(await c.setBaseURI('ipfs://metadata/')).wait();assert.equal(await c.tokenURI(201),'ipfs://metadata/201');
 await(await c.connect(buyer).transferFrom(wallet,await other.getAddress(),201)).wait();assert.equal(await c.ownerOf(201),await other.getAddress());
@@ -46,5 +52,5 @@ await(await sd.connect(buyer).mintPublic(nft,feeAddress,ZeroAddress,remaining,{v
 assert.equal(await c.totalSupply(),7777n);assert.equal(await c.ownerOf(7777),wallet);
 await assert.rejects(sd.connect(buyer).mintPublic(nft,feeAddress,ZeroAddress,1,{value:parseEther('45')}));
 await assert.rejects(c.setProvenanceHash(leaf));
-console.log('PASS official SeaDrop: 7,777 supply, House-only free 200 stage, Merkle proof rejection, public mint with two-mint wallet limit, owner price updates, 10% primary fee, 7% royalty, sequential IDs, transfers, metadata, authorization and sold-out rejection.');
+console.log('PASS official SeaDrop: 7,777 supply, House-only free 200 stage, Merkle proof rejection, website quote + marketplace mint share the two-mint wallet limit, owner price updates, 10% primary fee, 7% royalty, sequential IDs, transfers, metadata, authorization and sold-out rejection.');
 await p.destroy();raw.disconnect();

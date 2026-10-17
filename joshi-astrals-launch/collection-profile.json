@@ -6,7 +6,7 @@
   "rare_series": "The Celestial Twelve",
   "tagline": "Rooted in Earth. Written in the stars.",
   "description": "7,777 cosmic companions where nature, mathematical patterns and celestial imagination meet. Crafted from lavender stone, sea glass, iridescent pearl and obsidian, each Astral combines expressive personality, elemental details and a little Web3 spirit.\n\nFour elemental families share one universe, while The Celestial Twelve feature one unique edition for each zodiac sign. Discover your companion through layered artwork, uplifting messages and patterns inspired by science and mathematics.\n\nRooted in Earth. Written in the stars.",
-  "mint_model": "Standard OpenSea SeaDrop; one public sale; no buyer allowlist; sequential token IDs with locally shuffled artwork at reveal.",
+  "mint_model": "Website and OpenSea public mint through the same official SeaDrop contract; shared supply and onchain wallet limit.",
   "price": 25,
   "royalties": 7,
   "launch_date": null,

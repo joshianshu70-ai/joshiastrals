@@ -17,3 +17,5 @@ The connected Vercel session on 16 October 2026 showed houseofjoshi888-1063s-pro
 References:
 https://vercel.com/docs/functions/limitations
 https://vercel.com/docs/project-configuration/vercel-json
+
+Website and OpenSea public minting share the existing official SeaDrop contract and onchain wallet usage. See joshi-astrals-launch/DUAL-MINT.md (DUAL-MINT.md from this launch folder) for verified sale gating and remaining launch actions.

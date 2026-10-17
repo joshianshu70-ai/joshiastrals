@@ -20,3 +20,4 @@ jobs:
       - run: node --check cosmic-kin-studio/public/app.js && node --check cosmic-kin-studio/public/public-mint.js && node --check cosmic-kin-studio/public/experience.js && node --check cosmic-kin-studio/local-studio.mjs
       - run: npm run test:serverless
       - run: npm run build
+      - run: npm run test:mint

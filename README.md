@@ -14,3 +14,5 @@ Arc ERC721SeaDrop: 0x402f4ead8909145a57a45eeb27446111e6738c48. One planned publi
 See joshi-astrals-launch/VERCEL.md for server-only owner-download settings and reveal requirements. No credentials or private token map are published. The offline image generator uses cosmic-kin-generator-pack/requirements-generator.txt.
 
 Offline Python source is preserved losslessly in .py.gz archives to keep it out of app detection. Use `npm run generator -- --qa` to run the generator locally. The local admin entrypoint is local-studio.mjs; Vercel deploys only the root static site and api/holder.js.
+
+Website and OpenSea public minting share the existing official SeaDrop contract and onchain wallet usage. See joshi-astrals-launch/DUAL-MINT.md (DUAL-MINT.md from this launch folder) for verified sale gating and remaining launch actions.

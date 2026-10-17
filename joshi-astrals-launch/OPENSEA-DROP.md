@@ -13,3 +13,5 @@ Initial 7% resale royalty, subject to marketplace payment. Standard owner admini
 
 ## Before launch
 Upload the validated media + CSV, preview art, configure payout and both stages, mint the House allocation, choose a date and publish on OpenSea. Deploy the public-only website with HTTPS. After reveal, verify tokenURI and mapped art before setting deployment.revealed=true. Run real holder download and transfer checks then.
+
+Website and OpenSea public minting share the existing official SeaDrop contract and onchain wallet usage. See joshi-astrals-launch/DUAL-MINT.md (DUAL-MINT.md from this launch folder) for verified sale gating and remaining launch actions.

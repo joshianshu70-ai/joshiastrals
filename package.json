@@ -18,7 +18,8 @@
     "build": "npm run build:wallet && node build-vercel.mjs",
     "build:vercel": "npm run build",
     "test:serverless": "node cosmic-kin-studio/test-serverless-holder.mjs",
-    "generator": "node tools/run-generator.mjs generate"
+    "generator": "node tools/run-generator.mjs generate",
+    "test:mint": "node cosmic-kin-studio/test-website-mint.mjs"
   },
   "type": "module",
   "version": "1.2.0",
