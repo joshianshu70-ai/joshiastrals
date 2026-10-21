@@ -25,8 +25,8 @@
     "Upload and preview the validated media + CSV in OpenSea Studio.",
     "Set payout, 7% creator earnings, 25 USDC public price and two-mint wallet limit in OpenSea.",
     "Complete the House-only 200 NFT allocation before public sales.",
-    "Choose a launch date, review the Drop and publish on OpenSea.",
-    "Publish the website with HTTPS, verify token artwork after reveal, then enable Astral Studio."
+    "Publish the website with HTTPS, verify token artwork after reveal, then enable Astral Studio.",
+    "Set the OpenSea Drop start date to 25 October 2026, choose and confirm the start time, then publish the Drop."
   ],
   "workflowApproved": true,
   "randomness": "Locally shuffled public artwork, private upload manifest, delayed OpenSea reveal. Not verified randomness. Owner knows the mapping.",
@@ -42,5 +42,6 @@
     "https://support.opensea.io/en/articles/8867060-preparing-metadata-for-your-drop",
     "https://support.opensea.io/en/articles/8867061-drops-faq"
   ],
-  "perWalletLimit": 2
+  "perWalletLimit": 2,
+  "plannedLaunchDate": "2026-10-25"
 }

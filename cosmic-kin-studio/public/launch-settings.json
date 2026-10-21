@@ -238,5 +238,6 @@
   "additional_costs": "Network gas. No verified-randomness service fee.",
   "whitelist_enabled": false,
   "per_wallet_limit": 2,
-  "mint_mode": "seadrop"
+  "mint_mode": "seadrop",
+  "launch_date": "2026-10-25"
 }
