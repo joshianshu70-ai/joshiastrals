@@ -241,7 +241,9 @@
     "opensea_url": "https://opensea.io/collection/joshi-astrals",
     "discord_url": "",
     "x_url": "",
-    "per_wallet_limit": 2
+    "per_wallet_limit": 2,
+    "launch_time": "00:00",
+    "launch_timezone": "Asia/Kolkata"
   },
   "deployment": {
     "collection": "Joshi Astrals",

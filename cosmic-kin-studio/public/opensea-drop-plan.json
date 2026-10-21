@@ -26,7 +26,7 @@
     "Set payout, 7% creator earnings, 25 USDC public price and two-mint wallet limit in OpenSea.",
     "Complete the House-only 200 NFT allocation before public sales.",
     "Publish the website with HTTPS, verify token artwork after reveal, then enable Astral Studio.",
-    "Set the OpenSea Drop start date to 25 October 2026, choose and confirm the start time, then publish the Drop."
+    "Set and publish the OpenSea Drop start for 25 October 2026 at 12:00 AM IST (UTC+05:30), with the single public stage."
   ],
   "workflowApproved": true,
   "randomness": "Locally shuffled public artwork, private upload manifest, delayed OpenSea reveal. Not verified randomness. Owner knows the mapping.",
@@ -43,5 +43,7 @@
     "https://support.opensea.io/en/articles/8867061-drops-faq"
   ],
   "perWalletLimit": 2,
-  "plannedLaunchDate": "2026-10-25"
+  "plannedLaunchDate": "2026-10-25",
+  "plannedLaunchTime": "00:00",
+  "plannedLaunchTimezone": "Asia/Kolkata"
 }

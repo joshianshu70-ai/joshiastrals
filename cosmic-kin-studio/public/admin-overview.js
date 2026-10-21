@@ -1,7 +1,7 @@
 const $=id=>document.getElementById(id);
 const [profile,settings,deployment,plan]=await Promise.all(['collection-profile','launch-settings','deployment','opensea-drop-plan'].map(async n=>{const r=await fetch('/'+n+'.json');if(!r.ok)throw Error('Could not load '+n);return r.json();}));
 function facts(id,entries){for(const [label,value] of entries){const dt=document.createElement('dt'),dd=document.createElement('dd');dt.textContent=label;dd.textContent=value;$(id).append(dt,dd);}}
-facts('adminIdentity',[['Collection',profile.name],['Creator',profile.creator],['Symbol',profile.symbol],['Supply',profile.supply.toLocaleString()],['Public / House',`${settings.public_supply} / ${settings.reserve_supply}`],['Planned public mint','25 October 2026'],['Support',profile.public_contact]]);
+facts('adminIdentity',[['Collection',profile.name],['Creator',profile.creator],['Symbol',profile.symbol],['Supply',profile.supply.toLocaleString()],['Public / House',`${settings.public_supply} / ${settings.reserve_supply}`],['Planned public mint','12:00 AM IST · 25 October 2026'],['Support',profile.public_contact]]);
 $('adminDescription').textContent=profile.description;
 $('adminDeployment').textContent=`Arc contract: ${deployment.mainnet} · Website mint-link status: ${plan.launchStatus} · Artwork revealed: ${deployment.revealed?'yes':'no'}. Local settings do not publish a Drop.`;
 for(const phase of settings.phases){const tr=document.createElement('tr');for(const v of [phase.name,phase.quantity.toLocaleString(),phase.price_usdc,phase.total_cap.toLocaleString()]){const td=document.createElement('td');td.textContent=v;tr.append(td);}$('adminPhases').append(tr);}

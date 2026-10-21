@@ -4,7 +4,7 @@
 Joshi Astrals is presented by The House of Joshi. Contact support@thehouseofjoshi.com. Official website: joshiastrals.thehouseofjoshi.com. Official Arc contract: 0x402f4ead8909145a57a45eeb27446111e6738c48. Version 1.0, prepared 16 October 2026; effective on publication at this website.
 
 ## Sale status and price
-The collection has 7,777 NFTs: a planned 200-NFT House allocation and 7,577 public mints. The current public plan is one sale at 25 USDC per NFT, with no buyer whitelist and a planned limit of two public mints per wallet. The planned public mint date is 25 October 2026. The official OpenSea Drop controls final availability, start time and transaction details; check that page before minting. Review those details and your wallet confirmation before minting. Network gas is additional.
+The collection has 7,777 NFTs: a planned 200-NFT House allocation and 7,577 public mints. The current public plan is one sale at 25 USDC per NFT, with no buyer whitelist and a planned limit of two public mints per wallet. The planned public mint is 12:00 AM IST (UTC+05:30) on 25 October 2026. The official OpenSea Drop controls final availability and transaction details; check that page before minting. Review those details and your wallet confirmation before minting. Network gas is additional.
 
 ## Minting and artwork
 Mint through the official OpenSea Drop, not through an artwork preview on this site. Standard SeaDrop assigns sequential token IDs. The creator locally shuffled the public artwork for reveal and knows that mapping; this is not verified randomness. Customizing or previewing an artwork does not reserve it. The House-only stage must complete before public sales to preserve the intended team allocation.
